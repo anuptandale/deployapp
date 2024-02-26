@@ -1,0 +1,644 @@
+import commonStyle, {
+  accordianStylingHomePage,
+  cardsStyling,
+  worldMap,
+} from "@/constants/commonStyle";
+import Link from "next/link";
+import { HomePageText } from "../constants/texts";
+import Navbar from "@/components/molecules/navbar";
+import VideoComponent from "@/components/atoms/video";
+import CardComponent from "@/components/atoms/card";
+import AccordionComponent from "@/components/atoms/accodion";
+import ContentComponent from "@/components/molecules/sectionWithImageAndIcon";
+import StructureCard from "@/components/atoms/card2";
+import FotterComponent from "@/components/molecules/Fotter";
+import SpecialCard from "@/components/atoms/SpecialCard";
+import CustomButton2 from "@/components/atoms/CustomButton2";
+import commonStyles from "./../styles/best.module.css";
+import hireDevStyles from "../styles/hireDevStyles.module.css";
+import HourglassEmptyRoundedIcon from "@mui/icons-material/HourglassEmptyRounded";
+import LeaderboardOutlinedIcon from "@mui/icons-material/LeaderboardOutlined";
+import GroupsOutlinedIcon from "@mui/icons-material/GroupsOutlined";
+import tcImage from "../assets/images/17_tcImage.svg";
+import forebsImage from "../assets/images/18_forebsImage.svg";
+import I_icon from "../assets/images/19_IiconImage.svg";
+import SpeedQualityCard from "@/components/atoms/Speed&Quality";
+import theinfoImage from "../assets/images/20_theinformationImage.svg";
+import fastCompanyImage from "../assets/images/21_fastCompanyImage.svg";
+import Image from "next/image";
+import HomeCandidateProfile from "@/components/molecules/HomeCandidateProfile";
+import homePageStyle from "./../styles/homePageStyles.module.css";
+import { useRouter } from "next/router";
+import CompaniesCarausel from "@/components/molecules/CompaniesCarausel";
+import { GlobalContextProvider } from "../../context/store";
+export default function Home({ allData }: { allData: any }) {
+  const router = useRouter();
+  const launchCareerJourneyClicked = () => {
+    window.open("https://talent.skillscapital.io/candidateportal?register=true", "_blank");
+  };
+  const handleButtonExplore = () => {
+    router.push("/talent-pool");
+  };
+  const HireDeveloperClicked = () => {
+    router.push("/search-developers");
+  };
+  const ApplyForJobsClicked = () => {
+    window.open("https://talent.skillscapital.io/candidateportal?register=true", "_blank");
+  };
+  
+  return (
+    <>
+      <section>
+        <Navbar />
+      </section>
+
+      <main className={commonStyles.mainMarginAllSides}>
+        <section id={homePageStyle.avideoContainer} >
+          <div className={homePageStyle.flexCenter}>
+            <div className={homePageStyle.topContentSection}>
+              <h1 className={homePageStyle.homePageMainHeading}>
+                {HomePageText.heading} 
+                <span className={homePageStyle.homePageMainHeadingItalic}>
+                  {HomePageText.heading1Bold}
+                </span>
+              </h1>
+
+              <h2 className={homePageStyle.homePageMainSubHeading}>
+                {HomePageText.heading2}
+                <br /> {HomePageText.heading2b}
+              </h2>
+              <p className={homePageStyle.homePageMainHeadingPara}>
+                {HomePageText.heading3} <br /> {HomePageText.heading3b} <br />
+                {HomePageText.heading3c}
+              </p>
+
+              <div className={homePageStyle.topTwoButtons}>
+                <Link href="/hire-developers">
+                  <CustomButton2
+                    label={"Start Recruiting"}
+                    buttonStyle={{
+                      color: "white",
+                      borderRadius: "25px",
+                      background: "black",
+                      fontSize: "18px",
+                      padding: "10px 25px",
+                      fontFamily: "Poppins",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      gap: "10px",
+                      margin: "0px 30px 0px 30px",
+                      boxShadow: "5px 5px 35px 0px rgba(0, 0, 0, 0.25)",
+                    }}
+                    hoverStyle={{
+                      color: "black",
+                      borderRadius: "25px",
+                      background: "white",
+                      fontSize: "18px",
+                      padding: "10px 25px",
+                      border: "1px solid black",
+                      boxShadow: "5px 5px 35px 0px rgba(0, 0, 0, 0.25)",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      gap: "10px",
+                      margin: "0px 30px 0px 30px",
+                    }}
+                  />
+                </Link>
+                
+                <CustomButton2
+                  label={"Launch Career Journey"}
+                  onClick={launchCareerJourneyClicked}
+                  buttonStyle={{
+                    color: "#2871FF",
+                    borderRadius: "25px",
+                    background: "#FFF",
+                    fontSize: "18px",
+                    padding: "10px 25px",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    gap: "10px",
+                    fontFamily: "Poppins",
+                    border: "1px solid #2871FF",
+                    margin: "0px 15px 0px 0px",
+                    boxShadow: "5px 5px 35px 0px rgba(0, 0, 0, 0.25)",
+                  }}
+                  hoverStyle={{
+                    color: "#FFF",
+                    borderRadius: "25px",
+                    background: "#2871FF",
+                    fontSize: "18px",
+                    padding: "10px 25px",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    gap: "10px",
+
+                    margin: "0px 15px 0px 0px",
+
+                    boxShadow: "5px 5px 35px 0px rgba(0, 0, 0, 0.25)",
+                  }}
+                />
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  margin: "60px 30px",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    paddingRight: "25px",
+                    color: "#000",
+                    fontFamily: "Poppins",
+                    fontSize: "20px",
+                    fontStyle: "normal",
+                    fontWeight: "500",
+                    lineHeight: "normal",
+                  }}
+                >
+                  <HourglassEmptyRoundedIcon
+                    style={{
+                      fontSize: "32px",
+                      paddingRight: "5px",
+                    }}
+                  />{" "}
+                  {HomePageText.threeTagLine[0]}{" "}
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    paddingRight: "25px",
+                    color: "#000",
+                    fontFamily: "Poppins",
+                    fontSize: "20px",
+                    fontStyle: "normal",
+                    fontWeight: "500",
+                    lineHeight: "normal",
+                  }}
+                >
+                  <LeaderboardOutlinedIcon
+                    style={{ fontSize: "32px", paddingRight: "5px" }}
+                  />
+                  {HomePageText.threeTagLine[1]}
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    paddingRight: "25px",
+                    color: "#000",
+                    fontFamily: "Poppins",
+                    fontSize: "20px",
+                    fontStyle: "normal",
+                    fontWeight: "500",
+                    lineHeight: "normal",
+                  }}
+                >
+                  <GroupsOutlinedIcon
+                    style={{ fontSize: "42px", paddingRight: "10px" }}
+                  />
+                  {HomePageText.threeTagLine[2]}
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <VideoComponent
+                videoSrc={"/HomePageImages/HomePageVideo.mp4"}
+                videoWidth={"500"}
+                videoHeight={"600"}
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+      <section id={homePageStyle.ourEliteNetwork} >
+        <div
+          style={{ background: "#F1F1F1", padding: "10px 100px 50px 100px" }}
+        >
+          <div style={commonStyle.textCenter}>
+            <br />
+            <br />
+            <h2 style={cardsStyling.sapCloudLegacyMainHeading}>
+              {HomePageText.secondHeading_h1}
+            </h2>
+            <br />
+            <br />
+          </div>
+          <div className="cards" style={commonStyle.dflex_1}>
+          <CardComponent
+              imageUrl={"/HomePageImages/all_developers2.jpg"}
+              imageHeight={200}
+              imageWidth={250}
+              headingNumber={"1 Million+"}
+              headingText={"Versatile Specialists"}
+              paragraphText={HomePageText.varsatile_content}
+              buttonText="Explore"
+              onButtonClick={handleButtonExplore}
+              buttonEnabled={true}
+            />
+            <CardComponent
+              imageUrl={"/HomePageImages/1-SAP.png"}
+              imageHeight={210}
+              imageWidth={250}
+              headingNumber={HomePageText.SAP_number}
+              headingText={HomePageText.SAP_heading}
+              paragraphText={HomePageText.SAP_content}
+              buttonText="Explore"
+              onButtonClick={handleButtonExplore}
+              buttonEnabled={true}
+            />
+
+            <CardComponent
+              imageUrl={"/HomePageImages/2-CloudImage.png"}
+              imageHeight={250}
+              imageWidth={250}
+              headingNumber={HomePageText.Cloud_number}
+              headingText={HomePageText.Cloud_heading}
+              paragraphText={HomePageText.Cloud_content}
+              buttonText="Explore"
+              onButtonClick={handleButtonExplore}
+              buttonEnabled={true}
+            />
+            <CardComponent
+              imageUrl={"/HomePageImages/3-LegacyImage.png"}
+              imageHeight={270}
+              imageWidth={250}
+              headingNumber={HomePageText.Legacy_number}
+              headingText={HomePageText.Legacy_heading}
+              paragraphText={HomePageText.Legacy_content}
+              buttonText="Explore"
+              onButtonClick={handleButtonExplore}
+              buttonEnabled={true}
+            />
+          </div>
+        </div>
+      </section>
+      <main className={homePageStyle.onDemandStyle} >
+        <section style={commonStyle.sectionMargin}>
+          <div className="accodiaonHome">
+            <div style={commonStyle.flexCenter}>
+              <div style={commonStyle.sectionPadding}>
+                <h2 style={accordianStylingHomePage.accordianStylingHeading}>
+                  {HomePageText.thirdHeadingH1}
+                </h2>
+
+                <p style={accordianStylingHomePage.accordianStylingPara}>
+                  {HomePageText.thirdPara}
+                </p>
+                <br />
+                <br />
+                <AccordionComponent
+                  title={HomePageText.accodiaonHeading1}
+                  content={HomePageText.accordionContent1}
+                />
+                <br />
+                <AccordionComponent
+                  title={HomePageText.accodiaonHeading2}
+                  content={HomePageText.accordionContent2}
+                />
+                <br />
+                <AccordionComponent
+                  title={HomePageText.accodiaonHeading3}
+                  content={HomePageText.accordionContent3}
+                />
+              </div>
+              <div>
+                <Image
+                  src={"/HomePageImages/4-AccordionHomeImage.png"}
+                  alt="Accordian Image"
+                  width={562}
+                  height={460}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <section>
+        <div className={homePageStyle.backGroundBlueHomePage}>
+          <div>
+            <h1 className={hireDevStyles.heading}>
+              {HomePageText.topCompaniesHeading}
+            </h1>
+            <br />
+            <br />
+            <br />
+            {/* <p style={blueSection.para}>{HomePageText.topCompaniesPara}</p> */}
+            <br />
+            <br />
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <Image
+                className={hireDevStyles.amazon}
+                src={"/HomePageImages/Amazon-Logo1.png"}
+                alt="AmzonLogo"
+                height={100}
+                width={200}
+              />
+              <Image
+                src={"/HomePageImages/adobe_logo4.png"}
+                alt="AmzonLogo"
+                height={100}
+                width={200}
+              />
+              <Image
+                className={hireDevStyles.tcs}
+                src={"/HomePageImages/tcsLogo.png"}
+                alt="AmzonLogo"
+                height={100}
+                width={200}
+              />
+              <Image
+                className={hireDevStyles.hp}
+                src={"/HomePageImages/hpLogo.png"}
+                alt="AmzonLogo"
+                height={100}
+                width={100}
+              />
+              <Image
+                className={hireDevStyles.zoho}
+                src={"/HomePageImages/zohoLogo.png"}
+                alt="AmzonLogo"
+                height={100}
+                width={200}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <main style={commonStyle.mainPadding}>
+        <section className={homePageStyle.chooseDeveloper} >
+          <ContentComponent
+            imageUrl={"/HomePageImages/WhyUs.png"}
+            altText={"WhySkillsCapitalDev"}
+            Imgheight={550}
+            Imgwidth={500}
+            order="imageLeft"
+            pointsIcons={HomePageText.pointsIcons}
+            heading={HomePageText.whyOurDevelopersHeading}
+            subHeading={HomePageText.whyOurDevelopersPara}
+            noOfPoints={3}
+            points={[
+              HomePageText.whyOurDevelopersSubHeading1,
+              HomePageText.whyOurDevelopersSubHeading2,
+              HomePageText.whyOurDevelopersSubHeading3,
+            ]}
+            paraPoints={HomePageText.paraPoints}
+            noOflogoImages={3}
+            logoImagesUrl={[`1`, "2", "3"]}
+            buttonEnable={false}
+          />
+        </section>
+
+        <section className={homePageStyle.speedcard} >
+          <div className={homePageStyle.speedQualityContainer}>
+            <SpeedQualityCard
+              title={HomePageText.speedHeading}
+              subheading={HomePageText.speedSubHeading}
+              imageSrc={"/HomePageImages/5-SpeedImage.png"}
+              imageHeight={300}
+              imageWidth={400}
+              paragraph={HomePageText.speedPara}
+            />
+            <SpeedQualityCard
+              title={HomePageText.QualityHeading}
+              subheading={HomePageText.QualitySubHeading}
+              imageSrc={"/HomePageImages/6-QualityImage.png"}
+              imageHeight={300}
+              imageWidth={400}
+              paragraph={HomePageText.qualityPara}
+            />
+          </div>
+        </section>
+      </main>
+
+      <section >
+        <div className={homePageStyle.worldMapStyle} >
+          <div style={{  padding: "60px 0px 60px 60px" }}>
+            <h1 style={worldMap.heading}>{HomePageText.worldMapHeading}</h1>
+
+            <p style={worldMap.para}>{HomePageText.worldMapPara}</p>
+
+            <br />
+            <br />
+            <div
+              style={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: "80px",
+              }}
+            >
+              <div>
+                <div style={worldMap.worldMapNumber}>
+                  {HomePageText.worldMapNum1}
+                </div>
+                <span style={worldMap.worldMapNumberTitle}>
+                  {HomePageText.worldMapNum1Title}
+                </span>
+              </div>
+              <div>
+                <div style={worldMap.worldMapNumber}>
+                  {HomePageText.worldMapNum2}
+                </div>
+                <span style={worldMap.worldMapNumberTitle}>
+                  {HomePageText.worldMapNum2Title}
+                </span>
+              </div>
+              <div>
+                <div style={worldMap.worldMapNumber}>
+                  {HomePageText.worldMapNum3}
+                </div>
+                <span style={worldMap.worldMapNumberTitle}>
+                  {HomePageText.worldMapNum3Title}
+                </span>
+              </div>
+
+              <br />
+            </div>
+            <br />
+            <br />
+            <br />
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "start",
+                gap: "40px",
+                width: "40vw",
+              }}
+            >
+              <CustomButton2
+                label={HomePageText.worldMapButton1}
+                onClick={HireDeveloperClicked}
+                buttonStyle={{
+                  color: "#2871FF",
+                  borderRadius: "5px",
+                  background: "#FFF",
+                  fontSize: "18px",
+                  padding: "10px 25px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "10px",
+                }}
+                hoverStyle={{
+                  color: "#FFF",
+                  borderRadius: "5px",
+                  background: "#2871FF",
+                  fontSize: "18px",
+                  border: "2px solid #FFF",
+                  padding: "10px 25px",
+                  justifyContent: "center",
+                  boxShadow: " 0px 2px 2px smokeWhite",
+                  alignItems: "center",
+                  gap: "10px",
+                }}
+              />
+              <CustomButton2
+                label={HomePageText.worldMapButton2}
+                onClick={ApplyForJobsClicked}
+                buttonStyle={{
+                  color: "#FFF",
+                  borderRadius: "5px",
+                  background: "#2871FF",
+                  fontSize: "18px",
+                  border: "2px solid #FFF",
+                  padding: "10px 25px",
+                  justifyContent: "center",
+                  boxShadow: " 0px 2px 2px smokeWhite",
+                  alignItems: "center",
+                  gap: "10px",
+                }}
+                hoverStyle={{
+                  color: "#2871FF",
+                  borderRadius: "5px",
+                  background: "#FFF",
+                  fontSize: "18px",
+                  padding: "10px 25px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "10px",
+                }}
+              />
+            </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <Image
+              src={"/HomePageImages/WorldImage.png"}
+              alt="worldMap"
+              width={570}
+              height={380}
+              className={homePageStyle.worldmapImage}
+            />
+          </div>
+        </div>
+      </section>
+
+      <main style={commonStyle.mainPadding}>
+        <section style={commonStyle.sectionMargin}>
+          <center>
+            {" "}
+            <h2 className={homePageStyle.whyChooseUs2}>
+              {HomePageText.whyUsHeading}
+            </h2>{" "}
+          </center>
+
+          <div className={homePageStyle.threeCardStyle} >
+            <StructureCard
+              imageUrl={"/HomePageImages/deeply-vetted1.jpg"}
+              imageHeight={300}
+              imageWidth={350}
+              cardHeading={HomePageText.whyUsCard1Heading}
+              altText="skillsCapital"
+              bulletPoints={HomePageText.whyUsCard1Points}
+            />
+            <SpecialCard
+              cardHeading={HomePageText.whyUsMainCardHeading}
+              points={HomePageText.whyUsMainCardPoints}
+              logoImages={HomePageText.whyUsMainCardBulletIcons}
+              btnLabel={HomePageText.whyUsMainCardButton}
+            />
+            <StructureCard
+              imageUrl={"/HomePageImages/whychoose-2.png"}
+              imageHeight={300}
+              imageWidth={320}
+              cardHeading={HomePageText.whyUsCard2Heading}
+              altText="skillsCapital"
+              bulletPoints={HomePageText.whyUsCard2Points}
+            />
+          </div>
+        </section>
+        <section className={homePageStyle.outerContainer}>
+            <CompaniesCarausel/>
+            <div style={{display:"flex",gap:"100px",marginTop:"200px"}}>
+                  <Image
+                      style={{
+                        width: "172.214px",
+                        height: "30.94px",
+                        flexShrink: "0",
+                      }}
+                      src={fastCompanyImage}
+                      alt=""
+                    />
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        marginTop: "-9px",
+                      }}
+                    >
+                      <Image
+                        style={{
+                          width: "49.07px",
+                          height: "49.07px",
+                          flexShrink: "0",
+                        }}
+                        src={I_icon}
+                        alt=""
+                      />
+                      <Image
+                        style={{
+                          width: "225.908px",
+                          height: "23.262px",
+                          flexShrink: "0",
+                        }}
+                        src={theinfoImage}
+                        alt=""
+                      />
+                    </div>
+                      <Image
+                      style={{ width: "98px", height: "25px", flexShrink: "0" }}
+                      src={forebsImage}
+                      alt=""
+                    />
+                    <Image
+                      style={{
+                        width: "62px",
+                        height: "31px",
+                        flexShrink: "0",
+                      }}
+                      src={tcImage}
+                      alt=""
+                    />
+                  </div>
+        </section>
+          <section className={homePageStyle.carauselOutercontainer}>
+          <HomeCandidateProfile/>
+          </section>
+          
+      </main>
+
+      <FotterComponent />
+    </>
+  );
+}
