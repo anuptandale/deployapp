@@ -93,7 +93,7 @@ const CandidateProfile: React.FC = () => {
   const [apiResponse, setApiResponse] = useState<Candidates[]>([]);
 
   const fetchData = async (skills: string) => {
-    
+
     try {
       let resp = await axios.post(`${apiUrl}`, {
         profiles: { Skill_Set: skills }, pageNumber: Math.floor(Math.random() * 10) + 1
@@ -111,7 +111,7 @@ const CandidateProfile: React.FC = () => {
       console.error("Error fetching data:", error);
     }
   };
-  const handleALL = async ()=>{
+  const handleALL = async () => {
     setSelectedButton("All");
     try {
       let resp = await axios.get(`${apiU}`);
@@ -205,7 +205,7 @@ const CandidateProfile: React.FC = () => {
 
         <br />
         <div>
-          <div className={hireDevStyle.buttonsContainer} >
+          {/* <div className={hireDevStyle.buttonsContainer} >
             <div>
               <CustomButton2
                 label={"All"}
@@ -297,6 +297,13 @@ const CandidateProfile: React.FC = () => {
                   boxShadow: " 0px 5px 5px grey",
                 }}
               />
+            </div>
+          </div> */}
+          <div className={hireDevStyle.buttonsContainer} >
+            <div className={hireDevStyle.buttonsContainerSecond}>
+              <div className={hireDevStyle.sapbuttonsecond} onClick={() => handleButtonClick("SAP")}>SAP</div>
+              <div className={hireDevStyle.cloudbuttonsecond} onClick={() => handleButtonClick("Cloud")}>CLOUD</div>
+              <div className={hireDevStyle.legacybuttonsecond} onClick={() => handleButtonClick("Legacy")}>LEGACY</div>
             </div>
           </div>
         </div>

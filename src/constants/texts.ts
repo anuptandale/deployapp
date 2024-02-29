@@ -90,7 +90,7 @@ export const HomePageText = {
   // SectionTitle ->  // Deploy On-Demand Deep Vetted Developers
   //  ---------------------------------------------------------------------------------------------------------------------------
 
-  thirdHeadingH1: `Deploy On-Demand Deep Vetted Developers using combination of AI + EI + HI`,
+  thirdHeadingH1: `Deploy On-Demand Deep Vetted Developers `,
   thirdPara: `Elevate your team with rigorously screened SAP, Cloud, and Legacy experts using our advance algorithms combining power of Artificial Intellegence(AI), External Assessments (EI) and Human Intellegence(HI) `,
 
   //Accordion Content Starts

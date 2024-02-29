@@ -302,7 +302,7 @@ const TalentPoolCandidateProfile: React.FC = () => {
         ) : (
           // Render profiles in pairs
           <div className={talentPoolStyle.profilegridClass}>
-            {apiResponse.map((profile, index) => (
+            {apiResponse.slice(0, 4).map((profile, index) => (
               // Render each profile in its own container
               <Grid item key={index} xs={12} sm={6}>
                 <Paper

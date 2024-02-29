@@ -109,9 +109,10 @@ const Form: React.FC = () => {
     try {
       const resp = await axios.post(`${DEV_PUBLIC_URL}form/candidates`, { profiles, pageNumber });
       const candidates = resp.data.data.candidatesData;
+      console.log("yoyo",candidates)
       setLoading(false);
       setEliteButtonClicked(true);
-      if (candidates === 'Data not present') {
+      if (candidates.length === 0) {
         setApiResponse([]);
         setApiDummyResponse([]);
       } else if (candidates.length !== 0) {
@@ -122,6 +123,7 @@ const Form: React.FC = () => {
         setApiDummyResponse([]);
       }
     } catch (error) {
+      console.log("object")
       console.error('Error fetching data:', error);
     }
   };
@@ -329,6 +331,10 @@ const Form: React.FC = () => {
     }
   }, [apiResponse, selectedId])
 
+  useEffect(()=>{
+    console.log("profiles--->", profiles)
+  },[profiles])
+
   const handleMeetButton = () => {
     localStorage.setItem("selectedId", JSON.stringify({ selectedId }));
     router.push(`/subreq`);
@@ -474,7 +480,7 @@ const Form: React.FC = () => {
             <FormControl sx={{ margin: '20px 25%', width: '50%' }}>
               <InputLabel>Experience</InputLabel>
               <Select
-                value={profiles.Experience_in_Years}
+                value={profiles.Experience_in_Years===undefined?"":profiles.Experience_in_Years}
                 onChange={handleExpChange}
                 label="Experience"
                 displayEmpty
@@ -496,7 +502,7 @@ const Form: React.FC = () => {
             <FormControl sx={{ margin: '20px 25%', width: '50%' }}>
               <InputLabel>Salary</InputLabel>
               <Select
-                value={salary}
+                value={salary===undefined?"":salary}
                 onChange={handlesalary}
                 label="Salary"
                 displayEmpty
@@ -722,7 +728,7 @@ const Form: React.FC = () => {
           }
           {loading ? (<Box sx={{ display: 'flex', justifyContent: "center", alignItems: "center" }}>
             <CircularProgress />
-          </Box>) : apiDummyResponse.length !== 0 && apiDummyResponse.map((profile, index) => (
+          </Box>) : apiDummyResponse.length !== 0 ? apiDummyResponse.map((profile, index) => (
             <div className={css.outerContainer} key={index}>
               <div style={{ marginTop: "150px", marginLeft: "260px" }}>
                 <Checkbox
@@ -774,7 +780,7 @@ const Form: React.FC = () => {
                 </div>
               </Paper>
             </div>
-          ))}
+          )): "No candidate found"}
         </div>
         <div>
           {

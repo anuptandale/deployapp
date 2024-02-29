@@ -22,7 +22,15 @@ interface CustomAutocompleteProps {
     handleFilter: ((event: React.ChangeEvent<{}>, value: Option | null) => Promise<void>) |null; // Add this line
 
 }
-
+interface type{
+    Skill_Set: string;
+  Experience_in_Years: string;
+  Current_Location: string;
+  Current_Timezone: string | null;
+  Skill_Name_Version: string;
+  Certification: string;
+  Preferred_Industry_Domain: string;
+}
 
 function SmallAutocompleteFromAPI({handleFilter,setFinalTotalSkills,setAllSkills, setSelectedValue, url, fieldName, imageurl, name, widtha }: CustomAutocompleteProps) {
     const [open, setOpen] = useState(false);
@@ -34,13 +42,13 @@ function SmallAutocompleteFromAPI({handleFilter,setFinalTotalSkills,setAllSkills
     const fetchData = async (search: string) => {
         setLoading(true);
         try {
-            console.log(fieldName);
             const res = await axios.post(url, { [fieldName]:search });
             if (res.data.code === 'ERR_BAD_REQUEST') {
                 alert('backend token expired!!');
                 return
             }
             if (res && res.data && res.data.data) {
+                
                 setOptions(res.data.data);
                 setLoading(false);
             } else {
@@ -89,8 +97,13 @@ function SmallAutocompleteFromAPI({handleFilter,setFinalTotalSkills,setAllSkills
                 
                 if(handleFilter===null){
                     console.log("object")
-                    setSelectedValue( { Current_Location: value });
-                }else{
+                    // setSelectedValue( { Current_Location: value });
+                    setSelectedValue((prevState:type) => ({
+                        ...prevState,
+                        Current_Location: value
+                      }));
+                }
+                else{
                     setSelectedValue(payload);
                 }
             }

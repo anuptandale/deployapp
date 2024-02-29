@@ -247,7 +247,6 @@ export const accordianStylingHomePage = {
     fontSize: "42px",
     fontStyle: "normal",
     fontWeight: "700",
-
     margin: "20px 12px",
     lineHeight: "normal",
     marginBlock: `0.3em 0.1em 0.1em 0em`,
@@ -261,7 +260,7 @@ export const accordianStylingHomePage = {
     fontSize: "38px",
     fontStyle: "normal",
     fontWeight: "700",
-
+    width:"500px",
     margin: "20px 12px",
     lineHeight: "normal",
     marginBlock: `0.3em 0.1em 0.1em 0em`,
@@ -437,9 +436,9 @@ export const worldMap = {
 
   },
   para: {
-    fontFamily: "SF Pro Display",
+    fontFamily: "Poppins",
     textAlign: "start" as "start",
-    fontSize: "28px",
+    fontSize: "22px",
     width: '600px',
     fontWeight: " 400",
   },
@@ -911,13 +910,13 @@ export const cardsStyling = {
   sapCloudLegacyHeading: {
     fontSize: "24px",
     textAlign: "center" as "center",
-    fontWeight: 700,
+    fontWeight: "900",
     marginBottom: "20px",
     fontFamily: "Open Sans",
-    width:"230px",
+    // width:"230px",
     marginLeft:"-15px"
   },
-
+  
   sapCloudLegacyPara: {
 
     textAlign: "center" as "center",

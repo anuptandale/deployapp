@@ -276,11 +276,12 @@ text-align: center;
   @media(width<=320px){
     margin-left: 200px;
   } 
-  width:900px;
+  width:1000px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin:auto;
+  font-family: Poppins, "sans-serif";
 }
 
  

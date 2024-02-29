@@ -32,7 +32,7 @@ const Stepfour: React.FC<SteponeProps> = ({ yearofExpValue, ClientData, handleYe
         const storedData = localStorage.getItem("selectedId");
         const parsedData = storedData ? JSON.parse(storedData) : null;
         const selectedId = parsedData ? parsedData.selectedId : null;
-        // console.log("id", selectedId);
+        console.log("id", selectedId);
         try {
             const resp = await axios.post(`${DEV_PUBLIC_CALLURL}call`, { ClientData, selectedId });
             // const candidates = resp.data.data.candidatesData;

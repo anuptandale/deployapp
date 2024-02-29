@@ -164,7 +164,7 @@ export default function Home({ allData }: { allData: any }) {
                       paddingRight: "5px",
                     }}
                   />{" "}
-                  {HomePageText.threeTagLine[0]}{" "}
+                  <div style={{fontWeight:"600"}}>{HomePageText.threeTagLine[0]}{" "}</div>
                 </div>
                 <div
                   style={{
@@ -182,7 +182,7 @@ export default function Home({ allData }: { allData: any }) {
                   <LeaderboardOutlinedIcon
                     style={{ fontSize: "32px", paddingRight: "5px" }}
                   />
-                  {HomePageText.threeTagLine[1]}
+                  <div style={{fontWeight:"600"}}>{HomePageText.threeTagLine[1]}</div>
                 </div>
                 <div
                   style={{
@@ -200,7 +200,7 @@ export default function Home({ allData }: { allData: any }) {
                   <GroupsOutlinedIcon
                     style={{ fontSize: "42px", paddingRight: "10px" }}
                   />
-                  {HomePageText.threeTagLine[2]}
+                  <div style={{fontWeight:"600"}}>{HomePageText.threeTagLine[2]}</div>
                 </div>
               </div>
             </div>
@@ -229,17 +229,6 @@ export default function Home({ allData }: { allData: any }) {
             <br />
           </div>
           <div className="cards" style={commonStyle.dflex_1}>
-          <CardComponent
-              imageUrl={"/HomePageImages/all_developers2.jpg"}
-              imageHeight={200}
-              imageWidth={250}
-              headingNumber={"1 Million+"}
-              headingText={"Versatile Specialists"}
-              paragraphText={HomePageText.varsatile_content}
-              buttonText="Explore"
-              onButtonClick={handleButtonExplore}
-              buttonEnabled={true}
-            />
             <CardComponent
               imageUrl={"/HomePageImages/1-SAP.png"}
               imageHeight={210}
@@ -400,16 +389,16 @@ export default function Home({ allData }: { allData: any }) {
               title={HomePageText.speedHeading}
               subheading={HomePageText.speedSubHeading}
               imageSrc={"/HomePageImages/5-SpeedImage.png"}
-              imageHeight={300}
-              imageWidth={400}
+              imageHeight={250}
+              imageWidth={300}
               paragraph={HomePageText.speedPara}
             />
             <SpeedQualityCard
               title={HomePageText.QualityHeading}
               subheading={HomePageText.QualitySubHeading}
               imageSrc={"/HomePageImages/6-QualityImage.png"}
-              imageHeight={300}
-              imageWidth={400}
+              imageHeight={230}
+              imageWidth={300}
               paragraph={HomePageText.qualityPara}
             />
           </div>
@@ -418,7 +407,7 @@ export default function Home({ allData }: { allData: any }) {
 
       <section >
         <div className={homePageStyle.worldMapStyle} >
-          <div style={{  padding: "60px 0px 60px 60px" }}>
+          <div style={{  padding: "60px 0px 60px 60px",position:"absolute",zIndex:"1" }}>
             <h1 style={worldMap.heading}>{HomePageText.worldMapHeading}</h1>
 
             <p style={worldMap.para}>{HomePageText.worldMapPara}</p>
@@ -530,6 +519,7 @@ export default function Home({ allData }: { allData: any }) {
               justifyContent: "center",
               alignContent: "center",
               alignItems: "center",
+              position:"relative"
             }}
           >
             <Image

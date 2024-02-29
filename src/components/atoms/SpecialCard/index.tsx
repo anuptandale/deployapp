@@ -49,7 +49,7 @@ const SpecialCard: React.FC<SpecialCardProps> = ({
                 </div>
 
                 <div>
-                  <span style={fontStyling.pointsStyling}> {point}</span>
+                  <span className={homeStyle.pointsStyling}> {point}</span>
                 </div>
               </div>
             </li>

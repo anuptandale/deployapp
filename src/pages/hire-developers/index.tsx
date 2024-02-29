@@ -16,7 +16,7 @@ import legacyExpertise from "../../assets/images/Hire_developer/legacyExpertise.
 import HireDevSectionWithImageAndIcon from "@/components/molecules/HireDevSectionWithImageAndIcon";
 import { Button } from "@mui/material";
 import { useState } from "react";
-
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const HireDeveloper = () => {
   const [profileButton, setProfileButton] = useState("sap");
   const router = useRouter();
@@ -35,13 +35,13 @@ const HireDeveloper = () => {
 
       <br />
 
-      <main style={commonStyle.mainPadding}> 
+      <main style={commonStyle.mainPadding}>
         <section className={hireDevStyles.hireDevTopSection} >
           <div className={hireDevStyles.flexCenter2}>
             <div >
-              <h1 className={`${hireDevStyles.mainHeadingHireDev}`}>
+              <div className={`${hireDevStyles.mainHeadingHireDev}`}>
                 {HireDeveloperPageText.HireDeveloperHeroHeading}
-              </h1>
+              </div>
 
               <h2 className={`${hireDevStyles.mainSubHeadingHireDev}`}>
                 {HireDeveloperPageText.HireDeveloperHeroPara}
@@ -89,7 +89,7 @@ const HireDeveloper = () => {
               <br />
               <br />
 
-              
+
               <div
                 style={{
                   display: "flex",
@@ -160,26 +160,26 @@ const HireDeveloper = () => {
         <section id={hireDevStyles.wholeContainer}>
           <section id={hireDevStyles.superchargeContainer} >
             {/* <div style={{ width: "80vw", margin: "auto" }}> */}
-              <HireDevSectionWithImageAndIcon
-                imageUrl={"/HireDevImages/superCharge.png"}
-                altText={"WhySkillsCapitalDev"}
-                Imgheight={550}
-                Imgwidth={520}
-                order="imageRight"
-                pointsIcons={HireDeveloperPageText.superChargePointsIcons}
-                heading={HireDeveloperPageText.superchargeHiringHeading}
-                subHeading={HireDeveloperPageText.superchargeHiringSubHeading}
-                noOfPoints={3}
-                points={[
-                  HireDeveloperPageText.superchargeHiringPoint1,
-                  HireDeveloperPageText.superchargeHiringPoint2,
-                  HireDeveloperPageText.superchargeHiringPoint3,
-                ]}
-                paraPoints={HireDeveloperPageText.superChargeParaPoints}
-                noOflogoImages={3}
-                logoImagesUrl={[`1`, "2", "3"]}
-                buttonEnable={false}
-              />
+            <HireDevSectionWithImageAndIcon
+              imageUrl={"/HireDevImages/superCharge.png"}
+              altText={"WhySkillsCapitalDev"}
+              Imgheight={550}
+              Imgwidth={520}
+              order="imageRight"
+              pointsIcons={HireDeveloperPageText.superChargePointsIcons}
+              heading={HireDeveloperPageText.superchargeHiringHeading}
+              subHeading={HireDeveloperPageText.superchargeHiringSubHeading}
+              noOfPoints={3}
+              points={[
+                HireDeveloperPageText.superchargeHiringPoint1,
+                HireDeveloperPageText.superchargeHiringPoint2,
+                HireDeveloperPageText.superchargeHiringPoint3,
+              ]}
+              paraPoints={HireDeveloperPageText.superChargeParaPoints}
+              noOflogoImages={3}
+              logoImagesUrl={[`1`, "2", "3"]}
+              buttonEnable={false}
+            />
             {/* </div> */}
           </section>
           <section id={hireDevStyles.LaserFocusContainer}>
@@ -359,7 +359,60 @@ const HireDeveloper = () => {
           </center>
         </section>
       </section>
-
+      <section className={hireDevStyles.outerhowitwork}>
+        <div>
+          <div className={hireDevStyles.howitHeading}>How it works?</div>
+          <div className={hireDevStyles.howitwork}>
+            <div>
+              <div className={hireDevStyles.steps}>Step 1</div>
+              <div className={hireDevStyles.firstbox}>
+                <Image src="/HireDevImages/redImage.png" alt="" height={100} width={100} />
+                <div style={{ textAlign: "center" }}>Client Submits Job Requirements on Client
+                  Portal or Shares with
+                  their Account Manager</div>
+              </div>
+            </div>
+            {/* <ArrowForwardIcon /> */}
+            <div>
+              <div className={hireDevStyles.steps2}>Step 2</div>
+              <div className={hireDevStyles.secondbox}>
+                <Image src="/HireDevImages/yelloImage.png" alt="" height={100} width={100} />
+                <div style={{ textAlign: "center" }}>Al Talent Cloud Shares
+                  the Most Suitable Pre-
+                  Vetted Matching Profiles
+                  with the Client</div>
+              </div>
+            </div>
+            {/* <ArrowForwardIcon/> */}
+            <div>
+              <div className={hireDevStyles.steps3}>Step 3</div>
+              <div className={hireDevStyles.thirdbox}>
+                <Image src="/HireDevImages/greenImage.png" alt="" height={100} width={100} />
+                <div style={{ textAlign: "center" }}>Profiles
+                  for Further &
+                  Assessment and Selects
+                  the Final Tarent/Team</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <CustomButton2
+            label="Hire Now"
+            // onClick={hirenowClick}
+            buttonStyle={{
+              width: "262px",
+              height: "51.6px",
+              border: "1px solid #2871ff",
+              color: "#fff",
+              backgroundColor: "#2871ff",
+              fontSize:"20px"
+            }}
+            hoverStyle={{
+              backgroundColor: "lightblue",
+              color: "#2871ff",
+            }}
+          />
+      </section>
       <section className={hireDevStyles.aboveFooter} >
         <center>
           {" "}

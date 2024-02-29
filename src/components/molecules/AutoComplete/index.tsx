@@ -27,12 +27,13 @@ function CustomAutocompleteFromAPI({ setSelectedValue,touched }: CustomAutocompl
         setLoading(true);
         try {
             const res = await axios.post(`${DEV_PUBLIC_URL}searchbar/candidates`, { search });
-            console.log(res, 'this is res')
+            
             if(res.data.code === 'ERR_BAD_REQUEST'){
                 alert('backend token expired!!');
                 return
             }
             if (res && res.data && res.data.data) {
+                
                 setOptions(res.data.data);
                 setLoading(false);
             } else {

@@ -35,7 +35,7 @@ const CardComponent: React.FC<CardComponentProps> = ({
   return (
     <Card className={homePageStyling.sapCloudLegacyCard}>
       {/* Card Image */}
-      <div style={{height:"220px",display:"flex",alignItems:"center"}}>
+      <div style={{height:"220px",display:"flex",alignItems:"center",justifyContent:"center"}}>
       <Image
         src={imageUrl}
         width={imageWidth}

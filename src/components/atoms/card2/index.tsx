@@ -33,11 +33,11 @@ const StructureCard: React.FC<CardStructureComponentProps> = ({
       />
       {/* Content */}
       <CardContent  >
-        <div style={{color:"#000"  , fontFamily: "Nunito", textAlign:"center" , padding:"15px",  fontSize: "28px" , fontWeight:"600"  , lineHeight:"normal" }}  >
+        <div style={{color:"#000"  , textAlign:"center" ,  fontSize: "28px" , fontWeight:"600"   }}  >
           {cardHeading}
         </div>
         {/* Paragraph with bullet points */}
-        <div  color="#515151" style={{  padding:"25px" , fontWeight:"400" , fontFamily:' SF Pro Display'  , fontSize:"22px"}}>
+        <div  color="#515151" className={homeStyle.structureCardFont} style={{  padding:"25px" , fontWeight:"400"   , fontSize:"22px"}}>
           {bulletPoints.map((point, index) => (
             <div key={index} style={{display:"flex"}}>
               <div>•</div> &nbsp; <div>{point}</div>
