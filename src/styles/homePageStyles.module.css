@@ -9,7 +9,9 @@
     width: 1400px;
     margin: 0px auto;
   }
-
+  @media(width<=1520px) {
+    width: 1100px;
+  }
   @media(320px<width<=768px) {
     width: 1100px;
   }
@@ -26,6 +28,9 @@
   @media(width>1600px){
     width:1500px;
     height:900px;
+  }
+  @media(width<=1500px) {
+    width: 1450px;
   }
   @media(768px<width<=1024px) {
     width: 1450px;
@@ -92,7 +97,9 @@
     width: 1500px;
     margin: 0px auto;
   }
-
+  @media(width<=1500px) {
+    width: 1450px;
+  }
   @media(768px<width<=1025px) {
     width: 1450px;
   }
@@ -176,7 +183,9 @@
     width: 900px;
     margin-left: 100px;
   }
-
+  @media(width<=1500px) {
+    width: 1200px;
+  }
   @media(425px<width<=768px) {
     width: 1200px;
   }
@@ -199,7 +208,9 @@
     width: 900px;
     margin-left: 100px;
   }
-
+  @media(width<=1500px) {
+    width: 1200px;
+  }
   @media(425px<width<=768px) {
     width: 1200px;
   }
@@ -310,7 +321,10 @@
     margin: 30px auto;
     height:900px;
   }
-
+  @media(width<=1500px) {
+    width: 1450px;
+    height: 750px;
+  }
   @media(768px<width<=1025px) {
     width: 1450px;
     height: 750px;
@@ -348,6 +362,10 @@
     height: 340px; */
     margin-left: 440px;
   }
+  @media(width<=1520px) {
+    margin-left: 500px;
+  }
+ 
   @media(width<=1025px) {
     margin-left: 500px;
   }
@@ -375,6 +393,10 @@
 .threeCardStyle {
   @media(width>1600px) {
     width: 1400px;
+    margin: 0px auto;
+  }
+  @media(width<=1500px) {
+    width: 1200px;
     margin: 0px auto;
   }
 
@@ -688,7 +710,10 @@
     width: 1400px;
     margin: 0px auto;
   }
-
+  @media(width<=1500px) {
+    width: 1440px;
+    /* margin-left: -138px; */
+  }
   @media(width<=320px) {
     width: 1250px;
     margin-left: -138px;

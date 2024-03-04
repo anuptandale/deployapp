@@ -114,8 +114,9 @@ const TalentCloudPage = () => {
 
   return (
     <div >
+      <section>
       <Navbar />
-
+      </section>
       <Box className={talentPoolStyles.mainPadding}>
         <section style={{ height: "1000px" }}>
           <div className={talentPoolStyles.Pageheading}>
