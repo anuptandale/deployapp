@@ -46,13 +46,14 @@ const ContentComponent: React.FC<ContentComponentProps> = ({
   return (
     <>
       {order === "imageLeft" ? (
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
+        <div style={{ display: "flex",justifyContent:"center"}}>
           <div style={{}}>
             <Image
               src={imageUrl}
               alt={altText}
               height={Imgheight}
               width={Imgwidth}
+              className={homePageStyle.whychooseImage}
             />
           </div>
           <div>

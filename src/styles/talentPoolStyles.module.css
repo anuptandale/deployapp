@@ -14,6 +14,7 @@
     width:1400px;
     margin:50px auto;
   }
+  
   margin: 20px 5px 80px 5px;
 }
 
@@ -93,6 +94,9 @@
 /* Diverse Community  */
 
 .diverseCommunityOuterClass {
+  @media(width<=1500px){
+    margin-left: 130px;
+  }
   @media(1200px>=width>1024px){
     margin-left: 150px;
   }
@@ -176,6 +180,9 @@
     width:1400px;
     margin:0px auto;
   }
+  @media(width<=1500px){
+    width:1448px;
+  }
   @media(width<=1204px){
     width:1438px;
   }
@@ -193,6 +200,9 @@
     margin-left: -150px;
 }
 .sectionMarginBottom{
+  @media(width<=1500px){
+    margin-left: 100px;
+  }
   @media(1200px>=width>1024px){
     margin-left: 100px;
   }
@@ -244,6 +254,9 @@
 }
 /*aggregated talent*/
 .sectionMargin{
+  @media(1500px>=width){
+    margin-left: 200px;
+  }
   @media(1024px>=width>768px){
     margin-left: 200px;
   }
@@ -523,6 +536,9 @@
   gap:60px;
 }
 .integratedAssg{
+  @media(1500px>=width){
+    margin-left: 200px;
+  }
   @media(1200px>=width>1024px){
     margin-left: 200px;
   }
@@ -538,6 +554,9 @@
   }
 }
 .diverseCommunitySection{
+  @media(width<=1500px){
+    margin-left: 100px;
+  }
   @media(width<=1200px){
     margin-left: 400px;
   }
@@ -608,6 +627,7 @@
     width:1400px;
     margin:20px auto;
   }
+  
 }
 /* Black Section */
 .blackSection {
@@ -655,6 +675,12 @@
 .cardLarge{
   @media(width>1600px){
     width:370px;
+  }
+  @media(width<=1500px){
+    width:300px;
+  }
+  @media(width<=1500px){
+    width:300px;
   }
   @media(1024px<width<=1200px){
     width:30vw;
@@ -778,6 +804,9 @@
 .middleCrouselContainer{
   @media(width>1600px){
     width:370px;
+  }
+  @media(width<=1500px){
+    width:300px;
   }
   @media(1024px<width<=1200px){
     width:30vw;
@@ -963,6 +992,9 @@ margin-left: -157px;
   margin-left: 300px;
 }
 .accodionfaq{
+  @media(width<=1500px){
+    margin-left: 280px;
+  }
   @media(1024px<width<=1200px){
     margin-left: 240px;
   }
@@ -1011,6 +1043,9 @@ margin-left: -157px;
   @media(width>1600px){
     width:600px;
   }
+  /* @media(width<=1500px){
+    width:600px;
+  } */
   width:44vw;
   font-weight:500;
    padding:0px 10px;
@@ -1018,6 +1053,9 @@ margin-left: -157px;
 .accordionStyle{
   @media(width>1600px){
     width:600px;
+  }
+  @media(width<=1500px){
+    width:500px;
   }
   @media(768px<width<=1034px){
     width:50vw;
@@ -1087,6 +1125,9 @@ line-height: 150%; /* 36px */
 /*end*/
 
 .Pageheading{
+  @media(width <=1500px){
+    margin-left:300px;
+  }
   @media(1024px< width <=1200px){
     margin-left:300px;
   }
@@ -1157,6 +1198,9 @@ line-height: 150%; /* 36px */
   @media(width>1600px){
     width:370px;
   }
+  @media(width<=1500px){
+    width:300px;
+  }
   @media(1024px<width<=1200px){
     width:30vw;
   }
@@ -1195,6 +1239,9 @@ line-height: 150%; /* 36px */
 .card{
   @media(width>1600px){
     width:370px;
+  }
+  @media(width<=1500px){
+    width:300px;
   }
   @media(1024px<width<=1200px){
     width:30vw;
@@ -1346,6 +1393,9 @@ line-height: 150%; /* 36px */
   @media(width>1600px){
     width:1300px;
   }
+  @media(width<=1500px){
+    width:1300px;
+  }
   @media(1200px>= width >1024px){
     width:1300px;
   }
@@ -1365,6 +1415,10 @@ line-height: 150%; /* 36px */
 .ourtalentpool{
   @media(width>1600px){
     width:1400px;
+    margin:20px auto;
+  }
+  @media(width<=1500px){
+    width:1000px;
     margin:20px auto;
   }
   @media(width<=320px){

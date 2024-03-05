@@ -52,7 +52,7 @@ export default function Home({ allData }: { allData: any }) {
         <Navbar />
       </section>
 
-      <main className={commonStyles.mainMarginAllSides}>
+      <main >
         <section id={homePageStyle.avideoContainer} >
           <div className={homePageStyle.flexCenter}>
             <div className={homePageStyle.topContentSection}>
@@ -206,11 +206,11 @@ export default function Home({ allData }: { allData: any }) {
             </div>
 
             <div>
-              <VideoComponent
+              {/* <VideoComponent
                 videoSrc={"/HomePageImages/HomePageVideo.mp4"}
                 videoWidth={"500"}
                 videoHeight={"600"}
-              />
+              /> */}
             </div>
           </div>
         </section>
@@ -267,10 +267,10 @@ export default function Home({ allData }: { allData: any }) {
         </div>
       </section>
       <main className={homePageStyle.onDemandStyle} >
-        <section style={commonStyle.sectionMargin}>
+        <section >
           <div className="accodiaonHome">
-            <div style={commonStyle.flexCenter}>
-              <div style={commonStyle.sectionPadding}>
+            <div className={homePageStyle.ondemandflex} >
+              <div >
                 <h2 style={accordianStylingHomePage.accordianStylingHeading}>
                   {HomePageText.thirdHeadingH1}
                 </h2>
@@ -299,7 +299,7 @@ export default function Home({ allData }: { allData: any }) {
                 <Image
                   src={"/HomePageImages/4-AccordionHomeImage.png"}
                   alt="Accordian Image"
-                  width={562}
+                  width={502}
                   height={460}
                 />
               </div>
@@ -359,7 +359,7 @@ export default function Home({ allData }: { allData: any }) {
           </div>
         </div>
       </section>
-      <main style={commonStyle.mainPadding}>
+      <main >
         <section className={homePageStyle.chooseDeveloper} >
           <ContentComponent
             imageUrl={"/HomePageImages/WhyUs.png"}
@@ -533,7 +533,7 @@ export default function Home({ allData }: { allData: any }) {
         </div>
       </section>
 
-      <main style={commonStyle.mainPadding}>
+      <main >
         <section style={commonStyle.sectionMargin}>
           <center>
             {" "}
@@ -559,8 +559,8 @@ export default function Home({ allData }: { allData: any }) {
             />
             <StructureCard
               imageUrl={"/HomePageImages/whychoose-2.png"}
-              imageHeight={300}
-              imageWidth={320}
+              imageHeight={280}
+              imageWidth={280}
               cardHeading={HomePageText.whyUsCard2Heading}
               altText="skillsCapital"
               bulletPoints={HomePageText.whyUsCard2Points}

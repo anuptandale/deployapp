@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
   return (
 
     <div className={css.navbarContainer}>
-      <Box component="div" sx={{ flexGrow: 1 }}>
+      <Box component="div" >
         <Link href="/">
           <Image
             src="/HomePageImages/SkillsCapitalLogo.png"
