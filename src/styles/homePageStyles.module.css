@@ -10,7 +10,7 @@
     margin: 0px auto;
   }
   @media(1000px<width<=1520px) {
-    width: 100vw;
+    width: 97vw;
     margin: 0px ;
   }
   @media(720px<width<=1000px) {
@@ -30,13 +30,19 @@
   /* margin: 20px 5px 80px 5px; */
   margin: 0 150px;
 }
+.videostyle{
+  @media(1000px<width<=1200px){
+    width:100px;
+    height:100px;
+  }
+}
 .backGroundBlueHomePage {
   @media(width>1600px){
     width:1500px;
     height:900px;
   }
   @media(1200px<width<=1500px) {
-    width: 100vw;
+    width: 97vw;
   }
   @media(768px<width<=1000px) {
     width: 1450px;
@@ -66,25 +72,25 @@
 }
 @media(1000px<width<=1200px){
   #ourEliteNetwork{
-    width:100vw;
+    width:97vw;
   }
   .onDemandStyle{
-    width:100vw;
+    width:97vw;
     margin:0px 0px;
   }
   .backGroundBlueHomePage{
-    width:100vw;
+    width:97vw;
   }
   
   .speedcard{
-    width:100vw;
+    width:97vw;
   }
   .speedQualityContainer{
-    width:100vw;
+    width:97vw;
   }
   .threeCardStyle{
     
-    width:1200px;
+    width:97vw;
     font-family: "Poppins", sans-serif;
   }
   
@@ -101,7 +107,7 @@
     margin: 0px auto;
   }
   @media(width<=1500px) {
-    width: 100vw;
+    width: 97vw;
   }
   @media(768px<width<=1000px) {
     width: 1450px;
@@ -196,7 +202,7 @@
 .whychooseImage{
   @media(1000px<width<=1200px) {
     height:500px;
-    width: 500px;
+    width: 350px;
   }
 }
 .chooseDeveloper {
@@ -238,7 +244,7 @@
     margin-left: 100px;
   }
   @media(width<=1500px) {
-    width: 100vw;
+    width: 97vw;
   }
   @media(425px<width<=768px) {
     width: 1200px;
@@ -263,6 +269,7 @@
   opacity: 0.9;
   font-family: "Poppins", sans-serif;
   font-size: 48px;
+  /* font-size: 2.5rem; */
   font-style: normal;
   line-height: "normal";
   font-weight: 800;
@@ -281,7 +288,7 @@
     margin: 20px auto;
     gap:0px;
   }
-  @media(768px<width<=1025px) {
+  @media(768px<width<=1000px) {
     gap: 45px;
   }
 
@@ -342,7 +349,7 @@
 
 .worldMapStyle {
   @media(1000px<width<=1200px){
-    width:100vw;
+    width:97vw;
   }
 
   @media(width>1600px) {
@@ -351,7 +358,7 @@
     height:900px;
   }
   @media(1000px<width<=1500px) {
-    width: 100vw;
+    width: 97vw;
     height: 750px;
   }
   @media(768px<width<=1000px) {
@@ -427,7 +434,7 @@
     margin: 0px auto;
   }
   @media(width<=1500px) {
-    width: 100vw;
+    width: 97vw;
     margin: 0px auto;
   }
 
@@ -739,7 +746,7 @@
 /* text carausel */
 .outerContainer {
   @media(1000px<width<=1200px){
-    width:100vw;
+    width:97vw;
     margin:0px;
   }
   @media(width>1600px) {
@@ -747,7 +754,7 @@
     margin: 0px auto;
   }
   @media(1200px<width<=1500px) {
-    width: 100vw;
+    width: 97vw;
     margin:0px;
   }
   
@@ -979,7 +986,7 @@
     width:800px;
   }
   @media(1000px<width<=1500px){
-    width:65vw;
+    width:55vw;
   }
 }
 .carauselOutercontainer {

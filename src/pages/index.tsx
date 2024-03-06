@@ -206,11 +206,11 @@ export default function Home({ allData }: { allData: any }) {
             </div>
 
             <div>
-              {/* <VideoComponent
+              <VideoComponent
                 videoSrc={"/HomePageImages/HomePageVideo.mp4"}
                 videoWidth={"500"}
                 videoHeight={"600"}
-              /> */}
+              />
             </div>
           </div>
         </section>

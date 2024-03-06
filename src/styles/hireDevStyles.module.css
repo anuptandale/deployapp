@@ -559,7 +559,10 @@
     width:1300px;
     margin:0px auto;
   }
-  @media(768px<width<=1024px) {
+  @media(1000px<width<=1500px) {
+    width: 80vw;
+  }
+  @media(768px<width<=1000px) {
     width: 100vw;
   }
 

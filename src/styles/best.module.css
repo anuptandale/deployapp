@@ -110,12 +110,12 @@
     height:600px;
   }
   @media(1200px<width<=1500px){
-    width:100vw;
+    width:97vw;
     /* margin-left: 3px; */
     padding: 1px;
   }
   @media(1000px<width<=1200px){
-    width:100vw;
+    width:97vw;
     /* margin-left: 3px; */
     padding: 1px;
   }
@@ -123,7 +123,7 @@
     width:1050px;
     margin-left: 3px;
   }
-  @media(768px<width<=1024px){
+  @media(768px<width<=1000px){
     width:1050px;
     margin-left: 3px;
   }
@@ -268,13 +268,13 @@
 
 .navbarContainer{
   @media(1000px<width<=1200px){
-    width: 50vw;
+    width: 100vw;
     margin: 0;
   }
   @media(768px>=width>425px){
     margin-left: 260px;
   }
-  @media(768px<width<=1025px){
+  @media(768px<width<=1000px){
     margin-left: 300px;
   }
   @media(426px>=width>320px){
