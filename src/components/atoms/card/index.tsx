@@ -49,7 +49,7 @@ const CardComponent: React.FC<CardComponentProps> = ({
         <Box>
           <div style={cardsStyling.sapCloudLegacyCardNumber}>{headingNumber}</div>
         </Box>
-        <Box style={cardsStyling.sapCloudLegacyHeading}>
+        <Box style={cardsStyling.sapCloudLegacyHeading} >
           {headingText}
         </Box>
         <br />

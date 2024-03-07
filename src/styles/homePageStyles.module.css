@@ -272,10 +272,14 @@
   @media(width>1600px){
     width:800px;
   }
+  @media(1000px<width<=1140px){
+    width:600px;
+  }
+  width: 700px;
   color: black;
   opacity: 0.9;
   font-family: "Poppins", sans-serif;
-  font-size: 48px;
+  font-size: 45px;
   /* font-size: 2.5rem; */
   font-style: normal;
   line-height: "normal";
@@ -999,6 +1003,7 @@
   @media(1000px<width<=1500px){
     width:55vw;
   }
+  width:800px;
 }
 .carauselOutercontainer {
   @media(width>1600px) {

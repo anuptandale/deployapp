@@ -908,7 +908,7 @@ export const cardsStyling = {
     fontFamily: "Poppins",
   },
   sapCloudLegacyHeading: {
-    fontSize: "24px",
+    fontSize: "23px",
     textAlign: "center" as "center",
     fontWeight: "900",
     marginBottom: "20px",

@@ -30,21 +30,21 @@ export const HomePageText = {
   // SectionTitle ->  //Skills Capital First Section
   //  ---------------------------------------------------------------------------------------------------------------------------
 
-  heading: "Experience the future of top Tech Hiring with AI-powered ",
+  heading: "Transform Your Tech Capabilities with Elite Talent in Specialized Skills, 10X Faster ",
 
   heading1Bold: "Skills Capital",
   heading2:
-    "Step into the Future of Skill Discovery Start Your Path to  Technical Excellence Now.",
+    "Your Gateway to Elite, Specialized Tech Expertise where Precision meets Speed",
   heading2b: "",
   heading3:
-    "Experience a revolution in tech talent acquisition at SkillsCapital. With our unmatched expertise in SAP, Cloud, and Legacy technologies,  we empower you to access elite specialists in as little as 4 hours.  ",
+    "Leverage our Next-Gen AI-Driven platform to effortlessly connect with top-tier, hard-to-find tech professionals, ensuring your projects not only advance swiftly but are also executed with unmatched precision and quality. ",
   heading3b: " ",
   heading3c: "",
 
-  button1_heading: "Start Recruiting",
-  button2_heading: "Launch Career Journey",
+  button1_heading: "Hire Elite Talent",
+  button2_heading: "Explore Talent Pool",
 
-  threeTagLine: ["Time Saving", "Get the best", "Ready Teams"],
+  threeTagLine: ["Deep Vetted", "Culturally Fit", "Deploy Ready"],
 
   //  homeBannerVidUrl : url(),
 
@@ -57,27 +57,27 @@ export const HomePageText = {
   // SectionTitle ->  //Our Elite Dev Network
   //  ---------------------------------------------------------------------------------------------------------------------------
 
-  secondHeading_h1: "Our Elite Developer Network",
+  secondHeading_h1: "Specialized Talent for Targeted Tech Domains",
   SAP_imgUrl:
     "https://s3-alpha-sig.figma.com/img/f2a3/e28e/5d40a93ae7c76b9200df3ccf6bc596e1?Expires=1702252800&Signature=TtvanWiEwg9gceoGhukNXa0yjY~tYxS-4XrF51Iy5RhW3zb7ivLvdZ2Lt491lc2KcpxlAtRixYXLmcb9QVkKmJBtLB7HeFkK8utKSEOV7iKHHJ5ig0MKK~WnE-b12Rw~YgowCbgYpwSxeeqJq~1gVxCn3f4PdVDFJnI0BAfZqyZwRPUO54hd~cHqD86LPQJZvn~IdVHofA4SpJXXzTtYIUgvZlP0Kh3rhT~HU3zXxQSN55eMnKdg2DaA89wzmin2t-VTJtPS452g24GpwmSVn5ETuuI50ll0yE87sv30XgOLVBzXogFU2xgazzUG0X5EZgTIwbcf1ANE2fPiiR642Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 
   SAP_number: `4000+`,
-  SAP_heading: `SAP Specialists`,
-  SAP_content: `Within Our Talent Pool, We Have Over 4,000 SAP Specialists Who Bring Extensive Knowledge Of SAP's Software Solutions To Drive Your Business towards competetive success.`,
+  SAP_heading: `SAP Specialist Hub`,
+  SAP_content: `Tap into our pre-vetted and curated team of SAP experts, driving your enterprise solutions with unmatched expertise and precision.  `,
 
   Cloud_imgUrl:
     "https://s3-alpha-sig.figma.com/img/d7cd/4bcd/997f9951c8e56f513a894eb83a574665?Expires=1702252800&Signature=GSeinVxiJjBHd6hCnk5-4eA0xmEtq29s-XSTk2wl29TPxdjWd~p~g8MFbQzZdmNn8gfX2FOe6criIh9aGVRh5ZpdNHNGhe446wyQNNsfHyt4mlzqA5SxHb-N7TZpQ4NTaulA~r1Wava4CoeOZb~dlZV4aUamEDRWPc8co1pPgfPwtP1mYBWWqXGKyb6onXnKKCxpR9Rj1Si9lzhxVGnO3TBqIQLI4G6Kth3sTBybOrZnhdUMC6CITkv-C3vZCJSvLry~pryWQXIJPTAdGyV3vA0m4~Yq8imiX2IoAluh3JKnoley0xjefXCgJUQXPadA0ZoZJwjxGJr3GW6JMU7PmA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 
   Cloud_number: `3000+`,
-  Cloud_heading: `Cloud Specialists`,
-  Cloud_content: `Our Talent Pool Boasts 3,000+ Cloud Professionals Ensuring The Seamless Operation And Modernization Of These Systems, Preserving Your Valuable Data And Investments.`,
+  Cloud_heading: `Cloud & DevOps Excellence`,
+  Cloud_content: `Empower your Cloud & DevOps with our elite experts (AWS, Azure, GCP etc.), driving innovation and efficiency in your tech landscape.`,
 
   Legacy_imgUrl:
     "https://s3-alpha-sig.figma.com/img/f02e/2b2a/7b1ddfdf89823f8dfc240cd349720b12?Expires=1702252800&Signature=q1k5N4orLPwAmXqToycW2L6rctWKglfGtbpk7lEk219mFFQqWeB4LUZzX2DSc71pkKORYngZmkxYVHLCL59uv47eprjPrVXLHfUkjr8VJ7wQbo1tb-DF1dUvewbqVZCDwWGbc0CLJNBrb2pOX9Q-AAnqGrtMbfjbdAn32dKVQigzShXQ3L6B-H90suCGlplvju~xyXhMKJP18qGqWRJbkgTdFMtoPUa0eGlY-cUAVATcX~TfjKbxh4lJSJak6D8Z-I4~vstnJ6FmwvswF2E~R0AdVS22j2OEaiWfP6~37doykip3EKiFpaaS2Tb8gLf6lPrPliNySVIWoQNguGuDKA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 
   Legacy_number: `4000+`,
-  Legacy_heading: `Legacy Professionals`,
-  Legacy_content: `Our Talent Pool Boasts 3,000+ Legacy Professionals Ensuring The Seamless Operation And Modernization Of the old sytem software to latest version as per market standards.`,
+  Legacy_heading: `Legacy Modernization Specialists`,
+  Legacy_content: `Revitalize and transform your legacy systems with our deep vetted talent, ensuring seamless modernization and future-readiness.`,
 
   varsatile_content:"With diverse expertise and a commitment to excellence, our vast network empowers us to address a myriad of needs and consistently provide high-quality solutions.",
 
@@ -90,18 +90,18 @@ export const HomePageText = {
   // SectionTitle ->  // Deploy On-Demand Deep Vetted Developers
   //  ---------------------------------------------------------------------------------------------------------------------------
 
-  thirdHeadingH1: `Deploy On-Demand Deep Vetted Developers `,
-  thirdPara: `Elevate your team with rigorously screened SAP, Cloud, and Legacy experts using our advance algorithms combining power of Artificial Intellegence(AI), External Assessments (EI) and Human Intellegence(HI) `,
+  thirdHeadingH1: `Deploy Deep-Vetted Developers On Demand `,
+  thirdPara: `Transform your tech capabilities with our on-demand SAP, Cloud, and Legacy experts, chosen through a rigorous vetting process that combines Artificial Intelligence, External Assessments, and Human Insights for unmatched expertise and fit. `,
 
   //Accordion Content Starts
-  accodiaonHeading1: `Scalable Solutions`,
-  accordionContent1: `Tailor your team according to your project requirements. From single developers to full-fledged expert teams, our on-demand approach adapts to your specific needs.`,
+  accodiaonHeading1: `Global Talent Hub`,
+  accordionContent1: `Tap into our expansive network of rigorously vetted SAP, Cloud, and Legacy experts across the globe, ensuring you have access to premier tech talent wherever your business takes you`,
 
-  accodiaonHeading2: `Global Talent Access`,
-  accordionContent2: `Embark on a journey of innovation and excellence with Global Talent Access, where boundaries dissolve, and talent knows no borders. Our platform redefines the traditional hiring landscape, connecting businesses with a diverse pool of skilled professionals from around the world.`,
+  accodiaonHeading2: `Customized Elastic Teams`,
+  accordionContent2: `Tailor your tech force to fit your project's unique demands. Our elastic teams adapt in size and skill to match your evolving project needs, providing the right experts at the right time.`,
 
-  accodiaonHeading3: `Customized Teams`,
-  accordionContent3: `Experience the power of tailored collaboration with Customized Teams. We understand that every project is unique, and so are the teams behind them. Our platform is designed to empower organizations to build and customize teams based on their specific needs, combining diverse skill sets, expertise, and cultural nuances.`,
+  accodiaonHeading3: `Scalable Agile Solutions`,
+  accordionContent3: `Grow and adapt without limits. We ensure you have tech talent to scale up or pivot as your industry evolves, offering unparalleled flexibility and resilience in a fast-evolving tech landscape.`,
 
   vettingDevelopersImgUrl: `https://s3-alpha-sig.figma.com/img/bc80/5b37/b5b8ce8b91bf6a78c8131b7e9b55aa80?Expires=1702252800&Signature=lbY3EUEp10~GlSAXqPz0PGYiNLXe7lIJeM20wFIjDfe57BBgujuwQNA1H0DGp1Ixfl-dB5s0JeacwyqN-jrw4kxP6t7JK8~NQzf--25bzXV0wQbWuj9GKRN-GkoRy442EHjxQskUEOTLUgR2y4U8r~2f-KjhJr6nHVZjMtlg8M9Zpl39F8tYs~XxT5yAKJ19SjlljxU5VT7Hzj9nN8Aq6HBeM5YICWdFCin7XDJKEVa4S5SyhtMM2axuWwKHiniKEyj1bmBJZaQANdKjX0nnKGTZNwE8kCj8msxzfj49IfW2gTVKRrwUuvr~DdHS4BV~UaDKvugBwSO-jROShiBidw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4`,
 

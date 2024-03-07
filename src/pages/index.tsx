@@ -58,9 +58,9 @@ export default function Home({ allData }: { allData: any }) {
             <div className={homePageStyle.topContentSection}>
               <h1 className={homePageStyle.homePageMainHeading}>
                 {HomePageText.heading} 
-                <span className={homePageStyle.homePageMainHeadingItalic}>
+                {/* <span className={homePageStyle.homePageMainHeadingItalic}>
                   {HomePageText.heading1Bold}
-                </span>
+                </span> */}
               </h1>
 
               <h2 className={homePageStyle.homePageMainSubHeading}>
@@ -75,7 +75,7 @@ export default function Home({ allData }: { allData: any }) {
               <div className={homePageStyle.topTwoButtons}>
                 <Link href="/hire-developers">
                   <CustomButton2
-                    label={"Start Recruiting"}
+                    label={"Hire Elite Talent"}
                     buttonStyle={{
                       color: "white",
                       borderRadius: "25px",
@@ -106,7 +106,7 @@ export default function Home({ allData }: { allData: any }) {
                 </Link>
                 
                 <CustomButton2
-                  label={"Launch Career Journey"}
+                  label={"Explore Talent Pool"}
                   onClick={launchCareerJourneyClicked}
                   buttonStyle={{
                     color: "#2871FF",
