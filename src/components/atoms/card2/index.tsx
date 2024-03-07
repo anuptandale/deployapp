@@ -24,13 +24,14 @@ const StructureCard: React.FC<CardStructureComponentProps> = ({
   return (
     <Card className={homeStyle.structureCardCss}>
       {/* Image */}
-
+      <div style={{display:"flex",justifyContent:"center"}}>
       <Image
         src={imageUrl}
         alt={altText}
         height={imageHeight}
         width={imageWidth}
       />
+      </div>
       {/* Content */}
       <CardContent  >
         <div style={{color:"#000"  , textAlign:"center" ,  fontSize: "28px" , fontWeight:"600"   }}  >

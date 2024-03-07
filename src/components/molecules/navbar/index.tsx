@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
       <Link href="/hire-developers" style={navLinks}>
         Hire Developers
       </Link>
-      <Link href="/talent-pool" style={navLinks}>
+      {/* <Link href="/talent-pool" style={navLinks}>
         Talent Pool
       </Link>
       <Link href="/vetting" style={navLinks}>
@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
       <Link href="/about" style={navLinks}>
         About
       </Link>
-      <CustomButton label='SignIn/SignUp' disabled={false} onClick={handleSignInButton} buttonStyle={{ margin: '15px' }} />
+      <CustomButton label='SignIn/SignUp' disabled={false} onClick={handleSignInButton} buttonStyle={{ margin: '15px' }} /> */}
 
     </div>
 

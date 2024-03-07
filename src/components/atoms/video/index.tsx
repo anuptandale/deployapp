@@ -1,6 +1,6 @@
 // components/VideoComponent.tsx
 import React from 'react';
-
+import style from '../../../styles/homePageStyles.module.css'
 type VideoComponentProps = {
   videoSrc: string;
   videoWidth: string;
@@ -16,7 +16,7 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ videoSrc, videoWidth, v
       muted
       // Show poster if video doesn;t load or works
       poster="">
-      <source src={videoSrc} type="video/mp4" />
+      <source src={videoSrc} type="video/mp4"  />
       Home page Banner
     </video>
 

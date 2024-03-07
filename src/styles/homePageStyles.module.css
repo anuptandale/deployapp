@@ -3,7 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Assistant&family=Inter:wght@300&family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Assistant&family=Inter:wght@300&family=Nunito:ital,wght@1,200&family=Open+Sans:wght@300&display=swap");
 
-
+.topImage{
+  @media(1000px<width<1280px){
+    width:400px;
+    height: 400px;
+    /* display: none; */
+  }
+}
 #avideoContainer {
   @media(width>1600px) {
     width: 1400px;
@@ -11,7 +17,7 @@
   }
   @media(1000px<width<=1520px) {
     width: 97vw;
-    margin: 0px ;
+    margin: 10px ;
   }
   @media(720px<width<=1000px) {
     /* width: 100vw; */
@@ -239,13 +245,14 @@
 }
 
 .speedcard {
-  @media(768px<width<=1000px) {
-    width: 900px;
-    margin-left: 100px;
-  }
   @media(width<=1500px) {
     width: 97vw;
   }
+  @media(768px<width<=1000px) {
+    width: 900px;
+    margin-left: 300px;
+  }
+  
   @media(425px<width<=768px) {
     width: 1200px;
   }
@@ -292,9 +299,13 @@
     gap: 45px;
   }
 
-  @media(425px<width<=768px) {}
+  @media(425px<width<=768px) {
+    margin-left: 199px;
+  }
 
-  @media(320px<width<=426px) {}
+  @media(width<=426px) {
+    margin-left: 199px;
+  }
 
   @media(width<=320px) {}
 
@@ -433,31 +444,31 @@
     width: 1400px;
     margin: 0px auto;
   }
-  @media(width<=1500px) {
+  @media(1200px<width<=1500px) {
     width: 97vw;
     margin: 0px auto;
   }
 
   @media(768px<width<=1000px) {
-    width: 1200px;
+    width: 1400px;
   }
 
   @media(425px<width<=768px) {
-    width: 1200px;
+    width: 1400px;
   }
 
   @media(320px<width<=426px) {
     width: 1200px;
-    margin-left: -20px;
+    margin-left: 120px;
   }
 
   @media(width<=320px) {
     width: 1100px;
-    margin-left: -40px;
+    margin-left: 40px;
   }
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .structureCardCss {
@@ -488,9 +499,9 @@
     width: 100vw;
     margin: 0px 0px;
   }
-
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
   margin: 0px 10px;
+  margin-top: 20px;
   width: 25vw;
   font-family: "Poppins", sans-serif;
 }
@@ -760,16 +771,16 @@
   
   @media(width<=320px) {
     width: 1250px;
-    margin-left: -138px;
+    /* margin-left: -138px; */
   }
 
   @media(320px<width<=426px) {
     width: 1420px;
-    margin-left: -144px;
+    /* margin-left: -144px; */
   }
 
   @media(426px<width<=1000px) {
-    width: 1024px;
+    width: 1424px;
     /* margin-left: -130px; */
   }
 
@@ -976,7 +987,7 @@
     margin:10px auto;
   }
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .ondemandflex{
   display: flex;
@@ -1002,7 +1013,13 @@
   }
   @media(width<=426px) {
     width: 1260px;
-    margin-left: -138px;
+    /* margin-left: -138px; */
+    margin-top: 60px;
+    /* display: none; */
+  }
+  @media(width<=320px) {
+    width: 1260px;
+    margin-left: 0px;
     margin-top: 60px;
     /* display: none; */
   }

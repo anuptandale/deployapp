@@ -206,11 +206,12 @@ export default function Home({ allData }: { allData: any }) {
             </div>
 
             <div>
-              <VideoComponent
+              {/* <VideoComponent
                 videoSrc={"/HomePageImages/HomePageVideo.mp4"}
                 videoWidth={"500"}
-                videoHeight={"600"}
-              />
+                videoHeight={"600"} */}
+                <Image src="/HomePageImages/tech talent.webp" width={600} height={600} alt="" className={homePageStyle.topImage}/>
+              
             </div>
           </div>
         </section>
@@ -622,9 +623,9 @@ export default function Home({ allData }: { allData: any }) {
                     />
                   </div>
         </section>
-          <section className={homePageStyle.carauselOutercontainer}>
+          {/* <section className={homePageStyle.carauselOutercontainer}>
           <HomeCandidateProfile/>
-          </section>
+          </section> */}
           
       </main>
 

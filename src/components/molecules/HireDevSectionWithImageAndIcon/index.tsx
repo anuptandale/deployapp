@@ -47,11 +47,12 @@ const HireDevSectionWithImageAndIcon: React.FC<
       <>
         {order === "imageLeft" ? (
           <div
-            style={{
-              display: "flex",
-              justifyContent: "space-evenly",
-              marginLeft: "40px",
-            }}
+            className={styles.laserImage}
+            // style={{
+            //   display: "flex",
+            //   justifyContent: "space-evenly",
+            //   marginLeft: "40px",
+            // }}
           >
             <div >
               <div id={styles.leftImage}>
@@ -60,11 +61,12 @@ const HireDevSectionWithImageAndIcon: React.FC<
                   alt={altText}
                   height={Imgheight}
                   width={Imgwidth}
+                  
                 />
               </div>
             </div>
 
-            <div>
+            <div className={styles.leftimagehire}>
               <h2 className={styles.hireDevSectionIconHeading}> {heading}</h2>
 
               <h3 className={styles.hireDevSectionIconSubHeading}>

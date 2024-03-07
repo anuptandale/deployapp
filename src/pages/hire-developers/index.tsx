@@ -131,7 +131,8 @@ const HireDeveloper = () => {
               </div>
 
               <div>
-                <ResponsiveCarousel opacityValue={1} skillSetValue="sap" />
+                {/* <ResponsiveCarousel opacityValue={1} skillSetValue="sap" /> */}
+                <Image src="/HireDeveloperImages/hiring3.png" alt="" height={300} width={500}/>
               </div>
             </div>
           </section>
@@ -159,7 +160,7 @@ const HireDeveloper = () => {
           </section>
         </main>
 
-        <main style={commonStyle.mainPadding}>
+        <main>
           <section id={hireDevStyles.wholeContainer}>
             <section id={hireDevStyles.superchargeContainer} >
               {/* <div style={{ width: "80vw", margin: "auto" }}> */}
@@ -208,6 +209,7 @@ const HireDeveloper = () => {
               />
             </section>
           </section>
+          </main>
           <section id={hireDevStyles.ourEliteContainer}>
             <div className={hireDevStyles.ourEliteHeading}>Our Elite Developers</div>
             <div className={hireDevStyles.sapContainer}>
@@ -224,7 +226,7 @@ const HireDeveloper = () => {
             </div>
             <div className={hireDevStyles.cloudContainer}>
               <div>
-                <Image style={{ width: "520px", height: "450px" }} src={cloudExpertise} alt="" />
+                <Image className={hireDevStyles.cloudImage}  src={cloudExpertise} alt="" />
               </div>
               <div className={hireDevStyles.cloudeInnerContainer}>
                 <div className={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.cloudHeading}</div>
@@ -248,7 +250,7 @@ const HireDeveloper = () => {
               <Image className={hireDevStyles.legacyImage} src={legacyExpertise} alt="" />
             </div>
           </section>
-        </main>
+        
         <section>
           <div className={hireDevStyles.backGroundBlue}>
             <div>
@@ -301,7 +303,7 @@ const HireDeveloper = () => {
           </div>
         </section>
 
-        <section style={commonStyle.mainPadding}>
+        <section >
 
           <section className={hireDevStyles.deeplyVetted} >
             <div style={{ display: "flex", flexDirection: "column", gap: "20px" }} >
@@ -416,7 +418,7 @@ const HireDeveloper = () => {
             }}
           />
         </section>
-        <section className={hireDevStyles.aboveFooter} >
+        {/* <section className={hireDevStyles.aboveFooter} >
           <center>
             {" "}
             <h2 className={hireDevStyles.profileSectionHeadinh} >
@@ -424,7 +426,7 @@ const HireDeveloper = () => {
             </h2>
           </center>
           <CandidateProfile />
-        </section>
+        </section> */}
 
         <FotterComponent />
       </div>

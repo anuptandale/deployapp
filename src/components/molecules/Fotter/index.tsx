@@ -48,7 +48,7 @@ const FotterComponent = () => {
             Hire Developers
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/talent-pool" >
             Talent Pool
           </Link>
@@ -62,7 +62,7 @@ const FotterComponent = () => {
           <Link href="/about" >
             About
           </Link>
-        </li>
+        </li> */}
       </div>
 
       {/* 3rd Division */}
