@@ -30,8 +30,9 @@ export const HomePageText = {
   // SectionTitle ->  //Skills Capital First Section
   //  ---------------------------------------------------------------------------------------------------------------------------
 
-  heading: "Transform Your Tech Capabilities with Elite Talent in Specialized Skills, 10X Faster ",
-
+  heading_1: "Transform and Elevate Your Tech Capabilities",
+  heading_2:"with Pre-Vetted Talent in Specialized Skills",
+  heading_3:"10X Faster and with 95% Accuracy",
   heading1Bold: "Skills Capital",
   heading2:
     "Your Gateway to Elite, Specialized Tech Expertise where Precision meets Speed",
@@ -166,15 +167,15 @@ export const HomePageText = {
 
   speedImgUrl:
     "https://s3-alpha-sig.figma.com/img/84a2/2931/becc55966cb23e8c7d7f3b39f666a15c?Expires=1702857600&Signature=UIfJx8l7uzzmcKuhDOlgzBXQQ-bxhf0aYfxw07ymVDj3n0eYpjSuS4AEPRfsGYk3CD-IKxMX7zgpB2SSUXnuXIQvGKBI-qanBfEvLMtZ7rhdTuk0F03Y2ofWS~5jjQ2qQ5whJlsIRE5tyZ3EOFauPndPW3o3fYy023Q8Vb52S2-sZ8e4584A0W6VsFYOTshUstFpDgK2KNAEFZzmr40wlY3QPAVcl2~~keOC4VT3VF5U31w-Dw9muKAYQjj9Y687s2EXQmRMTSOszGpIn-c2sJss~0YVchXNGhV0ZjkbkgjUsh5Q8MANDUaNgSOv4rcqQRru9JQOoBPKWPRkVjNy1w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
-  speedHeading: "Speed",
-  speedSubHeading: "4 hours Turnaround",
+  speedHeading: "Lightning-Fast Turnaround",
+  speedSubHeading: "10% Faster Delivery",
   speedPara:
-    "We excel in deploying 80% of candidates within a mere 4 hours, thanks to our advanced AI algorithms, a pace that sets us apart from competitors who typically require weeks for the same process",
+    "Choose our developers for a deployment speed that's ten times faster than traditional channels, ensuring you gain swift access to top-tier talent and can accelerate your project timelines effectively",
 
-  QualityHeading: "Quality",
-  QualitySubHeading: "95% Close Match",
+  QualityHeading: "Uncompromised Quality",
+  QualitySubHeading: "95% Precision Match",
   qualityPara:
-    "Our elite developers: 85% proficiency, 8 years experienced, 92% vetting, 90% impact, 98% certifications, 99% continuous learning'",
+    "Our meticulous matching process ensures a 95% accuracy rate in aligning our elite developers with your specific requirements, guaranteeing a quality of service that precisely meets your project's needs",
 
   qualityImgUrl:
     "https://s3-alpha-sig.figma.com/img/38f7/56dd/15b8d99608d0ac0d8b1dc989a28b53ef?Expires=1702857600&Signature=mMaCeL6ZFkMfopR9HPSaeIW19BNFHvWnAfm7BDRN8dzWrphvGdYDzqHVEXJMZ~X6kyUp5B2pSFuAWLOL9fr887cSAiDba~yCHRwsX~hIzLsQOccFuRIWzqJirR6g8cD7~Csl12f-3xzLK91uXVJhy~7FrrC0BNMU~P6PO9p80cYJKa7ZDSsnAr4t6b14utolw0B4PJ5w4ILgok9h7W~ZkHepZv-Uv9jSOBYhbaPcSPOCxIcuDnGMP06u2MQtY5Wa6eXGKqXLmthgSJeYH2sPF7qB-i1mB2DfZLfhMD0ymO41mmhSRhA9W-ahsNn~8TBaWpg4JzMh9YOt9-mEt2EgVw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
@@ -188,7 +189,7 @@ export const HomePageText = {
   // SectionTitle - World Map Section
   //  ---------------------------------------------------------------------------------------------------------------------------
 
-  worldMapHeading: `Headline - 200,000+ Developers with Hard-to-Find Skills Comprise Our Skills Capital Talent Pool`,
+  worldMapHeading: `200,000+ Developers with Hard-to-Find Skills Comprise Our Skills Capital Talent Pool`,
 
   worldMapPara: `Title Leveraging Our 12,200+ Deeply Vetted Elite Tech Talents to Empower Clients and Drive Innovation Across the Globe`,
 
@@ -199,8 +200,8 @@ export const HomePageText = {
   worldMapNum3: `10+`,
   worldMapNum3Title: `Domain Expertise`,
 
-  worldMapButton1: `Hire Developers`,
-  worldMapButton2: `Apply for Jobs`,
+  worldMapButton1: `Hire Elite Talent`,
+  worldMapButton2: `Explore Talent Pool`,
 
   worldMapImg: `https://s3-alpha-sig.figma.com/img/7780/117c/a11e220f64e49346efdef7cd44d2c4c7?Expires=1703462400&Signature=FSc2qQINjBtkDsP3SMYMPHRes3NaHK2rq3DDUxSAv1oNFv9HNwBB715Fa1LUZA3roMp08FubYIdBdiPzqGQU5v2~K9PSNL6BrBLoZEPP0x712mdvLA3xTQogRsBnjfqP9~k3bCq8JDUCVUfxHOBGx-scgMJGBczyqJzdPIoXk5azbxYZADkyTcUtO3FblIHw14CjMGLgvyzXhLwqdmOiqw~sv-rvKTdfCRSaaBPYirjqijJ7eSD14hly4AmqSJ9s~nNOZNaDTIb61Wwqw6Guhuxxev2~r0JDTpoOpPdLvLrOAF9f396Cf3kvAITexIi6ATPKgyJIAXw5SGuNbc114A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4`,
 

@@ -57,10 +57,9 @@ export default function Home({ allData }: { allData: any }) {
           <div className={homePageStyle.flexCenter}>
             <div className={homePageStyle.topContentSection}>
               <h1 className={homePageStyle.homePageMainHeading}>
-                {HomePageText.heading}
-                {/* <span className={homePageStyle.homePageMainHeadingItalic}>
-                  {HomePageText.heading1Bold}
-                </span> */}
+                <div>{HomePageText.heading_1}</div>
+                <div>{HomePageText.heading_2}</div>
+                <div>{HomePageText.heading_3}</div>
               </h1>
 
               <h2 className={homePageStyle.homePageMainSubHeading}>
@@ -321,22 +320,157 @@ export default function Home({ allData }: { allData: any }) {
             {/* <p style={blueSection.para}>{HomePageText.topCompaniesPara}</p> */}
             <br />
             <br />
-            
-              <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", alignItems: "center", justifyContent:"center" }}>
-                {Array.from({ length: 15 }, (_, index) => (
-                  // Your JSX code here, for example:
-                  <Image
-                  key={index}
-                    className={hireDevStyles.amazon}
-                    src={`/HomePageImages/company${index + 1}.jpeg`}
-                    alt="Logo"
-                    height={100}
-                    width={200}
-                    style={{borderRadius:"10px"}}
-                  />
 
-                ))}
+            <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", alignItems: "center", justifyContent: "center" }}>
+
+
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company8.jpg`}
+                  alt="Logo"
+                  height={80}
+                  width={130}
+                  style={{ borderRadius: "10px" }}
+                />
               </div>
+
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company11.jpeg`}
+                  alt="Logo"
+                  height={80}
+                  width={110}
+                  style={{ borderRadius: "10px" }}
+                />
+              </div>
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company12.jpeg`}
+                  alt="Logo"
+                  height={80}
+                  width={100}
+                  style={{ borderRadius: "10px" }}
+                />
+              </div>
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company3.jpeg`}
+                  alt="Logo"
+                  height={80}
+                  width={120}
+                  style={{ borderRadius: "10px" }}
+                />
+              </div>
+
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company5.jpg`}
+                  alt="Logo"
+                  height={80}
+                  width={220}
+                  style={{ borderRadius: "10px" }}
+                />
+              </div>
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company6.jpeg`}
+                  alt="Logo"
+                  height={80}
+                  width={110}
+                  style={{ borderRadius: "10px" }}
+                />
+              </div>
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company7.jpeg`}
+                  alt="Logo"
+                  height={80}
+                  width={110}
+                  style={{ borderRadius: "10px" }}
+                />
+              </div>
+
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company15.png`}
+                  alt="Logo"
+                  height={80}
+                  width={180}
+                  style={{ borderRadius: "10px" }}
+                />
+              </div>
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company9.jpeg`}
+                  alt="Logo"
+                  height={80}
+                  width={200}
+                  style={{}}
+                />
+              </div>
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company1.jpeg`}
+                  alt="Logo"
+                  height={80}
+                  width={150}
+                  style={{ borderRadius: "10px" }}
+                />
+              </div>
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company2.jpeg`}
+                  alt="Logo"
+                  height={80}
+                  width={110}
+                  style={{ borderRadius: "10px" }}
+                />
+              </div>
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company4.jpeg`}
+                  alt="Logo"
+                  height={80}
+                  width={150}
+                  style={{ borderRadius: "10px" }}
+                />
+              </div>
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company13.jpeg`}
+                  alt="Logo"
+                  height={80}
+                  width={100}
+                  style={{ borderRadius: "10px" }}
+                />
+              </div>
+              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px" }}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HomePageImages/company14.jpeg`}
+                  alt="Logo"
+                  height={80}
+                  width={150}
+
+                />
+              </div>
+              
+
+
+            </div>
           </div>
         </div>
       </section>
