@@ -114,7 +114,7 @@ export const HomePageText = {
   // SectionTitle -> Top Companies with SkillsCapital with Logo Sections
   //  ---------------------------------------------------------------------------------------------------------------------------
 
-  topCompaniesHeading: `Discover why over 20+ Top companies have relied on SkillsCapital for their Hard-to-find tech skills hiring requirements`,
+  topCompaniesHeading: `Our Leadership's Client Work - A Chronicle of Success`,
 
   topCompaniesPara: `Including top companies backed by`,
 
@@ -188,16 +188,16 @@ export const HomePageText = {
   // SectionTitle - World Map Section
   //  ---------------------------------------------------------------------------------------------------------------------------
 
-  worldMapHeading: `1 million+ Developers  from 100 countries  have already joined Skills Capital`,
+  worldMapHeading: `Headline - 200,000+ Developers with Hard-to-Find Skills Comprise Our Skills Capital Talent Pool`,
 
-  worldMapPara: `We have clients from 52+ countries around the globe with different requirements and budget`,
+  worldMapPara: `Title Leveraging Our 12,200+ Deeply Vetted Elite Tech Talents to Empower Clients and Drive Innovation Across the Globe`,
 
-  worldMapNum1: `15+`,
-  worldMapNum1Title: `Job Types`,
-  worldMapNum2: `100+`,
-  worldMapNum2Title: `Technologies`,
-  worldMapNum3: `7+`,
-  worldMapNum3Title: `Seniority Level`,
+  worldMapNum1: `20+`,
+  worldMapNum1Title: `Niche Technologies`,
+  worldMapNum2: `10,000+`,
+  worldMapNum2Title: `Certified Talent`,
+  worldMapNum3: `10+`,
+  worldMapNum3Title: `Domain Expertise`,
 
   worldMapButton1: `Hire Developers`,
   worldMapButton2: `Apply for Jobs`,
@@ -214,21 +214,21 @@ export const HomePageText = {
   //---------------------------------------------------------------------------------------------------------------------------
   whyUsHeading: `Why Choose Us?`,
 
-  whyUsCard1Heading: `Personalized to your requirement`,
+  whyUsCard1Heading: `Client-Centric Approach`,
   whyUsCard1Points: [
-    "Role",
-    "Tech stack preference",
-    "Seniority level choices",
-    "Candidate For Analytics",
+    "Tailored to your needs",
+    "Track record of success",
+    "Easy team assimilation",
+    "24/7 assistance and guidance",
   ],
   whyUsCard1ImgUrl: "https://offshoreteam.io/wp-content/uploads/2023/11/deeply-vetted.jpg",
 
-  whyUsCard2Heading: `Tailored to your required time`,
+  whyUsCard2Heading: `Focused on Your Success`,
   whyUsCard2Points: [
-    "Full-time",
-    "Part-time",
-    "Contract Based",
-    "Aligned with your time zone",
+    "Goal Alignment",
+    "Strategic Execution",
+    "Outcome Driven",
+    "Business Continuity",
   ],
   whyUsCard2ImgUrl: "https://img.freepik.com/premium-vector/time-zones-flat-style-illustration-design_538610-653.jpg",
 

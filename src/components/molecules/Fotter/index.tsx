@@ -13,7 +13,7 @@ const FotterComponent = () => {
   return (
     <footer className={css.footer}>
       {/* 1st Division */}
-      <div className={css.division}>
+      <div className={css.division1}>
         <div>
           <p>Skills Capital</p>
         </div>

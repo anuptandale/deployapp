@@ -45,7 +45,7 @@ export default function Home({ allData }: { allData: any }) {
   const ApplyForJobsClicked = () => {
     window.open("https://talent.skillscapital.io/candidateportal?register=true", "_blank");
   };
-  
+
   return (
     <>
       <section>
@@ -57,7 +57,7 @@ export default function Home({ allData }: { allData: any }) {
           <div className={homePageStyle.flexCenter}>
             <div className={homePageStyle.topContentSection}>
               <h1 className={homePageStyle.homePageMainHeading}>
-                {HomePageText.heading} 
+                {HomePageText.heading}
                 {/* <span className={homePageStyle.homePageMainHeadingItalic}>
                   {HomePageText.heading1Bold}
                 </span> */}
@@ -104,7 +104,7 @@ export default function Home({ allData }: { allData: any }) {
                     }}
                   />
                 </Link>
-                
+
                 <CustomButton2
                   label={"Explore Talent Pool"}
                   onClick={launchCareerJourneyClicked}
@@ -164,7 +164,7 @@ export default function Home({ allData }: { allData: any }) {
                       paddingRight: "5px",
                     }}
                   />{" "}
-                  <div style={{fontWeight:"600"}}>{HomePageText.threeTagLine[0]}{" "}</div>
+                  <div style={{ fontWeight: "600" }}>{HomePageText.threeTagLine[0]}{" "}</div>
                 </div>
                 <div
                   style={{
@@ -182,7 +182,7 @@ export default function Home({ allData }: { allData: any }) {
                   <LeaderboardOutlinedIcon
                     style={{ fontSize: "32px", paddingRight: "5px" }}
                   />
-                  <div style={{fontWeight:"600"}}>{HomePageText.threeTagLine[1]}</div>
+                  <div style={{ fontWeight: "600" }}>{HomePageText.threeTagLine[1]}</div>
                 </div>
                 <div
                   style={{
@@ -200,7 +200,7 @@ export default function Home({ allData }: { allData: any }) {
                   <GroupsOutlinedIcon
                     style={{ fontSize: "42px", paddingRight: "10px" }}
                   />
-                  <div style={{fontWeight:"600"}}>{HomePageText.threeTagLine[2]}</div>
+                  <div style={{ fontWeight: "600" }}>{HomePageText.threeTagLine[2]}</div>
                 </div>
               </div>
             </div>
@@ -210,8 +210,8 @@ export default function Home({ allData }: { allData: any }) {
                 videoSrc={"/HomePageImages/HomePageVideo.mp4"}
                 videoWidth={"500"}
                 videoHeight={"600"} */}
-                <Image src="/HomePageImages/tech talent.webp" width={600} height={600} alt="" className={homePageStyle.topImage}/>
-              
+              <Image src="/HomePageImages/tech talent.webp" width={600} height={600} alt="" className={homePageStyle.topImage} />
+
             </div>
           </div>
         </section>
@@ -321,42 +321,21 @@ export default function Home({ allData }: { allData: any }) {
             {/* <p style={blueSection.para}>{HomePageText.topCompaniesPara}</p> */}
             <br />
             <br />
-            <div style={{ display: "flex", justifyContent: "space-between" }}>
-              <Image
-                className={hireDevStyles.amazon}
-                src={"/HomePageImages/Amazon-Logo1.png"}
-                alt="AmzonLogo"
-                height={100}
-                width={200}
-              />
-              <Image
-                src={"/HomePageImages/adobe_logo4.png"}
-                alt="AmzonLogo"
-                height={100}
-                width={200}
-              />
-              <Image
-                className={hireDevStyles.tcs}
-                src={"/HomePageImages/tcsLogo.png"}
-                alt="AmzonLogo"
-                height={100}
-                width={200}
-              />
-              <Image
-                className={hireDevStyles.hp}
-                src={"/HomePageImages/hpLogo.png"}
-                alt="AmzonLogo"
-                height={100}
-                width={100}
-              />
-              <Image
-                className={hireDevStyles.zoho}
-                src={"/HomePageImages/zohoLogo.png"}
-                alt="AmzonLogo"
-                height={100}
-                width={200}
-              />
-            </div>
+            
+              <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", alignItems: "center", justifyContent:"center" }}>
+                {Array.from({ length: 15 }, (_, index) => (
+                  // Your JSX code here, for example:
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HomePageImages/company${index + 1}.jpeg`}
+                    alt="Logo"
+                    height={100}
+                    width={200}
+                    style={{borderRadius:"10px"}}
+                  />
+
+                ))}
+              </div>
           </div>
         </div>
       </section>
@@ -408,7 +387,7 @@ export default function Home({ allData }: { allData: any }) {
 
       <section >
         <div className={homePageStyle.worldMapStyle} >
-          <div style={{  padding: "60px 0px 60px 60px",position:"absolute",zIndex:"1" }}>
+          <div style={{ padding: "60px 0px 60px 60px", position: "absolute", zIndex: "1" }}>
             <h1 style={worldMap.heading}>{HomePageText.worldMapHeading}</h1>
 
             <p style={worldMap.para}>{HomePageText.worldMapPara}</p>
@@ -520,7 +499,7 @@ export default function Home({ allData }: { allData: any }) {
               justifyContent: "center",
               alignContent: "center",
               alignItems: "center",
-              position:"relative"
+              position: "relative"
             }}
           >
             <Image
@@ -568,65 +547,65 @@ export default function Home({ allData }: { allData: any }) {
             />
           </div>
         </section>
-        <section className={homePageStyle.outerContainer}>
-            <CompaniesCarausel/>
-            <div style={{display:"flex",gap:"100px",marginTop:"200px"}}>
-                  <Image
-                      style={{
-                        width: "172.214px",
-                        height: "30.94px",
-                        flexShrink: "0",
-                      }}
-                      src={fastCompanyImage}
-                      alt=""
-                    />
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        marginTop: "-9px",
-                      }}
-                    >
-                      <Image
-                        style={{
-                          width: "49.07px",
-                          height: "49.07px",
-                          flexShrink: "0",
-                        }}
-                        src={I_icon}
-                        alt=""
-                      />
-                      <Image
-                        style={{
-                          width: "225.908px",
-                          height: "23.262px",
-                          flexShrink: "0",
-                        }}
-                        src={theinfoImage}
-                        alt=""
-                      />
-                    </div>
-                      <Image
-                      style={{ width: "98px", height: "25px", flexShrink: "0" }}
-                      src={forebsImage}
-                      alt=""
-                    />
-                    <Image
-                      style={{
-                        width: "62px",
-                        height: "31px",
-                        flexShrink: "0",
-                      }}
-                      src={tcImage}
-                      alt=""
-                    />
-                  </div>
-        </section>
-          {/* <section className={homePageStyle.carauselOutercontainer}>
+        {/* <section className={homePageStyle.outerContainer}>
+          <CompaniesCarausel />
+          <div style={{ display: "flex", gap: "100px", marginTop: "200px" }}>
+            <Image
+              style={{
+                width: "172.214px",
+                height: "30.94px",
+                flexShrink: "0",
+              }}
+              src={fastCompanyImage}
+              alt=""
+            />
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                marginTop: "-9px",
+              }}
+            >
+              <Image
+                style={{
+                  width: "49.07px",
+                  height: "49.07px",
+                  flexShrink: "0",
+                }}
+                src={I_icon}
+                alt=""
+              />
+              <Image
+                style={{
+                  width: "225.908px",
+                  height: "23.262px",
+                  flexShrink: "0",
+                }}
+                src={theinfoImage}
+                alt=""
+              />
+            </div>
+            <Image
+              style={{ width: "98px", height: "25px", flexShrink: "0" }}
+              src={forebsImage}
+              alt=""
+            />
+            <Image
+              style={{
+                width: "62px",
+                height: "31px",
+                flexShrink: "0",
+              }}
+              src={tcImage}
+              alt=""
+            />
+          </div>
+        </section> */}
+        {/* <section className={homePageStyle.carauselOutercontainer}>
           <HomeCandidateProfile/>
           </section> */}
-          
+
       </main>
 
       <FotterComponent />
