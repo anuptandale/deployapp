@@ -326,6 +326,7 @@ export default function Home({ allData }: { allData: any }) {
                 {Array.from({ length: 15 }, (_, index) => (
                   // Your JSX code here, for example:
                   <Image
+                  key={index}
                     className={hireDevStyles.amazon}
                     src={`/HomePageImages/company${index + 1}.jpeg`}
                     alt="Logo"
