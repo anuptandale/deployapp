@@ -8,7 +8,7 @@
   color: black;
   opacity: 0.8;
   font-family: "Roboto", sans-serif;
-  font-size: 42px;
+  font-size: 31px;
   font-weight: 900;
   line-height: 60px;
   margin-block-end: 0px;
@@ -361,7 +361,7 @@
     margin-left: 70px;
   }
 
-  @media(768px<width<=1000px) {
+  /* @media(768px<width<=1000px) {
     margin-left: 340px;
   }
 
@@ -383,7 +383,7 @@
 
   @media(320px>=width) {
     margin-left: 410px;
-  }
+  } */
 
   margin: 20px 5px 80px 5px;
 }
@@ -393,7 +393,7 @@
     /* margin-left: 170px; */
   }
 
-  @media(768px<width<=1000px) {
+  /* @media(768px<width<=1000px) {
     margin-left: 340px;
   }
 
@@ -415,7 +415,7 @@
 
   @media(320px>=width) {
     margin-left: 410px;
-  }
+  } */
 
   margin: 20px 5px 80px 5px;
 }
@@ -423,6 +423,10 @@
   @media(width>1600px){
     width:1300px;
     margin:80px auto;
+  }
+  @media(width<=1000px){
+    width:1300px;
+    /* margin-left: 100px; */
   }
 
 }
@@ -487,7 +491,12 @@
 /* .legacyContainer{
 
 } */
-
+.trusedCompanies{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
 .backGroundBlue {
   @media(width>1600px){
     width:1400px;
@@ -523,6 +532,7 @@
   margin: 60px auto;
   height: 80vh;
   align-items: center;
+  padding:50px 0px;
 }
 .aboveFooter{
   @media(1024px<width<=1201px){
@@ -532,7 +542,7 @@
 }
 .flexCenter2 {
   display: flex;
-  gap:100px;
+  /* gap:100px; */
   justify-content: center;
   /* height:800px; */
 }
@@ -758,6 +768,8 @@
   }
   @media(1000px<width<=1500px){
     width:97vw;
+    padding: 0px;
+    margin-left: 50px;
   }
   @media(430px>=width>320px) {
     width: 1200px;
@@ -771,13 +783,13 @@
 
   @media(768px<width<=1024px) {
     width: 1300px;
-    margin-left: -120px;
+    margin-left: 0px;
   }
 
-  @media(1024px<width<=1200px) {
+  /* @media(1024px<width<=1200px) {
     width: 1300px;
     margin-left: -80px;
-  }
+  } */
 
   @media(425px<width<=768px) {
     width: 1000px;
@@ -785,6 +797,7 @@
   }
 
   margin: 20px 5px 50px 5px;
+  padding:0px 50px;
 }
 
 #rightImage {
@@ -795,8 +808,9 @@
   /* @media(1204px<width<=1200px){
     margin-left: 150px;
   } */
-  @media(width<=1205px){
-    margin-left: 80px;
+  @media(1000px<width<=1205px){
+    /* margin-left: 80px; */
+    gap:0;
   }
   @media(width<=768px){
     margin-left: 0px;
@@ -956,14 +970,14 @@
 
   @media(768px<width<=1200px) {
     width: 1200px;
-    margin-left: -30px;
+    /* margin-left: -30px; */
 
   }
 
   display: flex;
   border-top: 1px solid #B8B7B7;
-  margin: 0px 10px;
-  padding-top: 30px;
+  margin: 0px 50px;
+  padding:0px 50px;
   gap: 10.5px;
 }
 .laserImage{

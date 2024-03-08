@@ -20,7 +20,7 @@ const SpecialCard: React.FC<SpecialCardProps> = ({
 }) => {
   const router = useRouter();
   const seeHowItWorks = () => {
-    router.push("/talent-pool");
+    // router.push("/talent-pool");
   };
   return (
     <div className={homeStyle.middlespecialCardOuter}>

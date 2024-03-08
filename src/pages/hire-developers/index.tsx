@@ -21,144 +21,211 @@ const HireDeveloper = () => {
   const [profileButton, setProfileButton] = useState("sap");
   const router = useRouter();
   const HireDeveloperClicked = () => {
-    router.push("/search-developers");
+    // router.push("/search-developers");
   };
   const WatchVideoClicked = () => {
     alert("WatchVideoClicked Clicked");
   };
   const handleClick = () => {
-    router.push('/search-developers');
+    // router.push('/search-developers');
   }
   return (
     <div >
       <section>
-        <Navbar/>
+        <Navbar />
       </section>
       <div className={hireDevStyles.wholeContainer}>
 
         <br />
 
-        <main style={commonStyle.mainPadding}>
-          <section className={hireDevStyles.hireDevTopSection} >
-            <div className={hireDevStyles.flexCenter2}>
-              <div >
-                <div className={`${hireDevStyles.mainHeadingHireDev}`}>
-                  {HireDeveloperPageText.HireDeveloperHeroHeading}
-                </div>
 
-                <h2 className={`${hireDevStyles.mainSubHeadingHireDev}`}>
-                  {HireDeveloperPageText.HireDeveloperHeroPara}
-                </h2>
-                <br />
-                <div style={{ display: "flex", gap: "15px" }}>
-                  <CustomButton2
-                    label={HireDeveloperPageText.HireDeveloperHeroButton1}
-                    onClick={HireDeveloperClicked}
-                    buttonStyle={{
-                      color: "white",
-                      borderRadius: "5px",
-                      background: "#424241",
-                      fontSize: "18px",
-                      padding: "10px 25px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "10px",
-                      margin: "0px 15px 0px 30px",
-                      boxShadow: "5px 5px 35px 0px rgba(0, 0, 0, 0.25)",
-                    }}
-                    hoverStyle={{
-                      color: "black",
-                      borderRadius: "5px",
-                      background: "white",
-                      fontSize: "18px",
-                      padding: "10px 25px",
-                      border: "1px solid black",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "10px",
-                      margin: "0px 15px 0px 30px",
-                      boxShadow: "5px 5px 35px 0px rgba(0, 0, 0, 0.25)",
-                    }}
-                  />
-                  <br />
-                  <br />
-                  <IconTextButton
-                    icon={<PlayCircleFilledWhiteOutlinedIcon />}
-                    text="Watch Video"
-                    onClick={WatchVideoClicked}
-                  />
-                </div>
-                <br />
-                <br />
-                <br />
-
-
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "start",
-                    gap: "50px",
-                    margin: "0px 0px 0px 20px",
-                  }}
-                >
-                  <div>
-                    <div className={`${hireDevStyles.hireDevNumberTitle}`}>
-                      {HireDeveloperPageText.HireDeveloperHeroNum1}
-                    </div>
-                    <span className={`${hireDevStyles.hireDevNumberContent}`}>
-                      {HireDeveloperPageText.HireDeveloperHeroNum1Title}
-                    </span>
-                  </div>
-                  <div>
-                    <div className={`${hireDevStyles.hireDevNumberTitle}`}>
-                      {HireDeveloperPageText.HireDeveloperHeroNum2}
-                    </div>
-                    <span className={`${hireDevStyles.hireDevNumberContent}`}>
-                      {HireDeveloperPageText.HireDeveloperHeroNum2Title}
-                    </span>
-                  </div>
-                  <div>
-                    <div className={`${hireDevStyles.hireDevNumberTitle}`}>
-                      {HireDeveloperPageText.HireDeveloperHeroNum3}
-                    </div>
-                    <span className={`${hireDevStyles.hireDevNumberContent}`}>
-                      {HireDeveloperPageText.HireDeveloperHeroNum3Title}
-                    </span>
-                  </div>
-
-                  <br />
-                </div>
+        <section className={hireDevStyles.hireDevTopSection} >
+          <div className={hireDevStyles.flexCenter2}>
+            <div >
+              <div className={`${hireDevStyles.mainHeadingHireDev}`}>
+                {HireDeveloperPageText.HireDeveloperHeroHeading}
               </div>
 
-              <div>
-                {/* <ResponsiveCarousel opacityValue={1} skillSetValue="sap" /> */}
-                <Image src="/HireDeveloperImages/hiring3.png" alt="" height={300} width={500}/>
+              <h2 className={`${hireDevStyles.mainSubHeadingHireDev}`}>
+                {HireDeveloperPageText.HireDeveloperHeroPara}
+              </h2>
+              <br />
+              <div style={{ display: "flex", gap: "15px" }}>
+                <CustomButton2
+                  label={HireDeveloperPageText.HireDeveloperHeroButton1}
+                  onClick={HireDeveloperClicked}
+                  buttonStyle={{
+                    color: "white",
+                    borderRadius: "5px",
+                    background: "#424241",
+                    fontSize: "18px",
+                    padding: "10px 25px",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    gap: "10px",
+                    margin: "0px 15px 0px 30px",
+                    boxShadow: "5px 5px 35px 0px rgba(0, 0, 0, 0.25)",
+                  }}
+                  hoverStyle={{
+                    color: "black",
+                    borderRadius: "5px",
+                    background: "white",
+                    fontSize: "18px",
+                    padding: "10px 25px",
+                    border: "1px solid black",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    gap: "10px",
+                    margin: "0px 15px 0px 30px",
+                    boxShadow: "5px 5px 35px 0px rgba(0, 0, 0, 0.25)",
+                  }}
+                />
+                <br />
+                <br />
+                <IconTextButton
+                  icon={<PlayCircleFilledWhiteOutlinedIcon />}
+                  text="Watch Video"
+                  onClick={WatchVideoClicked}
+                />
+              </div>
+              <br />
+              <br />
+              <br />
+
+
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "start",
+                  gap: "50px",
+                  margin: "0px 0px 0px 20px",
+                }}
+              >
+                <div>
+                  <div className={`${hireDevStyles.hireDevNumberTitle}`}>
+                    {HireDeveloperPageText.HireDeveloperHeroNum1}
+                  </div>
+                  <span className={`${hireDevStyles.hireDevNumberContent}`}>
+                    {HireDeveloperPageText.HireDeveloperHeroNum1Title}
+                  </span>
+                </div>
+                <div>
+                  <div className={`${hireDevStyles.hireDevNumberTitle}`}>
+                    {HireDeveloperPageText.HireDeveloperHeroNum2}
+                  </div>
+                  <span className={`${hireDevStyles.hireDevNumberContent}`}>
+                    {HireDeveloperPageText.HireDeveloperHeroNum2Title}
+                  </span>
+                </div>
+                <div>
+                  <div className={`${hireDevStyles.hireDevNumberTitle}`}>
+                    {HireDeveloperPageText.HireDeveloperHeroNum3}
+                  </div>
+                  <span className={`${hireDevStyles.hireDevNumberContent}`}>
+                    {HireDeveloperPageText.HireDeveloperHeroNum3Title}
+                  </span>
+                </div>
+
+                <br />
               </div>
             </div>
-          </section>
+
+            <div>
+              {/* <ResponsiveCarousel opacityValue={1} skillSetValue="sap" /> */}
+              <Image src="/HireDeveloperImages/hiring3.png" alt="" height={300} width={500} />
+            </div>
+          </div>
+        </section>
+        
           <section style={commonStyle.sectionMargin}>
             <div className={hireDevStyles.TrustedCompaniesSection}>
               <div className={hireDevStyles.TrustedCompaniesContainer}>
                 {HireDeveloperPageText.BottomImagesHeading}
               </div>
-              <div>
-                {" "}
-                {HireDeveloperPageText.BottomImagesIconsArray.map(
-                  (source, index) => (
-                    <Image
-                      height={25}
-                      width={100}
-                      style={{ margin: "0px 10px" }}
-                      key={index}
-                      src={`/HireDevImages/Company${index + 1}.png`}
-                      alt={`Image ${index}`}
-                    />
-                  )
-                )}{" "}
+              <div className={hireDevStyles.trusedCompanies}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_1.png`}
+                  alt="Logo"
+                  height={20}
+                  width={70}
+                // style={{marginTop:"0px", borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_4.jpeg`}
+                  alt="Logo"
+                  height={20}
+                  width={60}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_5.jpg`}
+                  alt="Logo"
+                  height={20}
+                  width={70}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_6.png`}
+                  alt="Logo"
+                  height={20}
+                  width={70}
+                style={{ marginTop:"-0px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_8.jpeg`}
+                  alt="Logo"
+                  height={20}
+                  width={70}
+                  style={{ marginTop:"-0px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_9.jpg`}
+                  alt="Logo"
+                  height={20}
+                  width={70}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_11.jpg`}
+                  alt="Logo"
+                  height={20}
+                  width={50}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_12.jpeg`}
+                  alt="Logo"
+                  height={20}
+                  width={60}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_13.jpg`}
+                  alt="Logo"
+                  height={20}
+                  width={70}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_10.jpeg`}
+                  alt="Logo"
+                  height={20}
+                  width={50}
+                // style={{ borderRadius: "10px" }}
+                />
               </div>
             </div>
           </section>
-        </main>
 
         <main>
           <section id={hireDevStyles.wholeContainer}>
@@ -209,48 +276,48 @@ const HireDeveloper = () => {
               />
             </section>
           </section>
-          </main>
-          <section id={hireDevStyles.ourEliteContainer}>
-            <div className={hireDevStyles.ourEliteHeading}>Our Elite Developers</div>
-            <div className={hireDevStyles.sapContainer}>
-              <div className={hireDevStyles.sapInnerContainer}>
-                <div className={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.sapHeading}</div>
-                <div className={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.sapSubHeading}</div>
-                <div className={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.sapPara}</div>
-                <div>
-                  <button className={hireDevStyles.sapButtonStyle}>{HireDeveloperPageText.sapButtonText}</button>
-                </div>
-
-              </div>
-              <Image className={hireDevStyles.sapImage} src={sapExpertise} alt="" />
-            </div>
-            <div className={hireDevStyles.cloudContainer}>
+        </main>
+        <section id={hireDevStyles.ourEliteContainer}>
+          <div className={hireDevStyles.ourEliteHeading}>Our Elite Developers</div>
+          <div className={hireDevStyles.sapContainer}>
+            <div className={hireDevStyles.sapInnerContainer}>
+              <div className={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.sapHeading}</div>
+              <div className={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.sapSubHeading}</div>
+              <div className={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.sapPara}</div>
               <div>
-                <Image className={hireDevStyles.cloudImage}  src={cloudExpertise} alt="" />
+                <button className={hireDevStyles.sapButtonStyle}>{HireDeveloperPageText.sapButtonText}</button>
               </div>
-              <div className={hireDevStyles.cloudeInnerContainer}>
-                <div className={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.cloudHeading}</div>
-                <div className={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.cloudSubHeading}</div>
-                <div className={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.cloudPara}</div>
-                <div>
-                  <button className={hireDevStyles.sapButtonStyle}>{HireDeveloperPageText.cloudButtonText}</button>
-                </div>
-              </div>
-            </div>
-            <div className={hireDevStyles.sapContainer}>
-              <div className={hireDevStyles.sapInnerContainer}>
-                <div className={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.legacyHeading}</div>
-                <div className={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.legacySubHeading}</div>
-                <div className={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.legacyPara}</div>
-                <div>
-                  <button className={hireDevStyles.sapButtonStyle}>{HireDeveloperPageText.legacyButtonText}</button>
-                </div>
 
-              </div>
-              <Image className={hireDevStyles.legacyImage} src={legacyExpertise} alt="" />
             </div>
-          </section>
-        
+            <Image className={hireDevStyles.sapImage} src={sapExpertise} alt="" />
+          </div>
+          <div className={hireDevStyles.cloudContainer}>
+            <div>
+              <Image className={hireDevStyles.cloudImage} src={cloudExpertise} alt="" />
+            </div>
+            <div className={hireDevStyles.cloudeInnerContainer}>
+              <div className={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.cloudHeading}</div>
+              <div className={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.cloudSubHeading}</div>
+              <div className={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.cloudPara}</div>
+              <div>
+                <button className={hireDevStyles.sapButtonStyle}>{HireDeveloperPageText.cloudButtonText}</button>
+              </div>
+            </div>
+          </div>
+          <div className={hireDevStyles.sapContainer}>
+            <div className={hireDevStyles.sapInnerContainer}>
+              <div className={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.legacyHeading}</div>
+              <div className={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.legacySubHeading}</div>
+              <div className={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.legacyPara}</div>
+              <div>
+                <button className={hireDevStyles.sapButtonStyle}>{HireDeveloperPageText.legacyButtonText}</button>
+              </div>
+
+            </div>
+            <Image className={hireDevStyles.legacyImage} src={legacyExpertise} alt="" />
+          </div>
+        </section>
+
         <section>
           <div className={hireDevStyles.backGroundBlue}>
             <div>
@@ -263,97 +330,161 @@ const HireDeveloper = () => {
               {/* <p style={blueSection.para}>{HomePageText.topCompaniesPara}</p> */}
               <br />
               <br />
-              <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <Image
-                  className={hireDevStyles.amazon}
-                  src={"/HomePageImages/Amazon-Logo1.png"}
-                  alt="AmzonLogo"
-                  height={100}
-                  width={200}
-                />
-                <Image
-                  src={"/HomePageImages/adobe_logo4.png"}
-                  alt="AmzonLogo"
-                  height={100}
-                  width={200}
-                />
-                <Image
-                  className={hireDevStyles.tcs}
-                  src={"/HomePageImages/tcsLogo.png"}
-                  alt="AmzonLogo"
-                  height={100}
-                  width={200}
-                />
-                <Image
-                  className={hireDevStyles.hp}
-                  src={"/HomePageImages/hpLogo.png"}
-                  alt="AmzonLogo"
-                  height={100}
-                  width={100}
-                />
-                <Image
-                  className={hireDevStyles.zoho}
-                  src={"/HomePageImages/zohoLogo.png"}
-                  alt="AmzonLogo"
-                  height={100}
-                  width={200}
-                />
+              <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", alignItems: "center", justifyContent: "center" }}>
+
+
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_1.png`}
+                    alt="Logo"
+                    height={90}
+                    width={260}
+                    style={{ marginTop: "0px", borderRadius: "10px" }}
+                  />
+                </div>
+
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_2.jpg`}
+                    alt="Logo"
+                    height={90}
+                    width={160}
+                    style={{ marginTop: "0px", borderRadius: "10px" }}
+                  />
+                </div>
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_3.jpg`}
+                    alt="Logo"
+                    height={80}
+                    width={160}
+                    style={{ borderRadius: "10px" }}
+                  />
+                </div>
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_4.jpeg`}
+                    alt="Logo"
+                    height={90}
+                    width={180}
+                    style={{ borderRadius: "10px" }}
+                  />
+                </div>
+
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_5.jpg`}
+                    alt="Logo"
+                    height={80}
+                    width={270}
+                    style={{ borderRadius: "10px" }}
+                  />
+                </div>
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_6.png`}
+                    alt="Logo"
+                    height={60}
+                    width={240}
+                    style={{ borderRadius: "10px" }}
+                  />
+                </div>
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_7.jpg`}
+                    alt="Logo"
+                    height={80}
+                    width={170}
+                    style={{ borderRadius: "10px" }}
+                  />
+                </div>
+
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_8.jpeg`}
+                    alt="Logo"
+                    height={70}
+                    width={250}
+                    style={{ borderRadius: "10px" }}
+                  />
+                </div>
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_9.jpg`}
+                    alt="Logo"
+                    height={50}
+                    width={230}
+                    style={{ marginTop: "27px" }}
+                  />
+                </div>
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_10.jpeg`}
+                    alt="Logo"
+                    height={80}
+                    width={150}
+                    style={{ borderRadius: "10px" }}
+                  />
+                </div>
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_11.jpg`}
+                    alt="Logo"
+                    height={80}
+                    width={150}
+                    style={{ borderRadius: "10px" }}
+                  />
+                </div>
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_12.jpeg`}
+                    alt="Logo"
+                    height={90}
+                    width={240}
+                    style={{ marginTop: "0px", borderRadius: "10px" }}
+                  />
+                </div>
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_13.jpg`}
+                    alt="Logo"
+                    height={50}
+                    width={240}
+                    style={{ marginTop: "30px", borderRadius: "10px" }}
+                  />
+                </div>
+                <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px", height: "100px" }}>
+                  <Image
+                    className={hireDevStyles.amazon}
+                    src={`/HireDeveloperImages/company_14.jpg`}
+                    alt="Logo"
+                    height={60}
+                    width={190}
+                    style={{ marginTop: "20px", borderRadius: "10px" }}
+                  />
+                </div>
+
+
+
               </div>
             </div>
           </div>
         </section>
 
         <section >
-
-          <section className={hireDevStyles.deeplyVetted} >
-            <div style={{ display: "flex", flexDirection: "column", gap: "20px" }} >
-              <div className={hireDevStyles.heading1}>{HireDeveloperPageText.deepDeveloperHeading}</div>
-              <div className={hireDevStyles.subheading}>{HireDeveloperPageText.deepDeveloperSubHeading}</div>
-              <div className={hireDevStyles.para}>{HireDeveloperPageText.deepDeveloperPara}</div>
-
-              <CustomButton2
-                onClick={handleClick}
-                label={HireDeveloperPageText.deepDeveloperButtonText}
-                buttonStyle={{
-                  color: "#FFF",
-                  borderRadius: "5px",
-                  background: "#2871FF",
-                  fontSize: "15px",
-                  padding: "10px 25px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "10px",
-                  width: "160px",
-                  border: "1px solid #2871FF",
-                  margin: "0px 15px 0px 0px",
-                }}
-                hoverStyle={{
-                  color: "#FFF",
-                  borderRadius: "5px",
-                  background: "#2871FF",
-                  fontSize: "15px",
-                  padding: "10px 25px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "10px",
-
-                  margin: "0px 15px 0px 0px",
-                  boxShadow: " 0px 5px 5px grey",
-                }}
-              />
-            </div>
-            <div>
-              <div style={{ display: "flex", gap: "10px", padding: "10px", marginBottom: "20px" }}>
-                <div className={profileButton === "sap" ? hireDevStyles.sapprofileButtonSelected : hireDevStyles.sapprofileButton} onClick={() => (setProfileButton("sap"))}>Sap Profile</div>
-                <div className={profileButton === "cloud" ? hireDevStyles.sapprofileButtonSelected : hireDevStyles.sapprofileButton} onClick={() => (setProfileButton("cloud"))}>Cloud Profile</div>
-                <div className={profileButton === "legacy" ? hireDevStyles.sapprofileButtonSelected : hireDevStyles.sapprofileButton} onClick={() => (setProfileButton("legacy"))}>Legacy Profile</div>
-              </div>
-              {profileButton === "sap" && <Image style={{ boxShadow: "2px 5px 5px 5px lightgrey" }} src="/HireDevImages/devProfile.png" alt="profile" height={700} width={600} />}
-              {profileButton === "cloud" && <Image style={{ boxShadow: "2px 5px 5px 5px lightgrey" }} src="/HireDevImages/devProfile.png" alt="profile" height={700} width={600} />}
-              {profileButton === "legacy" && <Image style={{ boxShadow: "2px 5px 5px 5px lightgrey" }} src="/HireDevImages/devProfile.png" alt="profile" height={700} width={600} />}
-
-            </div>
-          </section>
 
           <section style={commonStyle.sectionMargin}>
             <br />
