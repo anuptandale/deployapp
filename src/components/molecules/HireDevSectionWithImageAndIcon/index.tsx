@@ -67,9 +67,9 @@ const HireDevSectionWithImageAndIcon: React.FC<
             </div>
 
             <div className={styles.leftimagehire}>
-              <h2 className={styles.hireDevSectionIconHeading}> {heading}</h2>
+              <h2 id={styles.hireDevSectionIconHeading}> {heading}</h2>
 
-              <h3 className={styles.hireDevSectionIconSubHeading}>
+              <h3 id={styles.hireDevSectionIconSubHeading}>
                 {subHeading}
               </h3>
 
@@ -142,9 +142,9 @@ const HireDevSectionWithImageAndIcon: React.FC<
         ) : (
           <div id={styles.rightImage}>
             <div>
-              <h2 className={styles.hireDevSectionIconHeading}> {heading}</h2>
+              <h2 id={styles.hireDevSectionIconHeading}> {heading}</h2>
 
-              <h3 className={styles.hireDevSectionIconSubHeading}>
+              <h3 id={styles.hireDevSectionIconSubHeading}>
                 {subHeading}
               </h3>
 
