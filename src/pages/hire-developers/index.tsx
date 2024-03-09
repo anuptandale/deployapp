@@ -278,7 +278,7 @@ const HireDeveloper = () => {
           </section>
         </main>
         <section id={hireDevStyles.ourEliteContainer}>
-          <div className={hireDevStyles.ourEliteHeading}>Our Elite Developers</div>
+          <div id={hireDevStyles.ourEliteHeading}>Our Elite Developers</div>
           <div className={hireDevStyles.sapContainer}>
             <div className={hireDevStyles.sapInnerContainer}>
               <div className={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.sapHeading}</div>
@@ -321,7 +321,7 @@ const HireDeveloper = () => {
         <section>
           <div className={hireDevStyles.backGroundBlue}>
             <div>
-              <h1 className={hireDevStyles.heading}>
+              <h1 id={hireDevStyles.heading}>
                 {HomePageText.topCompaniesHeading}
               </h1>
               <br />

@@ -102,11 +102,11 @@ const HireDevSectionWithImageAndIcon: React.FC<
                       </div>
 
                       <div>
-                        <span className={styles.hireDevSectionPointsHeading}>
+                        <span id={styles.hireDevSectionPointsHeading}>
                           {" "}
                           {point}
                         </span>
-                        <p className={styles.hireDevSectionPointsPara}>
+                        <p id={styles.hireDevSectionPointsPara}>
                           {paraPoints[index]}
                         </p>
                         <br />
@@ -178,11 +178,11 @@ const HireDevSectionWithImageAndIcon: React.FC<
                       </div>
 
                       <div>
-                        <span className={styles.hireDevSectionPointsHeading}>
+                        <span id={styles.hireDevSectionPointsHeading}>
                           {" "}
                           {point}
                         </span>
-                        <p className={styles.hireDevSectionPointsPara}>
+                        <p id={styles.hireDevSectionPointsPara}>
                           {paraPoints[index]}
                         </p>
                         <br />
