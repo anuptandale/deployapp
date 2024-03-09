@@ -484,19 +484,9 @@ const HireDeveloper = () => {
           </div>
         </section>
 
-        <section >
-
-          <section style={commonStyle.sectionMargin}>
-            <br />
-            <br />
-            <br />
-            <center>
-              {" "}
-            </center>
-          </section>
-        </section>
+        
         <section className={hireDevStyles.outerhowitwork}>
-          <div>
+          
             <div className={hireDevStyles.howitHeading}>How it works?</div>
             <div className={hireDevStyles.howitwork}>
               <div>
@@ -530,7 +520,7 @@ const HireDeveloper = () => {
                     the Final Tarent/Team</div>
                 </div>
               </div>
-            </div>
+            
           </div>
           <CustomButton2
             label="Hire Now"
@@ -549,15 +539,7 @@ const HireDeveloper = () => {
             }}
           />
         </section>
-        {/* <section className={hireDevStyles.aboveFooter} >
-          <center>
-            {" "}
-            <h2 className={hireDevStyles.profileSectionHeadinh} >
-              Hire Developers Based On Skills
-            </h2>
-          </center>
-          <CandidateProfile />
-        </section> */}
+    
 
         <FotterComponent />
       </div>
