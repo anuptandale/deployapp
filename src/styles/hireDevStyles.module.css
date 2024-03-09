@@ -7,7 +7,7 @@
 .mainHeadingHireDev {
   color: black;
   opacity: 0.8;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 31px;
   font-weight: 900;
   line-height: 60px;
@@ -22,7 +22,7 @@
   color: red;
   color: var(--Text-and-Main-Gray-2, #909090);
 
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -36,7 +36,7 @@
 .hireDevWatchVideoButton {
   color: var(--Text-and-Main-Black, #424241);
 
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -53,7 +53,7 @@
   /* border: 1px solid red; */
   /* Text Medium 1 */
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 500;
@@ -69,7 +69,7 @@
 
   text-align: center;
 
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -79,7 +79,7 @@
 #hireDevSectionIconHeading {
   color: #262626;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 45px;
   font-style: normal;
   font-weight: 600;
@@ -93,7 +93,7 @@
 
 #hireDevSectionIconSubHeading {
   color: #606060;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -109,7 +109,7 @@
 
 #hireDevSectionPointsHeading {
   color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -122,7 +122,7 @@
 
 #hireDevSectionPointsPara {
   color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -140,7 +140,7 @@
 .howitHeading{
   font-size: 35px;
   margin:20px 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 800;
   opacity: 0.7;
 }
@@ -151,7 +151,7 @@
   box-shadow: 0 0 5px 1px rgba(169, 169, 169, 0.5);
   border-radius: 5px;
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 .sapbuttonsecond{
   border:1px solid lightgrey;
@@ -211,7 +211,7 @@
   gap:100px;
   justify-content: center;
   align-items: center;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 .steps{
   background-color: #FF9AC6;
@@ -265,7 +265,7 @@
   color: var(--Text-and-Main-Black, #424241);
 
   /* Title/Heading 1 */
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 58px;
   font-style: normal;
   font-weight: 700;
@@ -278,7 +278,7 @@
 
 #sapCloudLegacyHeading {
   color: #424241;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 42px;
   font-style: normal;
   font-weight: 700;
@@ -291,7 +291,7 @@
 
 #sapCloudLegacySubHeading {
   color: var(--Black, #000);
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -304,7 +304,7 @@
 
 #sapCloudLegacyPara {
   color: var(--Black, #000);
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
