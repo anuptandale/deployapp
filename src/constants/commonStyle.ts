@@ -448,7 +448,7 @@ export const worldMap = {
     textAlign: "center" as "center",
     // margin:'0px auto',
     fontFamily: "Poppins",
-    fontSize: "68px",
+    fontSize: "50px",
     // lineHeight: 1.4,
     fontStyle: "normal",
     fontWeight: "1000",
