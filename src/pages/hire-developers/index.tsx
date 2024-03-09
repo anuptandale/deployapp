@@ -281,9 +281,9 @@ const HireDeveloper = () => {
           <div id={hireDevStyles.ourEliteHeading}>Our Elite Developers</div>
           <div className={hireDevStyles.sapContainer}>
             <div className={hireDevStyles.sapInnerContainer}>
-              <div className={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.sapHeading}</div>
-              <div className={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.sapSubHeading}</div>
-              <div className={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.sapPara}</div>
+              <div id={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.sapHeading}</div>
+              <div id={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.sapSubHeading}</div>
+              <div id={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.sapPara}</div>
               <div>
                 <button className={hireDevStyles.sapButtonStyle}>{HireDeveloperPageText.sapButtonText}</button>
               </div>
@@ -296,9 +296,9 @@ const HireDeveloper = () => {
               <Image className={hireDevStyles.cloudImage} src={cloudExpertise} alt="" />
             </div>
             <div className={hireDevStyles.cloudeInnerContainer}>
-              <div className={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.cloudHeading}</div>
-              <div className={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.cloudSubHeading}</div>
-              <div className={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.cloudPara}</div>
+              <div id={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.cloudHeading}</div>
+              <div id={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.cloudSubHeading}</div>
+              <div id={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.cloudPara}</div>
               <div>
                 <button className={hireDevStyles.sapButtonStyle}>{HireDeveloperPageText.cloudButtonText}</button>
               </div>
@@ -306,9 +306,9 @@ const HireDeveloper = () => {
           </div>
           <div className={hireDevStyles.sapContainer}>
             <div className={hireDevStyles.sapInnerContainer}>
-              <div className={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.legacyHeading}</div>
-              <div className={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.legacySubHeading}</div>
-              <div className={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.legacyPara}</div>
+              <div id={hireDevStyles.sapCloudLegacyHeading}>{HireDeveloperPageText.legacyHeading}</div>
+              <div id={hireDevStyles.sapCloudLegacySubHeading}>{HireDeveloperPageText.legacySubHeading}</div>
+              <div id={hireDevStyles.sapCloudLegacyPara}>{HireDeveloperPageText.legacyPara}</div>
               <div>
                 <button className={hireDevStyles.sapButtonStyle}>{HireDeveloperPageText.legacyButtonText}</button>
               </div>

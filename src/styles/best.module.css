@@ -283,7 +283,7 @@
   
 }
 
-.navbarContainer{
+#navbarContainer{
   @media(1000px<width<=1200px){
     width: 100vw;
     margin: 0;
