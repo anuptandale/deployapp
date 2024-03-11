@@ -57,9 +57,10 @@ export default function Home({ allData }: { allData: any }) {
           <div className={homePageStyle.flexCenter}>
             <div className={homePageStyle.topContentSection}>
               <h1 className={homePageStyle.homePageMainHeading}>
-                <div>{HomePageText.heading_1}</div>
+                {/* <div>{HomePageText.heading_1}</div>
                 <div>{HomePageText.heading_2}</div>
-                <div>{HomePageText.heading_3}</div>
+                <div>{HomePageText.heading_3}</div> */}
+                <div>{HomePageText.heading_4}</div>
               </h1>
 
               <h2 className={homePageStyle.homePageMainSubHeading}>
@@ -209,7 +210,7 @@ export default function Home({ allData }: { allData: any }) {
                 videoSrc={"/HomePageImages/HomePageVideo.mp4"}
                 videoWidth={"500"}
                 videoHeight={"600"} */}
-              <Image src="/HomePageImages/tech talent.webp" width={600} height={600} alt="" className={homePageStyle.topImage} />
+              <Image src="/HomePageImages/home2.jpeg" width={390} height={390} alt=""  />
 
             </div>
           </div>
@@ -311,7 +312,7 @@ export default function Home({ allData }: { allData: any }) {
       <section>
         <div className={homePageStyle.backGroundBlueHomePage}>
           <div>
-            <h1 className={hireDevStyles.heading}>
+            <h1 id={hireDevStyles.heading}>
               {HomePageText.topCompaniesHeading}
             </h1>
             <br />

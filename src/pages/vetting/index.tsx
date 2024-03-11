@@ -73,7 +73,7 @@ const Vetting = () => {
         <div className={hireDevStyles.TrustedCompaniesContainer}>
           {HireDeveloperPageText.BottomImagesHeading}
         </div>
-        <div style={{ display: "flex", gap: "20px" }}>
+        {/* <div style={{ display: "flex", gap: "20px" }}>
           {" "}
           {HireDeveloperPageText.BottomImagesIconsArray.map(
             (source, index) => (
@@ -87,7 +87,87 @@ const Vetting = () => {
               />
             )
           )}{" "}
-        </div>
+        </div> */}
+        <Image
+          className={hireDevStyles.amazon}
+          src={`/HireDeveloperImages/company_1.png`}
+          alt="Logo"
+          height={20}
+          width={70}
+        // style={{marginTop:"0px", borderRadius: "10px" }}
+        />
+        <Image
+          className={hireDevStyles.amazon}
+          src={`/HireDeveloperImages/company_4.jpeg`}
+          alt="Logo"
+          height={20}
+          width={60}
+        // style={{ borderRadius: "10px" }}
+        />
+        <Image
+          className={hireDevStyles.amazon}
+          src={`/HireDeveloperImages/company_5.jpg`}
+          alt="Logo"
+          height={20}
+          width={70}
+        // style={{ borderRadius: "10px" }}
+        />
+        <Image
+          className={hireDevStyles.amazon}
+          src={`/HireDeveloperImages/company_6.png`}
+          alt="Logo"
+          height={20}
+          width={70}
+          style={{ marginTop: "-0px" }}
+        />
+        <Image
+          className={hireDevStyles.amazon}
+          src={`/HireDeveloperImages/company_8.jpeg`}
+          alt="Logo"
+          height={20}
+          width={70}
+          style={{ marginTop: "-0px" }}
+        />
+        <Image
+          className={hireDevStyles.amazon}
+          src={`/HireDeveloperImages/company_9.jpg`}
+          alt="Logo"
+          height={20}
+          width={70}
+        // style={{ borderRadius: "10px" }}
+        />
+        <Image
+          className={hireDevStyles.amazon}
+          src={`/HireDeveloperImages/company_11.jpg`}
+          alt="Logo"
+          height={20}
+          width={50}
+        // style={{ borderRadius: "10px" }}
+        />
+        <Image
+          className={hireDevStyles.amazon}
+          src={`/HireDeveloperImages/company_12.jpeg`}
+          alt="Logo"
+          height={20}
+          width={60}
+        // style={{ borderRadius: "10px" }}
+        />
+        <Image
+          className={hireDevStyles.amazon}
+          src={`/HireDeveloperImages/company_13.jpg`}
+          alt="Logo"
+          height={20}
+          width={70}
+        // style={{ borderRadius: "10px" }}
+        />
+        <Image
+          className={hireDevStyles.amazon}
+          src={`/HireDeveloperImages/company_10.jpeg`}
+          alt="Logo"
+          height={20}
+          width={50}
+        // style={{ borderRadius: "10px" }}
+        />
       </div>
 
       <main className={vettingPageStyles.mainMarginAllSides}>
