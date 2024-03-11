@@ -44,7 +44,7 @@
   }
 }
 
-@media(1024px<width<=1200px){
+@media(1023px<width<=1200px){
   .aboutUsHeroContainer{
     width:97vw;
     margin: auto;
@@ -56,7 +56,7 @@
     width:100vw;
   }
 }
-@media(768px<width<=1024px){
+@media(768px<width<=1023px){
   .aboutUsHeroContainer{
     width:1200px;
     margin: auto;
@@ -111,7 +111,7 @@
   align-items: center;
 }
 .mainMarginAllSides {
-  @media(1024px<width<=1500px){
+  @media(1023px<width<=1500px){
     width:97vw;
     margin: 0;
   }
@@ -159,7 +159,7 @@
   font-family: 'Abel', sans-serif;
 }
 .aboutUsHeroSubHeading {
-  @media(1024px<width<=1500px){
+  @media(1023px<width<=1500px){
       width:97vw;
       margin: auto;
     }
@@ -293,7 +293,7 @@
   padding:0px 10px 0px 20px;
 }
 .top3{
-  @media(1024px<width<1500px){
+  @media(1023px<width<1500px){
     width:100vw;
   }
   display: flex;
@@ -340,7 +340,7 @@
 .TrustedCompaniesSection {
  
 
-  /* @media(768px<width<=1024px) {
+  /* @media(768px<width<=1023px) {
     width: 1000px;
     gap: 12px;
     margin-left: -50px;
@@ -364,7 +364,7 @@
   align-items: center;
 }
 .top3Section{
-  @media(1024px<width<=1500px){
+  @media(1023px<width<=1500px){
     width:100vw;
   }
   margin-top: 40px;
