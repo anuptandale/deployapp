@@ -24,7 +24,7 @@ const Vetting = () => {
             <div>The SkillsCapital</div>
             <div>Vetting Process</div>
           </div>
-          <div className={style.subheading}>YouTeam is an invitation-only network of top small- and medium-sized development agencies located in Latin America and Europe. Every talent on YouTeam passes a multi-step vetting process.</div>
+          <div className={style.subheading}>SkillsCapital is an invitation-only network of top small- and medium-sized development agencies located in Latin America and Europe. Every talent on SkillsCapital passes a multi-step vetting process.</div>
         </div>
         <div>
           <Image src="/VettingImages/vetting1.webp" width={420} height={320} alt="v1" />
