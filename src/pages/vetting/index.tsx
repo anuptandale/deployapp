@@ -89,21 +89,21 @@ const Vetting = () => {
           <div>
             <div className={style.firstbox}>
               <Image src="/HireDevImages/redImage.png" alt="" height={100} width={100} />
-              <div style={{ textAlign: "center" }}>TECHNICAL FIT</div>
+              <div style={{ textAlign: "center",fontSize:"20px",fontWeight:"600" }}>TECHNICAL FIT</div>
             </div>
           </div>
           {/* <ArrowForwardIcon /> */}
           <div>
             <div className={style.secondbox}>
               <Image src="/HireDevImages/yelloImage.png" alt="" height={100} width={100} />
-              <div style={{ textAlign: "center" }}>CULTURAL FIT</div>
+              <div style={{ textAlign: "center",fontSize:"20px",fontWeight:"600" }}>CULTURAL FIT</div>
             </div>
           </div>
           {/* <ArrowForwardIcon/> */}
           <div>
             <div className={style.thirdbox}>
               <Image src="/HireDevImages/greenImage.png" alt="" height={100} width={100} />
-              <div style={{ textAlign: "center" }}>COMMUNICATION SKILLS</div>
+              <div style={{ textAlign: "center",fontSize:"20px",fontWeight:"600" }}>COMMUNICATION SKILLS</div>
             </div>
           </div>
 
@@ -118,13 +118,13 @@ const Vetting = () => {
             <div>
               <div className={style.firstbox}>
                 <Image src="/HireDevImages/redImage.png" alt="" height={100} width={100} />
-                <div style={{ textAlign: "center" }}>SKILLS MATCH</div>
+                <div style={{ textAlign: "center",fontSize:"20px",fontWeight:"600" }}>SKILLS MATCH</div>
               </div>
             </div>
             <div>
               <div className={style.secondbox}>
                 <Image src="/HireDevImages/yelloImage.png" alt="" height={100} width={100} />
-                <div style={{ textAlign: "center" }}>JOB SPECS MATCH</div>
+                <div style={{ textAlign: "center",fontSize:"20px",fontWeight:"600" }}>JOB SPECS MATCH</div>
               </div>
             </div>
           </div>
@@ -132,13 +132,13 @@ const Vetting = () => {
             <div >
               <div className={style.thirdbox}>
                 <Image src="/HireDevImages/greenImage.png" alt="" height={100} width={100} />
-                <div style={{ textAlign: "center" }}>AVAILABILITY MATCH</div>
+                <div style={{ textAlign: "center",fontSize:"20px",fontWeight:"600" }}>AVAILABILITY MATCH</div>
               </div>
             </div>
             <div>
               <div className={style.thirdbox}>
                 <Image src="/HireDevImages/greenImage.png" alt="" height={100} width={100} />
-                <div style={{ textAlign: "center" }}>PRICE MATCH</div>
+                <div style={{ textAlign: "center",fontSize:"20px",fontWeight:"600" }}>PRICE MATCH</div>
               </div>
             </div>
           </div>
@@ -152,14 +152,14 @@ const Vetting = () => {
           <div>
             <div className={style.firstbox}>
               <Image src="/HireDevImages/redImage.png" alt="" height={100} width={100} />
-              <div style={{ textAlign: "center" }}>PROCTORED ASSIGNMENT</div>
+              <div style={{ textAlign: "center",fontSize:"20px",fontWeight:"600" }}>PROCTORED ASSIGNMENT</div>
             </div>
           </div>
           {/* <ArrowForwardIcon /> */}
           <div>
             <div className={style.secondbox}>
               <Image src="/HireDevImages/yelloImage.png" alt="" height={100} width={100} />
-              <div style={{ textAlign: "center" }}>NON-PROCTORED ASSIGNMENT</div>
+              <div style={{ textAlign: "center",fontSize:"20px",fontWeight:"600" }}>NON-PROCTORED ASSIGNMENT</div>
             </div>
           </div>
           {/* <ArrowForwardIcon/> */}
