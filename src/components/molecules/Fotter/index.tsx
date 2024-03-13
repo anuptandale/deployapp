@@ -15,7 +15,7 @@ const FotterComponent = () => {
       {/* 1st Division */}
       <div id={css.division1}>
         <div>
-          <p>Skills Capital</p>
+          <div>Skills Capital</div>
         </div>
         <div  >
           <a href="#" id={css.socialIcon}>
@@ -36,7 +36,7 @@ const FotterComponent = () => {
 
       {/* 2nd Division */}
       <div id={css.division}>
-        <h4 className={css.heading}>Pages</h4>
+        <div className={css.heading}>Pages</div>
         <li className={css.li2}>
           <Link href="/"  id={css.site}>
             Home
@@ -83,7 +83,7 @@ const FotterComponent = () => {
 
       {/* 3rd Division */}
       <div id={css.division}>
-        <div style={{color:"white",marginTop:"45px",fontSize:"30px",fontWeight:"900"}}>Tech Specialties</div>
+        <div style={{color:"white",fontSize:"30px",fontWeight:"900"}}>Tech Specialties</div>
 
         {/* <li>
           <Link href="/talent-pool#faq" >
@@ -98,7 +98,7 @@ const FotterComponent = () => {
       </div>
       {/* 4th Division */}
       <div id={css.division}>
-        <h4 className={css.heading}>Contact</h4>
+        <div className={css.heading}>Contact</div>
         {/* <p>{FooterPageText.phone}</p> */}
         <p>{FooterPageText.email}</p>
         <div>Address: <div style={{ fontSize: "11px" }}><div>{FooterPageText.address1}</div>

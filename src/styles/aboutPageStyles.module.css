@@ -108,8 +108,11 @@
     width: 700px;
     margin: 20px auto;
   }
-
-  @media(768px<width<=1025px) {
+  @media(1200px<width<=1500px) {
+    /* margin-left: 300px; */
+    width: 75vw;
+  }
+  @media(768px<width<=1020px) {
     margin-left: 300px;
     width: 700px;
   }
@@ -190,11 +193,15 @@
   text-transform: uppercase;
   margin-block-start: 0;
   margin-block-end: 0;
-  width:900px;
+  /* width:900px; */
 }
 
 .aboutUsHeroSubHeading {
-  @media(768px<width<=1025px) {
+  @media(1020px<width<=1500px) {
+    width: 75vw;
+    font-size: 42px;
+  }
+  @media(768px<width<=1020px) {
     width: 900px;
     font-size: 42px;
   }
@@ -242,7 +249,11 @@
 }
 
 .aboutUsFounderContainer {
-  @media(768px<width<=1025px) {
+  @media(1200px<width<=1500px) {
+    /* margin-left: 200px; */
+    width: 84vw;
+  }
+  @media(768px<width<=1020px) {
     margin-left: 200px;
     width: 950px;
   }
@@ -261,7 +272,8 @@
     margin-left: 50px;
     width: 850px;
   }
-
+  font-family: "Poppins";
+  text-align: center;
   /* width: 100vw; */
   /* height: 80vh; */
   flex-shrink: 0;
@@ -274,12 +286,12 @@
 .aboutUsFounderContainer {
   background-image: url("../../public/AboutPageImages/Background.png");
 }
-@media(1024px<width<=1200px) {
+@media(1020px<width<=1200px) {
   .aboutUsHeroContainer{
-    width:1200px;
+    width:70vw;
   }
   .aboutUsFounderContainer{
-    width:1000px;
+    width:84vw;
   }
   .aboutUsFounderContentContainer{
     margin-left: 100px;
@@ -408,7 +420,11 @@
 }
 
 .mission {
-  @media(320px<width<=1024px) {
+  @media(1020px<width<=1500px) {
+    /* margin-left: 350px; */
+    width: 97vw;
+  }
+  @media(320px<width<=1020px) {
     margin-left: 350px;
     width: 600px;
   }
