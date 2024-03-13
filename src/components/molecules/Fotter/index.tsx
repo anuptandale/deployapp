@@ -58,6 +58,11 @@ const FotterComponent = () => {
             Contact Us
           </Link>
         </li>
+        <li className={css.li2}>
+          <Link href="/about" id={css.site}>
+            About
+          </Link>
+        </li>
         {/* <li>
           <Link href="/talent-pool" >
             Talent Pool

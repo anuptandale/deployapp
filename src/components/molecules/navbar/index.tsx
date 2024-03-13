@@ -50,7 +50,9 @@ const Navbar: React.FC = () => {
       <Link href="/contact-us" style={navLinks}>
         Contact Us 
       </Link>
-      
+      <Link href="/about" style={navLinks}>
+        About
+      </Link>
       {/* <Link href="/talent-pool" style={navLinks}>
         Talent Pool
       </Link>
