@@ -114,7 +114,7 @@ const Vetting = () => {
                 style={{
                   display: "flex",
                   alignItems: "center",
-                  margin: "60px 30px",
+                  margin: "60px 0px",
                 }}
               >
                 <div
