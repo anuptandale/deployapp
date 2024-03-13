@@ -34,7 +34,7 @@
 
   width:1200px;
   /* margin: 20px 5px 80px 5px; */
-  margin: 0 50px;
+  margin: 0 100px;
 }
 .videostyle{
   @media(1000px<width<=1200px){
@@ -188,6 +188,8 @@
     margin: 0px 150px;
     margin-left: 100px;
   }
+  display: flex;
+  justify-content: center;
   margin: 20px 5px 80px 5px;
   padding: 10px 30px;
 }
@@ -655,10 +657,10 @@
   color: var(--Black, #000);
   /* Title/Heading 1 */
   font-family: "Poppins", sans-serif;
-  font-size: 42px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 96px;
+  line-height: 66px;
   /* 133.333% */
   text-align: center;
   margin-block-start: 0em;

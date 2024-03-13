@@ -902,13 +902,13 @@ export const cardsStyling = {
   },
 
   sapCloudLegacyCardNumber: {
-    fontSize: "2.5rem",
+    fontSize: "1.9rem",
     textAlign: "center" as "center",
     fontWeight: 600,
     fontFamily: "Poppins",
   },
   sapCloudLegacyHeading: {
-    fontSize: "24px",
+    fontSize: "20px",
     textAlign: "center" as "center",
     fontWeight: "900",
     marginBottom: "20px",

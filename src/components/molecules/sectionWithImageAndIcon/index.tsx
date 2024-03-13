@@ -46,7 +46,7 @@ const ContentComponent: React.FC<ContentComponentProps> = ({
   return (
     <>
       {order === "imageLeft" ? (
-        <div style={{ display: "flex",justifyContent:"center"}}>
+        <div style={{ display: "flex",justifyContent:"center",alignItems:"center"}}>
           <div style={{}}>
             <Image
               src={imageUrl}
