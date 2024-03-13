@@ -33,10 +33,10 @@ export const HomePageText = {
   heading_1: "Transform Your Tech Capabilities",
   heading_2:"with Vetted Talent in Specialized Skills,",
   heading_3:"10X Faster and with 95% Accuracy",
-  heading_4:"Transform Your Tech Capabilities with Vetted Talent in Specialized Skills, 10X Faster and with 95% Accuracy",
+  heading_4:"Transform Your Tech Capabilities with Elite Talent in Specialized Skills, 10X Faster and 95% Precise Match",
   heading1Bold: "Skills Capital",
   heading2:
-    "Your Gateway to Elite, Specialized Tech Expertise where Precision meets Speed",
+    "Your Gateway to Elite, Specialized Tech Expertise where Precision meets Speed to Accelerate Your Success",
   heading2b: "",
   heading3:
     "Leverage our Next-Gen AI-Driven platform to effortlessly connect with top-tier, hard-to-find tech professionals, ensuring your projects not only advance swiftly but are also executed with unmatched precision and quality. ",
@@ -63,21 +63,21 @@ export const HomePageText = {
   SAP_imgUrl:
     "https://s3-alpha-sig.figma.com/img/f2a3/e28e/5d40a93ae7c76b9200df3ccf6bc596e1?Expires=1702252800&Signature=TtvanWiEwg9gceoGhukNXa0yjY~tYxS-4XrF51Iy5RhW3zb7ivLvdZ2Lt491lc2KcpxlAtRixYXLmcb9QVkKmJBtLB7HeFkK8utKSEOV7iKHHJ5ig0MKK~WnE-b12Rw~YgowCbgYpwSxeeqJq~1gVxCn3f4PdVDFJnI0BAfZqyZwRPUO54hd~cHqD86LPQJZvn~IdVHofA4SpJXXzTtYIUgvZlP0Kh3rhT~HU3zXxQSN55eMnKdg2DaA89wzmin2t-VTJtPS452g24GpwmSVn5ETuuI50ll0yE87sv30XgOLVBzXogFU2xgazzUG0X5EZgTIwbcf1ANE2fPiiR642Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 
-  SAP_number: `4000+`,
+  SAP_number: `7000+`,
   SAP_heading: `SAP Specialist Hub`,
   SAP_content: `Tap into our pre-vetted and curated team of SAP experts, driving your enterprise solutions with unmatched expertise and precision.  `,
 
   Cloud_imgUrl:
     "https://s3-alpha-sig.figma.com/img/d7cd/4bcd/997f9951c8e56f513a894eb83a574665?Expires=1702252800&Signature=GSeinVxiJjBHd6hCnk5-4eA0xmEtq29s-XSTk2wl29TPxdjWd~p~g8MFbQzZdmNn8gfX2FOe6criIh9aGVRh5ZpdNHNGhe446wyQNNsfHyt4mlzqA5SxHb-N7TZpQ4NTaulA~r1Wava4CoeOZb~dlZV4aUamEDRWPc8co1pPgfPwtP1mYBWWqXGKyb6onXnKKCxpR9Rj1Si9lzhxVGnO3TBqIQLI4G6Kth3sTBybOrZnhdUMC6CITkv-C3vZCJSvLry~pryWQXIJPTAdGyV3vA0m4~Yq8imiX2IoAluh3JKnoley0xjefXCgJUQXPadA0ZoZJwjxGJr3GW6JMU7PmA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 
-  Cloud_number: `3000+`,
+  Cloud_number: `6400+`,
   Cloud_heading: `Cloud & DevOps Excellence`,
   Cloud_content: `Empower your Cloud & DevOps with our elite experts (AWS, Azure, GCP etc.), driving innovation and efficiency in your tech landscape.`,
 
   Legacy_imgUrl:
     "https://s3-alpha-sig.figma.com/img/f02e/2b2a/7b1ddfdf89823f8dfc240cd349720b12?Expires=1702252800&Signature=q1k5N4orLPwAmXqToycW2L6rctWKglfGtbpk7lEk219mFFQqWeB4LUZzX2DSc71pkKORYngZmkxYVHLCL59uv47eprjPrVXLHfUkjr8VJ7wQbo1tb-DF1dUvewbqVZCDwWGbc0CLJNBrb2pOX9Q-AAnqGrtMbfjbdAn32dKVQigzShXQ3L6B-H90suCGlplvju~xyXhMKJP18qGqWRJbkgTdFMtoPUa0eGlY-cUAVATcX~TfjKbxh4lJSJak6D8Z-I4~vstnJ6FmwvswF2E~R0AdVS22j2OEaiWfP6~37doykip3EKiFpaaS2Tb8gLf6lPrPliNySVIWoQNguGuDKA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 
-  Legacy_number: `4000+`,
+  Legacy_number: `4600+`,
   Legacy_heading: `Legacy Modernization Specialists`,
   Legacy_content: `Revitalize and transform your legacy systems with our deep vetted talent, ensuring seamless modernization and future-readiness.`,
 
@@ -190,13 +190,13 @@ export const HomePageText = {
   // SectionTitle - World Map Section
   //  ---------------------------------------------------------------------------------------------------------------------------
 
-  worldMapHeading: `200,000+ Developers with Hard-to-Find Skills Comprise Our Skills Capital Talent Pool`,
+  worldMapHeading: `24,000+ Developers with Hard-to-Find Skills Comprise Our Skills Capital Talent Pool`,
 
   worldMapPara: `Leveraging Our 12,200+ Deeply Vetted Elite Tech Talents to Empower Clients and Drive Innovation Across the Globe`,
 
-  worldMapNum1: `20+`,
+  worldMapNum1: `40+`,
   worldMapNum1Title: `Niche Technologies`,
-  worldMapNum2: `10,000+`,
+  worldMapNum2: `20+`,
   worldMapNum2Title: `Certified Talent`,
   worldMapNum3: `10+`,
   worldMapNum3Title: `Domain Expertise`,
@@ -291,7 +291,7 @@ export const HireDeveloperPageText = {
   //---------------------------------------------------------------------------------------------------------------------------
 
 
-  HireDeveloperHeroHeading: `Hire Hard-to-Find Skilled Developers: AI-Vetted Expertise, Unmatched Quality for Your Project's Success`,
+  HireDeveloperHeroHeading: `Hire Hard-to-Find Skill Talent: AI-Vetted Expertise, Unmatched Quality for Project's Success`,
   HireDeveloperHeroPara: `Swiftly Connect with On-Demand, Top-Tier Talent Tailored to Your Project's Urgent Needs`,
 
   HireDeveloperHeroNum1: `10K+`,
@@ -380,19 +380,19 @@ export const HireDeveloperPageText = {
   sapCloudLegacyHeading: "Our Elite Developers",
 
   sapHeading: "SAP Expertise",
-  sapSubHeading: "4000 + SAP Certified Professionals On Demand",
+  sapSubHeading: "7000 + SAP Certified Professionals On Demand",
   sapPara: "Our developers boast expertise across 20+ SAP specializations, spanning functional, technical, and techno-functional areas in 50+ industries.",
   sapButtonText: "HIRE SAP EXPERTS",
   sapImageUrl: "https://s3-alpha-sig.figma.com/img/0ed1/b7e6/5236d7e00a77a5bf368ee2fbb034131d?Expires=1702857600&Signature=bNve~AnPBq-Q~0~a-PKCaLi9qjsEh-szAqv7cj8mBm6FeqVJkTQMTpyiQ~NeumoVlgp1xpxHk05ZWBhf4QEWaGAUnQHRkQUO0voKcFHqB0L0-YkbePEB~Ht6tkHJvggnxTK0Hbdp8hInFK0UnmmIzzg1IvJPFrwyxzBE4KXK3499ioF-g~YTF2EDQ3goQBeGb~h8qP-8~YKwe2mpfXJqmft82E2aJn6hdwQ58mzEAG5GSuZngmtwrwd4oG2rmlqK8doaEG-~AOBNiE6OkUsgz8ytqBaO26rZlR67Ovg3PoIF4l0aQ2Ch0c-4Aogo1vrIEYDq~a8gE3MUdi39FvYwew__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 
   cloudHeading: "Cloud & DevOps Expertise",
-  cloudSubHeading: "300+ Cloud & DevOps Specialists Ready to Innovate",
+  cloudSubHeading: "6400+ Cloud & DevOps Specialists Ready to Innovate",
   cloudPara: "With proficiencies in over 30+ Cloud technologies and DevOps tools, our experts deliver solutions across 10+ distinct experience levels.",
   cloudButtonText: "HIRE CLOUD EXPERTS",
   cloudImageUrl: "https://s3-alpha-sig.figma.com/img/766d/4ae4/39a3661580702f012b582b15d2d88d15?Expires=1702857600&Signature=lwEjPPFusfZ5S4Hxba9EPpp5WFaCseITv4U00du0pa55atSYkOhBrKBzO6p7ZVd4QC~DRow4G5s4mlHv9SkwNSTJKgHcPUpgWk4HVQjdvTTSFZGhSwoSHvcuAx6cRxBiNotycRMS2EDT~~IjA4btVOghV1PtjLTbS7DY-SpOBuTDfJuhF-o6TWe~-LakDV6FwXnmmLsqhVk2Ci0aX9q1D2z0cW6gODQcGA03L3nYEiSb5qOlIceRZor0QbQJS11ORaK-IyBvT2bbiLueM2OW3OGsQH-czYD0hyqQtAVRRDa11xOPI2J11XGTm3TJ6yWoEfXoFHFjX8DtF7q~wGkOdg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
 
   legacyHeading: "Legacy Tech Expertise",
-  legacySubHeading: "4000+ Legacy Technology Maestros for Modernization",
+  legacySubHeading: "4600+ Legacy Technology Maestros for Modernization",
   legacyPara: "Our legacy tech specialists cover 25+ legacy systems and programming languages, providing seasoned expertise at various tiers of seniority.",
   legacyButtonText: "HIRE LEGACY EXPERTS",
   legacyImageUrl: "https://s3-alpha-sig.figma.com/img/5f12/809d/2da27ca894a93503aacdc1a794e65bad?Expires=1703462400&Signature=hVUU3kPql~3QT3CzToljBZgslELlaA8eK-EKB59s5n9CqoRaLuXi5BOR6h~7QT538w3HTYNNW091REl4eAl~67NDxKLA1mXrG6ACsyA07BiAnahOmOJgpU5Aote-g297VF52I--xlavLG6aHaDOSqToKBPjkMX7X2HRpREAtSs-U66xCI8Hx1nblhrOg0wYX0OnGCilPiI5hu6-hqlruK3JgGLB74Vj51Ip5s~ouMlrVkZ1azEZKvXDCKij2GffhGnjPySV4rQi3F7~9Cop8NPtcq297TyqDnmfNoRKvahExb6-nlFkGuw---1k-tjwUUF94Ri~oXK36AxG~slnxQA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
@@ -815,7 +815,7 @@ export const VettingPageText = {
   button1_heading: "Hire Elite Talent",
   button2_heading: "Explore Talent Pool",
 
-  threeTagLine: ["Deep Vetted", "Culturally Fit", "Deploy Ready"],
+  threeTagLine: ["Advanced AI", "Integrated Assessments", "Automated Insights"],
 
   //  homeBannerVidUrl : url(),
 

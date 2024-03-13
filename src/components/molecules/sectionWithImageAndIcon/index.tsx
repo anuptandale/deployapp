@@ -63,7 +63,7 @@ const ContentComponent: React.FC<ContentComponentProps> = ({
 
             <br />
             <br />
-            <br />
+            {/* <br /> */}
 
             <ul style={ulLiStyle}>
               {points.map((point, index) => (

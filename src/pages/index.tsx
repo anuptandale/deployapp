@@ -210,7 +210,7 @@ export default function Home({ allData }: { allData: any }) {
                 videoSrc={"/HomePageImages/HomePageVideo.mp4"}
                 videoWidth={"500"}
                 videoHeight={"600"} */}
-              <Image src="/HomePageImages/home2.jpeg" width={390} height={390} alt=""  />
+              <Image src="/HomePageImages/home1.jpeg" width={390} height={590} style={{borderRadius:"5px"}} alt=""  />
 
             </div>
           </div>
@@ -438,7 +438,7 @@ export default function Home({ allData }: { allData: any }) {
                   style={{ borderRadius: "10px" }}
                 />
               </div>
-              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px",height:"100px" }}>
+              {/* <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px",height:"100px" }}>
                 <Image
                   className={hireDevStyles.amazon}
                   src={`/HireDeveloperImages/company_12.jpeg`}
@@ -447,7 +447,7 @@ export default function Home({ allData }: { allData: any }) {
                   width={240}
                   style={{ marginTop:"0px",borderRadius: "10px" }}
                 />
-              </div>
+              </div> */}
               <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px",height:"100px" }}>
                 <Image
                   className={hireDevStyles.amazon}
@@ -458,7 +458,7 @@ export default function Home({ allData }: { allData: any }) {
                   style={{marginTop:"30px", borderRadius: "10px" }}
                 />
               </div>
-              <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px",height:"100px" }}>
+              {/* <div style={{ backgroundColor: "white", borderRadius: "10px", width: "300px",height:"100px" }}>
                 <Image
                   className={hireDevStyles.amazon}
                   src={`/HireDeveloperImages/company_14.jpg`}
@@ -467,7 +467,7 @@ export default function Home({ allData }: { allData: any }) {
                   width={190}
                   style={{marginTop:"20px", borderRadius: "10px" }}
                 />
-              </div>
+              </div> */}
               
 
 

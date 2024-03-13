@@ -206,7 +206,7 @@ const Vetting = () => {
               imageHeight={210}
               imageWidth={250}
               headingNumber={VettingPageText.SAP_number}
-              headingText={VettingPageText.SAP_heading}
+              headingText={""}
               paragraphText={VettingPageText.SAP_content}
               buttonText="Explore"
               onButtonClick={handleButtonExplore}
@@ -218,7 +218,7 @@ const Vetting = () => {
               imageHeight={200}
               imageWidth={250}
               headingNumber={VettingPageText.Cloud_number}
-              headingText={VettingPageText.Cloud_heading}
+              headingText={""}
               paragraphText={VettingPageText.Cloud_content}
               buttonText="Explore"
               onButtonClick={handleButtonExplore}
@@ -229,7 +229,7 @@ const Vetting = () => {
               imageHeight={230}
               imageWidth={190}
               headingNumber={VettingPageText.Legacy_number}
-              headingText={VettingPageText.Legacy_heading}
+              headingText={""}
               paragraphText={VettingPageText.Legacy_content}
               buttonText="Explore"
               onButtonClick={handleButtonExplore}

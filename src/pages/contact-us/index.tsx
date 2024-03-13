@@ -69,15 +69,19 @@ const Contact = () => {
                             />
                         </div>
                         <div>
-                            <div className={css.namecontainer}>Message*</div>
+                            <div className={css.namecontainer}>Phone*</div>
                             <TextField
-                                placeholder="Message"
-                                name="message"
+                                placeholder="Enter Your Phone"
+                                name="Phone"
                                 sx={{ width: "300px" }}
                             // value={ClientData.Email}
                             // onChange={handleInputChange}
                             // helperText={errors.Email}
                             />
+                        </div>
+                        <div>
+                            <div className={css.namecontainer}>Message*</div>
+                            <textarea cols={46} rows={3} style={{height:"80px",width:"300px",borderColor:"lightgray",borderRadius:"5px"}} name="comments"></textarea>
                             {/* <label htmlFor="">Message</label> */}
                         </div>
                         <Button

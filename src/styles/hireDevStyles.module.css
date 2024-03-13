@@ -15,7 +15,7 @@
   margin-block-start: 0px;
   padding: 0px 30px;
   margin-bottom: 40px; */
-  width: 800px;
+  /* width: 800px; */
   color: black;
   opacity: 0.9;
   font-family: "Poppins", sans-serif;
@@ -779,12 +779,12 @@
   @media(1200px<width<=1500px){
     width:97vw;
     padding: 0px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
   }
   @media(1024px<width<=1200px){
     width:97vw;
     padding: 0px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
   }
   @media(430px>=width>320px) {
     width: 1200px;

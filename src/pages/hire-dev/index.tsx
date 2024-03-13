@@ -1,3 +1,4 @@
+import React from 'react'
 import Navbar from "@/components/molecules/navbar";
 import hireDevStyles from "./../../styles/hireDevStyles.module.css";
 import { HireDeveloperPageText, HomePageText } from "@/constants/texts";
@@ -16,9 +17,8 @@ import legacyExpertise from "../../assets/images/Hire_developer/legacyExpertise.
 import HireDevSectionWithImageAndIcon from "@/components/molecules/HireDevSectionWithImageAndIcon";
 import { Button } from "@mui/material";
 import { useState } from "react";
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-const HireDeveloper = () => {
-  const [profileButton, setProfileButton] = useState("sap");
+const Hiredev = () => {
+    const [profileButton, setProfileButton] = useState("sap");
   const router = useRouter();
   const HireDeveloperClicked = () => {
     // router.push("/search-developers");
@@ -30,7 +30,7 @@ const HireDeveloper = () => {
     // router.push('/search-developers');
   }
   return (
-    <div >
+    <div>
       <section>
         <Navbar />
       </section>
@@ -544,7 +544,7 @@ const HireDeveloper = () => {
         <FotterComponent />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HireDeveloper;
+export default Hiredev

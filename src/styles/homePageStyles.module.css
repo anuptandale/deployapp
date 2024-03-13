@@ -662,8 +662,9 @@
   font-weight: 700;
   line-height: 66px;
   /* 133.333% */
-  text-align: center;
+  /* text-align: center; */
   margin-block-start: 0em;
+  padding: 0px 10px;
   margin-block-end: 0em;
 }
 
