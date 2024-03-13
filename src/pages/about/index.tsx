@@ -24,7 +24,10 @@ const AboutUs = () => {
       <section className={aboutPageStyles.sectionMargin}>
         <div className={aboutPageStyles.aboutUsFounderContainer}>
           {/* <div className={aboutPageStyles.aboutUsFounderContentContainer}> */}
-            <p>{AboutUsText.aboutUsFounderpara}</p>
+            {/* <p>{AboutUsText.aboutUsFounderpara}</p>
+            <p>{AboutUsText.aboutUsFounderpara1}</p>
+            <p>{AboutUsText.aboutUsFounderpara2}</p> */}
+            <p>{AboutUsText.aboutUsFounderpara4}</p>
           {/* </div> */}
           
         </div>
