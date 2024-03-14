@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import css from "../../styles/subreq.module.css";
 import Link from 'next/link';
 import Image from 'next/image';
+import emailjs from '@emailjs/browser';
 import { Button, TextField } from '@mui/material';
 import { FooterPageText, SubreqPageText } from '@/constants/texts';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -14,7 +15,30 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import Navbar from '@/components/molecules/navbar';
 import FotterComponent from '@/components/molecules/Fotter';
+import { PUBLIC_KEY, SERVER_ID, TEMPLATE_ID } from '../../../configs/auth';
 const Contact = () => {
+    
+    const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e:any) => {
+    e.preventDefault();
+    // console.log(e.target.value)
+    if (form.current) {
+        emailjs
+      .sendForm(SERVER_ID, TEMPLATE_ID, form.current, {
+        publicKey: PUBLIC_KEY,
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+    }
+    
+  };
     return (
         <div>
             <Navbar />
@@ -45,53 +69,54 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className={css.fieldcontainer}>
-                        <div className={css.fieldinnercontainer}>
+                        <form ref={form} onSubmit={sendEmail} className={css.fieldinnercontainer}>
                             <div className={css.enterdetails} >Enter Details</div>
                             <div>
                                 <div className={css.namecontainer}>Name*</div>
                                 <TextField
                                     placeholder="Enter Your Name"
-                                    name="Name"
+                                    name="name"
                                     sx={{ width: "300px" }}
                                 // value={ClientData.Name}
-                                // onChange={handleInputChange}
+                                    
                                 />
                             </div>
                             <div>
                                 <div className={css.namecontainer}>Email*</div>
                                 <TextField
                                     placeholder="Enter Your Email"
-                                    name="Email"
+                                    name="email"
                                     sx={{ width: "300px" }}
                                 // value={ClientData.Email}
                                 // onChange={handleInputChange}
-                                // helperText={errors.Email}
+                                
                                 />
                             </div>
                             <div>
                                 <div className={css.namecontainer}>Phone*</div>
                                 <TextField
                                     placeholder="Enter Your Phone"
-                                    name="Phone"
+                                    name="phone"
                                     sx={{ width: "300px" }}
                                 // value={ClientData.Email}
                                 // onChange={handleInputChange}
-                                // helperText={errors.Email}
+                                
                                 />
                             </div>
                             <div>
                                 <div className={css.namecontainer}>Message*</div>
-                                <textarea cols={46} rows={3} style={{ height: "80px", width: "300px", borderColor: "lightgray", borderRadius: "5px" }} name="comments"></textarea>
+                                <textarea name="message" cols={46} rows={3} style={{ height: "80px", width: "300px", borderColor: "lightgray", borderRadius: "5px" }} ></textarea>
                                 {/* <label htmlFor="">Message</label> */}
                             </div>
                             <Button
                                 // onClick={onNextStep} 
                                 // disabled={!ClientData.workType || !ClientData.Name || !ClientData.Email}
+                                type='submit'
                                 style={{ width: "190px", padding: "15px 15px", borderRadius: "45px" }}
                                 variant="contained">
                                 send
                             </Button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
