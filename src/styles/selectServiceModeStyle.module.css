@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap");
+.topSection{
+    padding: 10px 30px;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.jobdescHeading{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0px;
+}

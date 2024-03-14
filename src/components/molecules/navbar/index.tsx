@@ -47,6 +47,9 @@ const Navbar: React.FC = () => {
       <Link href="/vetting" style={navLinks}>
         Vetting
       </Link>
+      <Link href="/select-service-mode" style={navLinks}>
+        select service mode
+      </Link>
       <Link href="/about" style={navLinks}>
         About Us
       </Link>
