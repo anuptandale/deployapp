@@ -294,12 +294,12 @@ export const HireDeveloperPageText = {
   HireDeveloperHeroHeading: `Hire Hard-to-Find Skill Talent: AI-Vetted Expertise, Unmatched Quality for Project's Success`,
   HireDeveloperHeroPara: `Swiftly Connect with On-Demand, Top-Tier Talent Tailored to Your Project's Urgent Needs`,
 
-  HireDeveloperHeroNum1: `10K+`,
-  HireDeveloperHeroNum1Title: `Deep Vetted Developers`,
-  HireDeveloperHeroNum2: `100+`,
-  HireDeveloperHeroNum2Title: `Specialized Skill Sets`,
-  HireDeveloperHeroNum3: `40+`,
-  HireDeveloperHeroNum3Title: `AI Vetting Criteria`,
+  HireDeveloperHeroNum1: `24K+`,
+  HireDeveloperHeroNum1Title: `Certified Elite Talent`,
+  HireDeveloperHeroNum2: `40+`,
+  HireDeveloperHeroNum2Title: `Niche Technologies`,
+  HireDeveloperHeroNum3: `10+`,
+  HireDeveloperHeroNum3Title: `Distinct Seniority`,
 
   HireDeveloperHeroButton1: `Hire Developers`,
   HireDeveloperHeroButton2: `Watch Video`,
@@ -812,7 +812,7 @@ export const VettingPageText = {
     "Experience unparalleled accuracy in candidate selection through our unique blend of cutting-edge AI technology, rigorous external assessments, and invaluable human insights. Our meticulous vetting process guarantees that you're presented with candidates perfectly tailored to your project requirements.",
   heading3b: " ",
   heading3c: "",
-
+  headingCard:"AI + EI + HI = Most Precise Match",
   button1_heading: "Hire Elite Talent",
   button2_heading: "Explore Talent Pool",
 
@@ -906,7 +906,7 @@ export const VettingPageText = {
   // SectionTitle -> Why Choose Our Developers? Sections
   //  ---------------------------------------------------------------------------------------------------------------------------
 
-  whyOurDevelopersHeading: `Enhancing Vetting Through External Assessments`,
+  whyOurDevelopersHeading: `Enhancing Vetting with External Assessments`,
   whyOurDevelopersPara: `Rigorous Evaluations for Unbiased Insights`,
 
   whyOurDevelopersSubHeading1: `Technical Proficiency Tests`,
@@ -930,7 +930,7 @@ export const VettingPageText = {
   //-------------------------------------------------------------------------------------------------------------------------
   // Fifth Section Ends
   //-------------------------------------------------------------------------------------------------------------------------
-  thirdHeadingH12: `Elevating Vetting Through Human Insights`,
+  thirdHeadingH12: `Elevate Vetting through Human Insights`,
   thirdPara2: `The Human Touch in Precision Candidate Evaluation`,
 
   //Accordion Content Starts
@@ -1119,7 +1119,8 @@ export const FooterPageText={
   phone:"Phone: +123456789",
   email:"Email: contact@skillscapital.io",
   address1:"B1/H3, NH-19, Block B,",
-  address2:"Mohan Cooperative Industrial Estate, New Delhi, 110044"
+  address2:"Mohan Cooperative Industrial Estate, New Delhi, 110044,",
+  address3:"India"
 }
 export default TEXTS;
 

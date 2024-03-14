@@ -8,7 +8,7 @@ interface IconTextButtonProps {
   iconFontSize?: string; // New prop for icon font size
 }
 function videoPlay() {
-  alert("Video Played");
+  // alert("Video Played");
 }
 const IconTextButton: React.FC<IconTextButtonProps> = ({
   icon,

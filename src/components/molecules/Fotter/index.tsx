@@ -34,7 +34,7 @@ const FotterComponent = () => {
         </div>
       </div>
 
-      {/* 2nd Division */}
+      {/* 2nd Division */} 
       <div id={css.division}>
         <div className={css.heading}>Pages</div>
         <li className={css.li2}>
@@ -101,8 +101,10 @@ const FotterComponent = () => {
         <div className={css.heading}>Contact</div>
         {/* <p>{FooterPageText.phone}</p> */}
         <p>{FooterPageText.email}</p>
-        <div>Address: <div style={{ fontSize: "11px" }}><div>{FooterPageText.address1}</div>
-          <div>{FooterPageText.address2}</div></div>
+        <div>Address: <div style={{ fontSize: "16px" }}><div>{FooterPageText.address1}</div>
+          <div>{FooterPageText.address2}</div>
+          <div>{FooterPageText.address3}</div>
+          </div>
         </div>
       </div>
     </footer>

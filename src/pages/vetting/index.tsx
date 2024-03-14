@@ -124,7 +124,7 @@ const Vetting = () => {
                     paddingRight: "25px",
                     color: "#000",
                     fontFamily: "Poppins",
-                    fontSize: "20px",
+                    fontSize: "17px",
                     fontStyle: "normal",
                     fontWeight: "500",
                     lineHeight: "normal",
@@ -145,7 +145,7 @@ const Vetting = () => {
                     paddingRight: "25px",
                     color: "#000",
                     fontFamily: "Poppins",
-                    fontSize: "20px",
+                    fontSize: "17px",
                     fontStyle: "normal",
                     fontWeight: "500",
                     lineHeight: "normal",
@@ -163,7 +163,7 @@ const Vetting = () => {
                     paddingRight: "25px",
                     color: "#000",
                     fontFamily: "Poppins",
-                    fontSize: "20px",
+                    fontSize: "17px",
                     fontStyle: "normal",
                     fontWeight: "500",
                     lineHeight: "normal",
@@ -195,7 +195,7 @@ const Vetting = () => {
             <br />
             <br />
             <h2 style={cardsStyling.sapCloudLegacyMainHeading}>
-              {/* 10X Faster Scouting of Tech Talents */}
+            {VettingPageText.headingCard}
             </h2>
             <br />
             <br />

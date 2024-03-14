@@ -24,7 +24,7 @@ const HireDeveloper = () => {
     // router.push("/search-developers");
   };
   const WatchVideoClicked = () => {
-    alert("WatchVideoClicked Clicked");
+    // alert("WatchVideoClicked Clicked");
   };
   const handleClick = () => {
     // router.push('/search-developers');
