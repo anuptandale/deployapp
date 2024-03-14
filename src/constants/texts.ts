@@ -671,7 +671,7 @@ export const AboutUsText = {
   // 1st Section Starts
   //---------------------------------------------------------------------------------------------------------------------------
   aboutUsHeroHeading: "About Skills Capital",
-  aboutUsHeroBoldHeading: "We are on a mission to automate Tech Hiring ",
+  aboutUsHeroBoldHeading: "We are on a mission to democratize access to elite talent for specialized skills ",
 
   aboutUsHeroSubHeading: "Skills Capital is a cloud-based AI Vetting system designed to simplify and streamline tech Hiring.  ",
 
@@ -690,7 +690,8 @@ export const AboutUsText = {
   aboutUsFounderpara1:"Using our Al-powered Talent Cloud clients tap into a vast network of pre-vetted talent with specialized and hard-to­ find skills. We work with you to assemble a team that is the perfect fit for your project, whether you require programmers or CTO/advisors. And with our part-time architect/dev manager overseeing the team, you can be sure that your project will be completed with 100% success.",
   aboutUsFounderpara2:"Led by Industry Veterans, the core leadership team has combined more than 100+ years of experience in Enterprise Software, having worked for top Fortune 500 Companies such as IBM, Accenture, PwC, Deloitte, Hewlett Packard etc. The team have worked with many of the top companies, including many Fortune 1000 as clients such as IBM, Trilogy, ESW Capital, J.P Morgan, British Telecom, Siemens, BNP Paribas, Nomura, Bank of America, Blackrock, British Telecom, BSkyB, Three etc. on technology transformation, digital transformation and legacy modernization projects.",
   aboutUsFounderpara3:"We deliver elite teams to Mid-Market Enterprises in the lB size range, solving the talent shortfall they have, with resources they normally don't have access to at prices they can afford. We're not just a talent solutions company, we're a team of experts who are dedicated to helping you achieve your goals. If you're interested in learning more about how we can help, please don't hesitate to contact us. We look forward to working with you!",
-  aboutUsFounderpara4:"Skills Capital offers a groundbreaking solution tailored to address the challenges mid-market enterprises face in acquiring and retaining top-tier technical talent. Their innovative approach provides access to elite tech professionals through an AI-powered Talent Cloud, eliminating the complexities and expenses associated with traditional hiring processes. With a focus on assembling bespoke teams perfectly suited to each project's requirements, Skills Capital ensures 100% success with the oversight of experienced industry veterans. Boasting a leadership team with over 100 years of collective experience in enterprise software, including Fortune 500 companies like IBM and Accenture, Skills Capital delivers elite teams to mid-market enterprises, bridging the talent gap with unmatched expertise at affordable prices. As a dedicated team of experts committed to client success, Skills Capital stands out not just as a talent solutions provider but as a strategic partner in achieving business objectives.",
+  aboutUsFounderpara4:"Skills Capital offers a unique solution to mid-market enterprises struggling with sourcing and retaining high-caliber technical professionals. We provide on-demand access to a pool of elite tech experts, eliminating the need for businesses to endure the expenses and challenges of hiring and training full-time staff. Clients leverage an AI-powered Talent Cloud to connect with pre-screened specialists possessing rare and specialized skills, ensuring the formation of tailor-made teams for specific projects. This approach is bolstered by experienced part-time architects or dev managers who oversee project success.",
+  aboutUsFounderpara5:"Our company's leadership, boasting over a century of combined experience in enterprise software at leading Fortune 500 companies, underscores our expertise in delivering top-tier talent solutions. Skills Capital caters to mid-sized businesses, offering access to premium resources that are typically beyond their reach, at affordable rates. Our extensive leadership client's roster includes prestigious firms across various industries, demonstrating their capability in facilitating technology and digital transformations. Skills Capital is committed to aiding companies in achieving their objectives and invites potential clients to explore how their services can address their unique talent needs.",
   aboutUsFounderDesignation: "Executive Vice President ",
   aboutUsFounderName: "Vince Ostrosky",
 
@@ -703,7 +704,7 @@ export const AboutUsText = {
   //---------------------------------------------------------------------------------------------------------------------------
   //
   missionHeading: "Skills Capital Mission",
-  missionSubHeading: "To Become India’s Leading Skills Providing platform and enhance Tech giants Industry. To Stay at the forefront of technological advancements, continuously adapting our AI-driven solutions to identify emerging skills and cater to the dynamic needs of the ever-evolving tech landscape.",
+  missionSubHeading: "To empower SMBs with seamless access to top-quality specialized tech talent, fostering growth and innovation affordably and also to democratize access to elite talent for specialized skills, enabling seamless access of hard-to-find skills talent by all businesses, irrespective of location or size",
 
 
   missionHiringPoint1: "Inclusive Talent Discovery",
@@ -728,7 +729,7 @@ export const AboutUsText = {
   //---------------------------------------------------------------------------------------------------------------------------
   //
   visionHeading: "Skills Capital Vision",
-  visionSubHeading: "We bring world-class capabilities and high-quality talent solutions to clients, delivering on-demand experts, resources and the team they need to address their challenges around tech skills shortage.",
+  visionSubHeading: "To become the most trusted source for clients to reliably and quickly access pre vetted elite talent for hard-to-find tech skills. We bring world-class capabilities and high-quality talent solutions, delivering on-demand specialized tech talent they need to address challenges around tech skills shortage",
 
 
   visionHiringPoint1: "Specialized Skill Identification",

@@ -225,7 +225,7 @@
   color: var(--Gray-900---Main-Text, #181e27);
   text-align: center;
   font-family: "Nunito";
-  font-size: 62px;
+  font-size: 52px;
   font-style: normal;
   font-weight: 400;
   line-height: 125%;
@@ -278,6 +278,8 @@
   /* height: 80vh; */
   flex-shrink: 0;
   display: flex;
+  flex-direction: column;
+  gap:20px;
   /* justify-content: space-around; */
   /* border: solid green; */
   padding: 50px 80px;

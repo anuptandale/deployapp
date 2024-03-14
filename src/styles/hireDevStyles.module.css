@@ -820,9 +820,9 @@
     width:1400px;
     gap:0px;
   }
-  /* @media(1204px<width<=1200px){
-    margin-left: 150px;
-  } */
+  @media(1204px<width<=1500px){
+    gap:0;
+  }
   @media(1000px<width<=1205px){
     /* margin-left: 80px; */
     gap:0;

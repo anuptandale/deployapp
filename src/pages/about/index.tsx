@@ -28,6 +28,7 @@ const AboutUs = () => {
             <p>{AboutUsText.aboutUsFounderpara1}</p>
             <p>{AboutUsText.aboutUsFounderpara2}</p> */}
             <p>{AboutUsText.aboutUsFounderpara4}</p>
+            <p>{AboutUsText.aboutUsFounderpara5}</p>
           {/* </div> */}
           
         </div>
