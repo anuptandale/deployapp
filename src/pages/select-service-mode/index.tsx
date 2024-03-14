@@ -14,7 +14,7 @@ const SelectServiceMode = () => {
             </section>
             <section className={style.topSection}>
                 <div style={{ textAlign: 'center', fontSize: "30px" }}>Select the Best Match</div>
-                <div style={{ textAlign: 'center', fontSize: "20px" }}>Select the service model that best aligns with your project needs and preferences. Whether you prefer the autonomy of our Self-Service model or the comprehensive support of our Assisted Service model, we're here to connect you with the right talent, efficiently and effectively.</div>
+                <div style={{ textAlign: 'center', fontSize: "20px" }}>Select the service model that best aligns with your project needs and preferences. Whether you prefer the autonomy of our Self-Service model or the comprehensive support of our Assisted Service model, we&apos;re here to connect you with the right talent, efficiently and effectively.</div>
             </section>
             <section className={css.jobdesc}>
                 <div className={css.jobdescContent} >
@@ -76,7 +76,7 @@ const SelectServiceMode = () => {
                                 <br />
                                 <AccordionComponent
                                     title="Specialized Team Support"
-                                    content="Our team confirms the availability and interest of your selected candidates, ensuring they're ready for your project."
+                                    content="Our team confirms the availability and interest of your selected candidates, ensuring they&apos;re ready for your project."
                                 />
                                 <br />
                                 <AccordionComponent
@@ -86,7 +86,7 @@ const SelectServiceMode = () => {
                                 <br />
                                 <AccordionComponent
                                     title="Schedule Interviews"
-                                    content="Use the platform's tools to schedule interviews and further assess the candidates."
+                                    content="Use the platform&apos;s tools to schedule interviews and further assess the candidates."
                                 />
                                 <br />
                                 <AccordionComponent
@@ -109,7 +109,7 @@ const SelectServiceMode = () => {
             <section className={css.jobdesc}>
                 <div className={css.jobdescContent} >
                     <div className={style.jobdescHeading}>Assisted Service Model</div>
-                    <div>Opt for our Assisted Service model to benefit from the expertise of our specialized team. In addition to leveraging our platform's capabilities, you'll receive personalized support to ensure your talent matches are perfectly aligned with your project's unique needs.</div>
+                    <div>Opt for our Assisted Service model to benefit from the expertise of our specialized team. In addition to leveraging our platform&apos;s capabilities, you&apos;ll receive personalized support to ensure your talent matches are perfectly aligned with your project&apos;s unique needs.</div>
                     <div style={{ display: "flex", flexDirection: "column", gap: "35px" }}>
                         <div className={css.flexgap1}>
                             <div className={css.jobrespon}>Benefits:</div>
@@ -187,7 +187,7 @@ Ideal for complex projects or when seeking highly specialized talent</div>
                                 <br />
                                 <AccordionComponent
                                     title="Finalize Your Choice"
-                                    content="Once you've selected the right candidate, we facilitate the final steps to get them on board with your project."
+                                    content="Once you&apos;ve selected the right candidate, we facilitate the final steps to get them on board with your project."
                                 />
                             </div>
                             {/* <div>
