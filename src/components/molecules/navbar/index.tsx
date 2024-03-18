@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
   return (
 
     <div id={css.navbarContainer}>
-      <Box component="div" >
+      <div  >
         <Link href="/">
           <Image
             src="/HomePageImages/SkillsCapitalLogo.png"
@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
             alt="WorldImg"
           />
         </Link>
-      </Box>
+      </div>
       <Link href="/" style={navLinks}>
         Home
       </Link>
