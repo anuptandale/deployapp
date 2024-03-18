@@ -36,16 +36,16 @@ const Hiredev = () => {
             </section>
             <div className={hireDevStyles.wholeContainer}>
                 <br />
-                <section className={hireDevStyles.hireDevTopSection} >
-                    {/* <div className={hireDevStyles.flexCenter2}>
+                {/* <section className={hireDevStyles.hireDevTopSection} >
+                    <div className={hireDevStyles.flexCenter2}>
                         
                         <div>hello </div>
                         <div>
                             
                             <Image src="/HireDeveloperImages/hiring3.png" alt="" height={300} width={400} />
                         </div>
-                    </div> */}
-                </section>
+                    </div>
+                </section> */}
             </div>
         </div>
     )
