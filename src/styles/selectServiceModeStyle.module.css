@@ -1,13 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap");
-.topSection{
-    padding: 10px 30px;
+
+.topSection {
+    padding: 10px 200px;
     font-family: "Poppins";
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 }
-.jobdescHeading{
+
+.jobdescHeading {
     font-size: 35px;
     font-family: "Poppins", sans-serif;
     margin-bottom: 0px;
+}
+
+.jobdesc {
+    @media(width<=320px) {
+        width: 1090px;
+    }
+
+    background-color: #FAFAFA;
+    /* padding: 10px 100px ; */
+    display: flex;
+    padding-bottom: 80px;
+    font-family: "Poppins",
+    sans-serif;
+    /* width:1300px; */
+}
+
+.jobdescContent {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    /* width:800px; */
 }
