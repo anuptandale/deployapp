@@ -48,7 +48,7 @@ const Hiredev = () => {
                 </section>
             </div> */}
             <main>
-          <section id={hireDevStyles.wholeContainer}>
+          <section>
             <section id={hireDevStyles.superchargeContainer} >
               {/* <div style={{ width: "80vw", margin: "auto" }}> */}
               <HireDevSectionWithImageAndIcon
