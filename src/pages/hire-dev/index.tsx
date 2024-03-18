@@ -90,7 +90,7 @@ const Hiredev = () => {
               <br />
 
 
-              {/* <div
+              <div
                 style={{
                   display: "flex",
                   justifyContent: "start",
@@ -124,7 +124,7 @@ const Hiredev = () => {
                 </div>
 
                 <br />
-              </div> */}
+              </div>
             </div>
 
                         <div>
