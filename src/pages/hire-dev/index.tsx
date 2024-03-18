@@ -34,9 +34,9 @@ const Hiredev = () => {
             <section>
                 <Navbar />
             </section>
-            <div >
+            <div className={hireDevStyles.wholeContainer}>
                 <br />
-                <section className={hireDevStyles.hireDevTopSection} >
+                {/* <section className={hireDevStyles.hireDevTopSection} >
                     <div className={hireDevStyles.flexCenter2}>
                         <div >
                             <div className={`${hireDevStyles.mainHeadingHireDev}`}>
@@ -128,11 +128,84 @@ const Hiredev = () => {
                         </div>
 
                         <div>
-                            {/* <ResponsiveCarousel opacityValue={1} skillSetValue="sap" /> */}
+                            
                             <Image src="/HireDeveloperImages/hiring3.png" alt="" height={300} width={400} />
                         </div>
                     </div>
-                </section>
+                </section> */}
+                <section style={commonStyle.sectionMargin}>
+            <div className={hireDevStyles.TrustedCompaniesSection}>
+              <div className={hireDevStyles.TrustedCompaniesContainer}>
+                {HireDeveloperPageText.BottomImagesHeading}
+              </div>
+              <div className={hireDevStyles.trusedCompanies}>
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_1.png`}
+                  alt="Logo"
+                  height={20}
+                  width={70}
+                // style={{marginTop:"0px", borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_4.jpeg`}
+                  alt="Logo"
+                  height={20}
+                  width={60}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_5.jpg`}
+                  alt="Logo"
+                  height={20}
+                  width={70}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_9.jpg`}
+                  alt="Logo"
+                  height={20}
+                  width={70}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_11.jpg`}
+                  alt="Logo"
+                  height={20}
+                  width={50}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_12.jpeg`}
+                  alt="Logo"
+                  height={20}
+                  width={60}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_13.jpg`}
+                  alt="Logo"
+                  height={20}
+                  width={70}
+                // style={{ borderRadius: "10px" }}
+                />
+                <Image
+                  className={hireDevStyles.amazon}
+                  src={`/HireDeveloperImages/company_10.jpeg`}
+                  alt="Logo"
+                  height={20}
+                  width={50}
+                // style={{ borderRadius: "10px" }}
+                />
+              </div>
+            </div>
+          </section>
             </div>
         </div>
     )
