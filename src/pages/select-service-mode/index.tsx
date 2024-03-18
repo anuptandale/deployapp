@@ -227,7 +227,7 @@ const SelectServiceMode = () => {
                 
             </section>
             <section className={style.conus}>
-            <div style={{width:"1000px",textAlign:"center",fontSize:"20px"}}>If you're unsure which model is right for you, our team is here to help. Contact us for a consultation to discuss your project needs and how we can best support your talent search.</div>
+            <div style={{width:"1000px",textAlign:"center",fontSize:"20px"}}>If you&apos;re unsure which model is right for you, our team is here to help. Contact us for a consultation to discuss your project needs and how we can best support your talent search.</div>
                     <CustomButton2
                         label="contact us"
                         // onClick={hirenowClick}

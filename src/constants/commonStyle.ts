@@ -264,9 +264,6 @@ export const accordianStylingHomePage = {
     margin: "20px 12px",
     lineHeight: "normal",
     marginBlock: `0.3em 0.1em 0.1em 0em`,
-
-
-
   },
   accordianStylingPara: {
     color: `${PRIMARY_BLACK}`,
