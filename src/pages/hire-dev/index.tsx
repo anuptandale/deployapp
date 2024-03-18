@@ -37,14 +37,14 @@ const Hiredev = () => {
             <div className={hireDevStyles.wholeContainer}>
                 <br />
                 <section className={hireDevStyles.hireDevTopSection} >
-                    <div className={hireDevStyles.flexCenter2}>
+                    {/* <div className={hireDevStyles.flexCenter2}>
                         
                         <div>hello </div>
                         <div>
-                            {/* <ResponsiveCarousel opacityValue={1} skillSetValue="sap" /> */}
+                            
                             <Image src="/HireDeveloperImages/hiring3.png" alt="" height={300} width={400} />
                         </div>
-                    </div>
+                    </div> */}
                 </section>
             </div>
         </div>
