@@ -1123,6 +1123,110 @@ export const FooterPageText={
   address2:"Mohan Cooperative Industrial Estate, New Delhi, 110044,",
   address3:"India"
 }
+export const SapficoPageText={
+  mainheading:"SAP-FICO Consulting",
+  mainSubHeading:"Find a transformation consultant to achieve meaningful change.",
+  tranHeading:"SAP-FICO TRANSFORMATION CONSULTING CAPABILITIES",
+  tranHeading1:"EXPERTISE TO ACCELERATE YOUR TRANSFORMATION",
+  tranSubHeading1:"Engage thought leaders on everything from Six Sigma implementation to risk management, employee empowerment to CRM adoption.",
+  tranHeading2:"SKILLS TO SUPPLEMENT YOUR TEAM",
+  tranSubHeading2:"Add expertise whenever you need to fulfill important initiatives or meet critical deadlines.",
+  tranHeading3:"FROM INSIGHT TO ACTION",
+  tranSubHeading3:"BTG's modular approach makes it easy to get the help you need, whether it&apos;s individuals or teams, on-site or remote, U.S. based or global.",
+
+  wedoHeading:"WHAT WE DO",
+  wedoHeading1:"The power of pace in technology",
+  wedoSubHeading1:"Hivemind Technologies explains what steps matter in speeding software development for transformations.",
+  wedoHeading2:"",
+  wedoSubHeadin2:"",
+  wedoHeading3:"",
+  wedoSubHeadin3:"",
+
+  indemandHeading:"IN-DEMAND PROBLEM SOLVERS FOR ALL OF YOUR TRANSFORMATION CONSULTING NEEDS",
+  type:["Financial Accounting (FI)","Controlling (CO)","General Ledger (FI-GL)","Accounts Payable (FI-AP)","Accounts Receivable (FI-AR)","Asset Accounting (FI-AA)","Profitability Analysis (CO-PA)","Bank Accounting (FI-BL)","Cost Element Accounting (CO-OM-CEL)","Cost Center Accounting (CO-OM-CCA)"],
+
+  limitlessHeading:"LIMITLESS ACCESS TO TOP TRANSFORMATION CONSULTANTS",
+  profname:"ALEX PASHKOWSKY",
+  profwork:"Program Manager",
+
+  margketHeading:"MARKETPLACE TALENT FACTS",
+  margketHeading1:"CLASSICALLY TRAINED",
+  marketNumber1:"8,100+",
+  margketSubHeading1:"have worked at top consulting firms",
+  
+  margketHeading2:"PROVEN & HANDS-ON",
+  marketNumber2:"64%",
+  margketSubHeading2:"have both consulting and operational experience",
+
+  margketHeading3:"EXECUTION-ORIENTED",
+  marketNumber3:"5,600",
+  margketSubHeading3:"experienced project and program managers",
+
+  techHeading:"TRANSFORMATION CONSULTING CASE STUDIES AND FEATURED INSIGHTS",
+  techSubHeading:"Our high-end, on-demand talent marketplace powers greater agility, innovation, outcomes, and competitive advantage. Through proprietary technology, vast talent knowledge, and skilled in-house consultants, we deliver a handpicked selection of freelance consultants and experts vetted for the project at hand.",
+
+  techHeading1:"The power of pace in technology",
+  techSubHeading1:"The power of pace in technology",
+  // techHeading2:"SELECT YOUR TALENT",
+  // techSubHeading2:"Choose your consultant or team of experts from a curated slate of talent.",
+  // techHeading3:"GET THE WORK DONE",
+  // techSubHeading3:"Rest easy as your consultant is rapidly deployed onsite or remote. Let us take care of the rest.",
+
+}
+export const SapPageText={
+  mainheading:"SAP Talent on Demand",
+  mainSubHeading:"Find a transformation consultant to achieve meaningful change.",
+  meetyouHeading:"MEET YOUR NEW COMPETITIVE ADVANTAGE",
+  meetyouSubHeading:"Why limit yourself to traditional sources of talent—existing staff, big consulting firms, or your personal network? Resource better, faster, more flexibly, and at the best market prices by accessing Business Talent Group’s marketplace of high-end management consultants, subject matter experts, boutiques, and executives. Overcome resource limitations, complete critical projects, and enhance business performance with on-demand talent.",
+  topTalentHeading:"TOP TALENT",
+  topTalentSubHeading:"Access independent consultants trained by Big 3 and boutique firms, plus experts and executives with experience at the world&apos;s most successful companies.",
+  worldclassHeading:"WORLD-CLASS SERVICE",
+  worldclassSubHeading:"Get the service level you need—from hands-on support to automated and instant—to scope the work, present a curated slate of candidates, and manage all contracting and compliance.",
+  buildforHeading:"BUILT FOR BUSINESS",
+  buildforSubHeading:"Rest easy with best-in-class information security, confidentiality, labor compliance, and contracting processes that adhere to the strict requirements of leading organizations.",
+
+  buttonHeading:"LIMITLESS ACCESS TO TOP TALENT AND SKILLS",
+  buttonSubHeading:"Whether you want to flex your team, reduce consulting spend, place an interim C-suite executive, or access in-demand skills or expertise, get top business minds with experience in the industries, functions, and capabilities you need.",
+
+  cap_1:"STRATEGY & PLANNING",
+  cap_2:"OPERATIONS & PERFORMANCE",
+  cap_3:"TRANSFORMATIONS",
+  cap_4:"HIGHLY SKILLED CONTINGENT LABOR",
+  cap_5:"INTERIM EXECUTIVES",
+  cap_6:"ORGANIZATIONAL DESIGN & EFFECTIVENESS",
+  cap_7:"PROJECT MANAGEMENT",
+  cap_8:"MANAGEMENT CONSULTING RESOURCES",
+
+  indtext:["CONSUMER GOODS","FINANCIAL SERVICES","ENERGY, SUSTAINABILITY & CLEAN TECH","HEALTHCARE"],
+  funtext:["CORPORATE & BUSINESS DEVELOPMENT","HUMAN RESOURCES","FINANCE","INTERNAL CONSULTING GROUPS"],
+
+  techHeading:"TECHNOLOGY + TALENT + KNOW-HOW",
+  techSubHeading:"Our high-end, on-demand talent marketplace powers greater agility, innovation, outcomes, and competitive advantage. Through proprietary technology, vast talent knowledge, and skilled in-house consultants, we deliver a handpicked selection of freelance consultants and experts vetted for the project at hand.",
+
+  techHeading1:"SHARE YOUR NEED",
+  techSubHeading1:"Call, post, or chat details of your project, ideal consultant, budget, and timeline.",
+  techHeading2:"SELECT YOUR TALENT",
+  techSubHeading2:"Choose your consultant or team of experts from a curated slate of talent.",
+  techHeading3:"GET THE WORK DONE",
+  techSubHeading3:"Rest easy as your consultant is rapidly deployed onsite or remote. Let us take care of the rest.",
+
+  margketHeading:"MARKETPLACE TALENT FACTS",
+  marketNumber1:"53%",
+  margketSubHeading1:"of the Fortune 100 served",
+  
+  marketNumber2:"99%",
+  margketSubHeading2:"fill rate on all talent requests",
+  marketNumber3:"91%",
+  margketSubHeading3:"of clients explore a new project within 12 months",
+
+
+
+
+
+
+
+
+}
 export default TEXTS;
 
 

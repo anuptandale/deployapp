@@ -187,9 +187,22 @@ font-size: 40px;
     align-items: center;
 }
 #but{
-    /* style={{backgroundColor:"#345F78", color:"white",borderRadius:"5px", fontWeight:"700",height:"50px",display:"flex",justifyContent:"center",alignItems:center; */
+    
         background-color:#345F78;
         color:white;
+        border-radius: 5px;
+        font-weight: 700;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:0px 15px;
+        cursor: pointer;
+}
+#but2{
+    
+        background-color:#d4d9d9 ;
+        color:#b4b4b4;
         border-radius: 5px;
         font-weight: 700;
         height: 50px;

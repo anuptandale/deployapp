@@ -7,6 +7,7 @@ import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import FotterComponent from '@/components/molecules/Fotter';
 import Contact from '../contact-us';
 import Letstalk from '@/components/molecules/Contact';
+import { SapficoPageText } from '@/constants/texts';
 const SapFicoTalentPool = () => {
     return (
         <div>
@@ -14,8 +15,8 @@ const SapFicoTalentPool = () => {
             <section style={{backgroundColor: "#f2f2f2",  padding: "50px 0px" }} >
                 <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                     <div id={css.topsection}>
-                        <div style={{ fontSize: "48px", width: "300px", fontWeight: "600", lineHeight: "59px" }}>SAP-FICO Consulting</div>
-                        <div style={{ fontSize: "20px" }}>Find a transformation consultant to achieve meaningful change.</div>
+                        <div style={{ fontSize: "48px", width: "300px", fontWeight: "600", lineHeight: "59px" }}>{SapficoPageText.mainheading}</div>
+                        <div style={{ fontSize: "20px" }}>{SapficoPageText.mainSubHeading}</div>
                         <div>
                             <CustomButton2
                                 label="FIND A CONSULTANT"
@@ -39,31 +40,31 @@ const SapFicoTalentPool = () => {
                 </div>
             </section>
             <section id={css.secondsection}>
-                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>SAP-FICO TRANSFORMATION CONSULTING CAPABILITIES</div>
+                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>{SapficoPageText.tranHeading}</div>
                 <div id={css.threeimage}>
                     <div id={css.threeimagesection}>
                         <div><Image src="/TalentPoolImages/service2.webp" height={130} width={130} alt="" /></div>
-                        <div style={{ fontWeight: "600" }}>EXPERTISE TO ACCELERATE YOUR TRANSFORMATION</div>
-                        <div style={{ fontSize: "14px" }}>Engage thought leaders on everything from Six Sigma implementation to risk management, employee empowerment to CRM adoption.</div>
+                        <div style={{ fontWeight: "600" }}>{SapficoPageText.tranHeading1}</div>
+                        <div style={{ fontSize: "14px" }}>{SapficoPageText.tranSubHeading1}</div>
                     </div>
                     <div id={css.threeimagesection}>
                         <div><Image src="/TalentPoolImages/service3.webp" height={130} width={130} alt="" /></div>
-                        <div style={{ fontWeight: "600" }}>SKILLS TO SUPPLEMENT YOUR TEAM</div>
-                        <div style={{ fontSize: "14px" }}>Add expertise whenever you need to fulfill important initiatives or meet critical deadlines.</div>
+                        <div style={{ fontWeight: "600" }}>{SapficoPageText.tranHeading2}</div>
+                        <div style={{ fontSize: "14px" }}>{SapficoPageText.tranSubHeading2}</div>
                     </div>
                     <div id={css.threeimagesection}>
                         <div><Image src="/TalentPoolImages/service4.webp" height={130} width={130} alt="" /></div>
-                        <div style={{ fontWeight: "600" }}>FROM INSIGHT TO ACTION</div>
-                        <div style={{ fontSize: "14px" }}>BTG&apos;s modular approach makes it easy to get the help you need, whether it&apos;s individuals or teams, on-site or remote, U.S. based or global.</div>
+                        <div style={{ fontWeight: "600" }}>{SapficoPageText.tranHeading3}</div>
+                        <div style={{ fontSize: "14px" }}>{SapficoPageText.tranSubHeading3}</div>
                     </div>
                 </div>
             </section>
             <section id={css.insightsection}>
-                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>WHAT WE DO</div>
+                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>{SapficoPageText.wedoHeading}</div>
                 <div id={css.insightOuter}>
                     <div id={css.insight2}>
-                        <div style={{ fontWeight: "600", fontSize: "24px" }}>The power of pace in technology</div>
-                        <div>Hivemind Technologies explains what steps matter in speeding software development for transformations.</div>
+                        <div style={{ fontWeight: "600", fontSize: "24px" }}>{SapficoPageText.wedoHeading1}</div>
+                        <div>{SapficoPageText.wedoSubHeading1}</div>
                     </div>
                     <div id={css.insight2}>
                         <div style={{ fontWeight: "600", fontSize: "24px" }}>The power of pace in technology</div>
@@ -80,34 +81,34 @@ const SapFicoTalentPool = () => {
                 </div>
             </section>
             <section id={css.allsapOuterMost}>
-                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>IN-DEMAND PROBLEM SOLVERS FOR ALL OF YOUR TRANSFORMATION CONSULTING NEEDS</div>
+                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>{SapficoPageText.indemandHeading}</div>
                 <div id={css.allsapOuter}>
                     <div id={css.allsapInner}>
-                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; Financial Accounting (FI)</div>
-                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; Controlling (CO)</div>
-                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; General Ledger (FI-GL)</div>
+                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; {SapficoPageText.type[0]}</div>
+                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; {SapficoPageText.type[1]}</div>
+                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; {SapficoPageText.type[2]}</div>
 
 
 
                     </div>
                     <div id={css.allsapInner}>
-                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; Accounts Payable (FI-AP)</div>
-                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; Accounts Receivable (FI-AR)</div>
-                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; Asset Accounting (FI-AA)</div>
-                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; Profitability Analysis (CO-PA)</div>
+                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; {SapficoPageText.type[3]}</div>
+                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; {SapficoPageText.type[4]}</div>
+                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; {SapficoPageText.type[5]}</div>
+                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; {SapficoPageText.type[6]}</div>
 
 
                     </div>
                     <div id={css.allsapInner}>
-                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; Bank Accounting (FI-BL)</div>
-                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; Cost Element Accounting (CO-OM-CEL)</div>
-                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; Cost Center Accounting (CO-OM-CCA)</div>
+                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; {SapficoPageText.type[7]}</div>
+                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; {SapficoPageText.type[8]}</div>
+                        <div ><FiberManualRecordIcon sx={{ fontSize: "15px", color: "grey" }} />&nbsp; {SapficoPageText.type[9]}</div>
 
                     </div>
                 </div>
             </section>
             <section id={css.secondsection2}>
-                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>LIMITLESS ACCESS TO TOP TRANSFORMATION CONSULTANTS</div>
+                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>{SapficoPageText.limitlessHeading}</div>
                 <div id={css.threeimageprofile}>
                     <div id={css.threeimagesection}>
                         <Image style={{ borderRadius: "100px" }} src="/TalentPoolImages/person.jpg" height={130} width={130} alt="" />
@@ -127,30 +128,30 @@ const SapFicoTalentPool = () => {
                 </div>
             </section>
             <section id={css.secondsection}>
-                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>MARKETPLACE TALENT FACTS</div>
+                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>{SapficoPageText.margketHeading}</div>
                 <div id={css.threeimage}>
                     <div id={css.threeimagesection}>
-                        <div style={{ fontWeight: "600" }}>CLASSICALLY TRAINED</div>
-                        <div id={css.greenNumber}>8,100+</div>
+                        <div style={{ fontWeight: "600" }}>{SapficoPageText.margketHeading1}</div>
+                        <div id={css.greenNumber}>{SapficoPageText.marketNumber1}</div>
 
-                        <div style={{ fontSize: "14px", opacity: "0.8" }}>have worked at top consulting firms</div>
+                        <div style={{ fontSize: "14px", opacity: "0.8" }}>{SapficoPageText.margketSubHeading1}</div>
                     </div>
                     <div id={css.threeimagesection}>
-                        <div style={{ fontWeight: "600" }}>PROVEN & HANDS-ON</div>
-                        <div id={css.greenNumber}>64%</div>
+                        <div style={{ fontWeight: "600" }}>{SapficoPageText.margketHeading2}</div>
+                        <div id={css.greenNumber}>{SapficoPageText.marketNumber2}</div>
 
-                        <div style={{ fontSize: "14px", opacity: "0.8" }}>have both consulting and operational experience</div>
+                        <div style={{ fontSize: "14px", opacity: "0.8" }}>{SapficoPageText.margketSubHeading2}</div>
                     </div>
                     <div id={css.threeimagesection}>
-                        <div style={{ fontWeight: "600" }}>EXECUTION-ORIENTED</div>
-                        <div id={css.greenNumber}>5,600</div>
+                        <div style={{ fontWeight: "600" }}>{SapficoPageText.margketHeading3}</div>
+                        <div id={css.greenNumber}>{SapficoPageText.marketNumber3}</div>
 
-                        <div style={{ fontSize: "14px", opacity: "0.8" }}>experienced project and program managers</div>
+                        <div style={{ fontSize: "14px", opacity: "0.8" }}>{SapficoPageText.margketSubHeading3}</div>
                     </div>
                 </div>
             </section>
             <section id={css.insightsection}>
-                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>TRANSFORMATION CONSULTING CASE STUDIES AND FEATURED INSIGHTS</div>
+                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>{SapficoPageText.techHeading}</div>
                 <div id={css.insightOuter}>
                     <div id={css.insight}>
                         <div style={{ fontWeight: "600" }}>The power of pace in technology</div>
