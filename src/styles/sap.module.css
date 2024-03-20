@@ -1,0 +1,211 @@
+@import url("https://fonts#googleapis#com/css2?family=Noto+Sans&family=Poppins&display=swap");
+#topsection{
+    margin:20px 50px;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    
+}
+#threeimage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap:10px; */
+
+}
+#threeimageprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap:10px; */
+
+}
+#secondsection{
+    font-family: "Poppins";
+    text-align: center;
+    margin:100px 0px;
+}
+#secondsectiongrey{
+    font-family: "Poppins";
+    text-align: center;
+    margin:100px 0px;
+    background-color: #f2f2f2;
+    padding: 50px 0px;
+}
+#secondsection2{
+    font-family: "Poppins";
+    text-align: center;
+    margin:60px 0px;
+    background-color: #f2f2f2;
+    padding:50px 0px;
+}
+#threeimagesection{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#allsapOuterMost{
+    font-family: "Poppins";
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:100px 0;
+}
+#allsapOuter{
+    display: flex;
+    gap:50px;
+}
+#allsapInner{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+
+#greenNumber{
+   height:174px;
+   width:174px;
+border-radius:100px;
+background-color:#4ec9b1;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+}
+
+
+#insight{
+    display: flex;
+    flex-direction: column;
+    /* align-items:start; */
+    width: 250px;
+    gap:20px;
+    padding:20px;
+
+}
+#insight2{
+    display: flex;
+    flex-direction: column;
+    /* align-items:start; */
+    width: 250px;
+    gap:20px;
+    padding:20px;
+
+}
+#insightOuter{
+    display: flex;
+    justify-content: space-evenly;
+    gap:30px;
+    /* align-items: center; */
+}
+#insight:hover{
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#insightsection{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins";
+    justify-content: center;
+    align-items: center;
+}
+
+#contactOuter{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    margin:50px 0px -110px 0px;
+    background-color: #f2f2f2;
+}
+
+.inputTag{
+    border-color: white;
+    /* text-decoration: none; */
+    border-style: none;
+    height:42px;
+    width:355px;
+    /* margin:0px 10px; */
+}
+#formDesign{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+
+#meetyou{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    text-align: center;
+    padding: 100px 150px;
+    background-color: #f2f2f2;
+}
+
+#threeButtonOuter{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#threeButton{
+    display: flex;
+    gap:30px;
+}
+#buttonTypes{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+#buttonTypesOuter{
+    display: flex;
+    gap:50px;
+}
+#outerButton{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#but{
+    /* style={{backgroundColor:"#345F78", color:"white",borderRadius:"5px", fontWeight:"700",height:"50px",display:"flex",justifyContent:"center",alignItems:center; */
+        background-color:#345F78;
+        color:white;
+        border-radius: 5px;
+        font-weight: 700;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:0px 15px;
+        cursor: pointer;
+}
+#allservice{
+    cursor: pointer;
+    border-color: #939ba0;
+    color: #939ba0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 20px;
+    text-transform: none;
+    border:2px solid #939ba0;
+}
