@@ -7,7 +7,7 @@ import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import FotterComponent from '@/components/molecules/Fotter';
 import Contact from '../contact-us';
 import Letstalk from '@/components/molecules/Contact';
-const SapTalentPool = () => {
+const SapFicoTalentPool = () => {
     return (
         <div>
             <Navbar />
@@ -178,4 +178,4 @@ const SapTalentPool = () => {
     )
 }
 
-export default SapTalentPool
+export default SapFicoTalentPool

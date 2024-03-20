@@ -26,6 +26,13 @@
     text-align: center;
     margin:100px 0px;
 }
+#secondsectiongrey{
+    font-family: "Poppins";
+    text-align: center;
+    margin:100px 0px;
+    background-color: #f2f2f2;
+    padding: 50px 0px;
+}
 #secondsection2{
     font-family: "Poppins";
     text-align: center;
@@ -135,4 +142,70 @@ font-size: 40px;
     flex-direction: column;
     gap:20px;
     align-items: center;
+}
+
+#meetyou{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    text-align: center;
+    padding: 100px 150px;
+    background-color: #f2f2f2;
+}
+
+#threeButtonOuter{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#threeButton{
+    display: flex;
+    gap:30px;
+}
+#buttonTypes{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+#buttonTypesOuter{
+    display: flex;
+    gap:50px;
+}
+#outerButton{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#but{
+    /* style={{backgroundColor:"#345F78", color:"white",borderRadius:"5px", fontWeight:"700",height:"50px",display:"flex",justifyContent:"center",alignItems:center; */
+        background-color:#345F78;
+        color:white;
+        border-radius: 5px;
+        font-weight: 700;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:0px 15px;
+        cursor: pointer;
+}
+#allservice{
+    cursor: pointer;
+    border-color: #939ba0;
+    color: #939ba0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 20px;
+    text-transform: none;
+    border:2px solid #939ba0;
 }
