@@ -63,36 +63,36 @@
 //                     </div>
 //                 </div>
 //             </section>
-//             <section>
-//                 <div id={css.threeButtonOuter}>
-//                     <div style={{ fontSize: "23px", fontWeight: "600" }}>LIMITLESS ACCESS TO TOP TALENT AND SKILLS</div>
-//                     <div style={{ width: "1000px", textAlign: "center", opacity: "0.8" }}>Whether you want to flex your team, reduce consulting spend, place an interim C-suite executive, or access in-demand skills or expertise, get top business minds with experience in the industries, functions, and capabilities you need.</div>
-//                     <div id={css.outerButton}>
-//                         <div id={css.threeButton}>
-//                             <div id={css.but}>CAPABILITIES</div>
-//                             <div id={css.but}>INDUSTRIES</div>
-//                             <div id={css.but}>FUNCTIONS</div>
-//                         </div>
-//                         <div id={css.buttonTypesOuter}>
-//                             <div id={css.buttonTypes}>
-//                                 <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_1.webp" height={78} width={78} alt="" />STRATEGY & PLANNING</div>
-//                                 <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_2.webp" height={78} width={78} alt="" />OPERATIONS & PERFORMANCE</div>
-//                                 <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_3.webp" height={78} width={78} alt="" />TRANSFORMATIONS</div>
-//                                 <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_4.webp" height={78} width={78} alt="" />HIGHLY SKILLED CONTINGENT LABOR</div>
-//                             </div>
-//                             <div id={css.buttonTypes}>
-//                                 <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_5.webp" height={78} width={78} alt="" />INTERIM EXECUTIVES</div>
-//                                 <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_6.webp" height={78} width={78} alt="" />ORGANIZATIONAL DESIGN & EFFECTIVENESS</div>
-//                                 <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_7.webp" height={78} width={78} alt="" />PROJECT MANAGEMENT</div>
-//                                 <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_8.webp" height={78} width={78} alt="" />MANAGEMENT CONSULTING RESOURCES</div>
-//                             </div>
-//                         </div>
-//                         <div>
-//                             <div id={css.allservice}>See All Services</div>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </section>
+            // <section>
+            //     <div id={css.threeButtonOuter}>
+            //         <div style={{ fontSize: "23px", fontWeight: "600" }}>LIMITLESS ACCESS TO TOP TALENT AND SKILLS</div>
+            //         <div style={{ width: "1000px", textAlign: "center", opacity: "0.8" }}>Whether you want to flex your team, reduce consulting spend, place an interim C-suite executive, or access in-demand skills or expertise, get top business minds with experience in the industries, functions, and capabilities you need.</div>
+            //         <div id={css.outerButton}>
+            //             <div id={css.threeButton}>
+            //                 <div id={css.but}>CAPABILITIES</div>
+            //                 <div id={css.but}>INDUSTRIES</div>
+            //                 <div id={css.but}>FUNCTIONS</div>
+            //             </div>
+            //             <div id={css.buttonTypesOuter}>
+            //                 <div id={css.buttonTypes}>
+            //                     <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_1.webp" height={78} width={78} alt="" />STRATEGY & PLANNING</div>
+            //                     <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_2.webp" height={78} width={78} alt="" />OPERATIONS & PERFORMANCE</div>
+            //                     <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_3.webp" height={78} width={78} alt="" />TRANSFORMATIONS</div>
+            //                     <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_4.webp" height={78} width={78} alt="" />HIGHLY SKILLED CONTINGENT LABOR</div>
+            //                 </div>
+            //                 <div id={css.buttonTypes}>
+            //                     <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_5.webp" height={78} width={78} alt="" />INTERIM EXECUTIVES</div>
+            //                     <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_6.webp" height={78} width={78} alt="" />ORGANIZATIONAL DESIGN & EFFECTIVENESS</div>
+            //                     <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_7.webp" height={78} width={78} alt="" />PROJECT MANAGEMENT</div>
+            //                     <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_8.webp" height={78} width={78} alt="" />MANAGEMENT CONSULTING RESOURCES</div>
+            //                 </div>
+            //             </div>
+            //             <div>
+            //                 <div id={css.allservice}>See All Services</div>
+            //             </div>
+            //         </div>
+            //     </div>
+            // </section>
 //             <section id={css.secondsectiongrey}>
 //                 <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>TECHNOLOGY + TALENT + KNOW-HOW</div>
 //                 <div style={{ fontSize: "18px", padding: "0px 200px", marginBottom: "50px", opacity: "0.7" }}>Our high-end, on-demand talent marketplace powers greater agility, innovation, outcomes, and competitive advantage. Through proprietary technology, vast talent knowledge, and skilled in-house consultants, we deliver a handpicked selection of freelance consultants and experts vetted for the project at hand.</div>
@@ -159,14 +159,14 @@ const SapTalentPool = () => {
     return (
         <div>
             <Navbar />
-            <section style={{backgroundColor: "#f2f2f2",  padding: "50px 0px" }} >
-                <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+            <section style={{ padding: "50px 0px" }} >
+                <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                     <div id={css.topsection}>
-                        <div style={{ fontSize: "48px", width: "300px", fontWeight: "600", lineHeight: "59px" }}>SAP-FICO Consulting</div>
+                        <div style={{ fontSize: "48px", width: "300px", fontWeight: "600", lineHeight: "59px" }}>SAP Talent on Demand</div>
                         <div style={{ fontSize: "20px" }}>Find a transformation consultant to achieve meaningful change.</div>
                         <div>
                             <CustomButton2
-                                label="FIND A CONSULTANT"
+                                label="GET STARTED"
                                 // onClick={hirenowClick}
                                 buttonStyle={{
                                     width: "272px",
@@ -177,59 +177,67 @@ const SapTalentPool = () => {
                                     backgroundColor: "#2871ff",
                                 }}
                                 hoverStyle={{
-                                    backgroundColor: "lightblue",
-                                    color: "#2871ff",
+                                    backgroundColor: "lightblue", color: "#2871ff",
                                 }}
                             />
                         </div>
                     </div>
-                    <Image style={{borderRadius:"10px"}} src="/TalentPoolImages/service5.jpg" height={330} width={330} alt="" />
+                    <Image style={{ borderRadius: "10px" }} src="/TalentPoolImages/service5.jpg" height={330} width={330} alt="" />
                 </div>
             </section>
             <section>
-                 <div id={css.meetyou}>
-                     <div style={{ fontSize: "23px", fontWeight: "600" }}>MEET YOUR NEW COMPETITIVE ADVANTAGE</div>
-                     <div style={{ opacity: "0.8" }}>Why limit yourself to traditional sources of talent—existing staff, big consulting firms, or your personal network? Resource better, faster, more flexibly, and at the best market prices by accessing Business Talent Group’s marketplace of high-end management consultants, subject matter experts, boutiques, and executives. Overcome resource limitations, complete critical projects, and enhance business performance with on-demand talent.</div>
-                 </div>
-             </section>
-             <section id={css.secondsection}>
-                 {/* <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>SAP-FICO TRANSFORMATION CONSULTING CAPABILITIES</div> */}
-                 <div id={css.threeimage}>
-                     <div id={css.threeimagesection}>
-                         <div><Image src="/TalentPoolImages/service6.webp" height={130} width={130} alt="" /></div>
-                         <div style={{ fontWeight: "600" }}>TOP TALENT</div>
-                         <div style={{ fontSize: "14px" }}>Access independent consultants trained by Big 3 and boutique firms, plus experts and executives with experience at the world&apos;s most successful companies.</div>
-                     </div>
-                     <div id={css.threeimagesection}>
-                         <div><Image src="/TalentPoolImages/service7.webp" height={130} width={130} alt="" /></div>
-                         <div style={{ fontWeight: "600" }}>WORLD-CLASS SERVICE</div>
-                         <div style={{ fontSize: "14px" }}>Get the service level you need—from hands-on support to automated and instant—to scope the work, present a curated slate of candidates, and manage all contracting and compliance.</div>
+                <div id={css.meetyou}>
+                    <div style={{ fontSize: "23px", fontWeight: "600" }}>MEET YOUR NEW COMPETITIVE ADVANTAGE</div>
+                    <div style={{ opacity: "0.8" }}>Why limit yourself to traditional sources of talent—existing staff, big consulting firms, or your personal network? Resource better, faster, more flexibly, and at the best market prices by accessing Business Talent Group’s marketplace of high-end management consultants, subject matter experts, boutiques, and executives. Overcome resource limitations, complete critical projects, and enhance business performance with on-demand talent.</div>
+                </div>
+            </section>
+            <section id={css.secondsection}>
+                {/* <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>SAP-FICO TRANSFORMATION CONSULTING CAPABILITIES</div> */}
+                <div id={css.threeimage}>
+                    <div id={css.threeimagesection}>
+                        <div><Image src="/TalentPoolImages/service6.webp" height={130} width={130} alt="" /></div>
+                        <div style={{ fontWeight: "600" }}>TOP TALENT</div>
+                        <div style={{ fontSize: "14px" }}>Access independent consultants trained by Big 3 and boutique firms, plus experts and executives with experience at the world&apos;s most successful companies.</div>
                     </div>
-                     <div id={css.threeimagesection}>
-                         <div><Image src="/TalentPoolImages/service8.webp" height={130} width={130} alt="" /></div>
-                         <div style={{ fontWeight: "600" }}>BUILT FOR BUSINESS</div>
-                         <div style={{ fontSize: "14px" }}>Rest easy with best-in-class information security, confidentiality, labor compliance, and contracting processes that adhere to the strict requirements of leading organizations.</div>
-                     </div>
-                 </div>
-             </section>
-            <section id={css.insightsection}>
-                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>WHAT WE DO</div>
-                <div id={css.insightOuter}>
-                    <div id={css.insight2}>
-                        <div style={{ fontWeight: "600", fontSize: "24px" }}>The power of pace in technology</div>
-                        <div>Hivemind Technologies explains what steps matter in speeding software development for transformations.</div>
+                    <div id={css.threeimagesection}>
+                        <div><Image src="/TalentPoolImages/service7.webp" height={130} width={130} alt="" /></div>
+                        <div style={{ fontWeight: "600" }}>WORLD-CLASS SERVICE</div>
+                        <div style={{ fontSize: "14px" }}>Get the service level you need—from hands-on support to automated and instant—to scope the work, present a curated slate of candidates, and manage all contracting and compliance.</div>
                     </div>
-                    <div id={css.insight2}>
-                        <div style={{ fontWeight: "600", fontSize: "24px" }}>The power of pace in technology</div>
-                        <div >Hivemind Technologies explains what steps matter in speeding software development for transformations.</div>
+                    <div id={css.threeimagesection}>
+                        <div><Image src="/TalentPoolImages/service8.webp" height={130} width={130} alt="" /></div>
+                        <div style={{ fontWeight: "600" }}>BUILT FOR BUSINESS</div>
+                        <div style={{ fontSize: "14px" }}>Rest easy with best-in-class information security, confidentiality, labor compliance, and contracting processes that adhere to the strict requirements of leading organizations.</div>
                     </div>
-                    <div id={css.insight2}>
-                        <div style={{ fontWeight: "600", fontSize: "24px" }}>The power of pace in technology</div>
-                        <div >Hivemind Technologies explains what steps matter in speeding software development for transformations.</div>
-                    </div>
-                    <div id={css.insight2}>
-                        <div style={{ fontWeight: "600", fontSize: "24px" }}>The power of pace in technology</div>
-                        <div >Hivemind Technologies explains what steps matter in speeding software development for transformations.</div>
+                </div>
+            </section>
+            <section>
+                <div id={css.threeButtonOuter}>
+                    <div style={{ fontSize: "23px", fontWeight: "600" }}>LIMITLESS ACCESS TO TOP TALENT AND SKILLS</div>
+                    <div style={{ width: "1000px", textAlign: "center", opacity: "0.8" }}>Whether you want to flex your team, reduce consulting spend, place an interim C-suite executive, or access in-demand skills or expertise, get top business minds with experience in the industries, functions, and capabilities you need.</div>
+                    <div id={css.outerButton}>
+                        <div id={css.threeButton}>
+                            <div id={css.but}>CAPABILITIES</div>
+                            <div id={css.but}>INDUSTRIES</div>
+                            <div id={css.but}>FUNCTIONS</div>
+                        </div>
+                        <div id={css.buttonTypesOuter}>
+                            <div id={css.buttonTypes}>
+                                <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_1.webp" height={78} width={78} alt="" />STRATEGY & PLANNING</div>
+                                <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_2.webp" height={78} width={78} alt="" />OPERATIONS & PERFORMANCE</div>
+                                <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_3.webp" height={78} width={78} alt="" />TRANSFORMATIONS</div>
+                                <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_4.webp" height={78} width={78} alt="" />HIGHLY SKILLED CONTINGENT LABOR</div>
+                            </div>
+                            <div id={css.buttonTypes}>
+                                <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_5.webp" height={78} width={78} alt="" />INTERIM EXECUTIVES</div>
+                                <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_6.webp" height={78} width={78} alt="" />ORGANIZATIONAL DESIGN & EFFECTIVENESS</div>
+                                <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_7.webp" height={78} width={78} alt="" />PROJECT MANAGEMENT</div>
+                                <div style={{display:"flex",alignItems:"center",width:"300px"}}><Image src="/TalentPoolImages/service_8.webp" height={78} width={78} alt="" />MANAGEMENT CONSULTING RESOURCES</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div id={css.allservice}>See All Services</div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -325,7 +333,7 @@ const SapTalentPool = () => {
                 </div>
             </section>
             <section>
-                <Letstalk/>
+                <Letstalk />
             </section>
             <FotterComponent />
         </div>
