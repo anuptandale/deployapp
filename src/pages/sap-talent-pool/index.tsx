@@ -186,26 +186,32 @@ const SapTalentPool = () => {
                     <Image style={{borderRadius:"10px"}} src="/TalentPoolImages/service5.jpg" height={330} width={330} alt="" />
                 </div>
             </section>
-            <section id={css.secondsection}>
-                <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>SAP-FICO TRANSFORMATION CONSULTING CAPABILITIES</div>
-                <div id={css.threeimage}>
-                    <div id={css.threeimagesection}>
-                        <div><Image src="/TalentPoolImages/service2.webp" height={130} width={130} alt="" /></div>
-                        <div style={{ fontWeight: "600" }}>EXPERTISE TO ACCELERATE YOUR TRANSFORMATION</div>
-                        <div style={{ fontSize: "14px" }}>Engage thought leaders on everything from Six Sigma implementation to risk management, employee empowerment to CRM adoption.</div>
+            <section>
+                 <div id={css.meetyou}>
+                     <div style={{ fontSize: "23px", fontWeight: "600" }}>MEET YOUR NEW COMPETITIVE ADVANTAGE</div>
+                     <div style={{ opacity: "0.8" }}>Why limit yourself to traditional sources of talent—existing staff, big consulting firms, or your personal network? Resource better, faster, more flexibly, and at the best market prices by accessing Business Talent Group’s marketplace of high-end management consultants, subject matter experts, boutiques, and executives. Overcome resource limitations, complete critical projects, and enhance business performance with on-demand talent.</div>
+                 </div>
+             </section>
+             <section id={css.secondsection}>
+                 {/* <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>SAP-FICO TRANSFORMATION CONSULTING CAPABILITIES</div> */}
+                 <div id={css.threeimage}>
+                     <div id={css.threeimagesection}>
+                         <div><Image src="/TalentPoolImages/service6.webp" height={130} width={130} alt="" /></div>
+                         <div style={{ fontWeight: "600" }}>TOP TALENT</div>
+                         <div style={{ fontSize: "14px" }}>Access independent consultants trained by Big 3 and boutique firms, plus experts and executives with experience at the world&apos;s most successful companies.</div>
+                     </div>
+                     <div id={css.threeimagesection}>
+                         <div><Image src="/TalentPoolImages/service7.webp" height={130} width={130} alt="" /></div>
+                         <div style={{ fontWeight: "600" }}>WORLD-CLASS SERVICE</div>
+                         <div style={{ fontSize: "14px" }}>Get the service level you need—from hands-on support to automated and instant—to scope the work, present a curated slate of candidates, and manage all contracting and compliance.</div>
                     </div>
-                    <div id={css.threeimagesection}>
-                        <div><Image src="/TalentPoolImages/service3.webp" height={130} width={130} alt="" /></div>
-                        <div style={{ fontWeight: "600" }}>SKILLS TO SUPPLEMENT YOUR TEAM</div>
-                        <div style={{ fontSize: "14px" }}>Add expertise whenever you need to fulfill important initiatives or meet critical deadlines.</div>
-                    </div>
-                    <div id={css.threeimagesection}>
-                        <div><Image src="/TalentPoolImages/service4.webp" height={130} width={130} alt="" /></div>
-                        <div style={{ fontWeight: "600" }}>FROM INSIGHT TO ACTION</div>
-                        <div style={{ fontSize: "14px" }}>BTG&apos;s modular approach makes it easy to get the help you need, whether it&apos;s individuals or teams, on-site or remote, U.S. based or global.</div>
-                    </div>
-                </div>
-            </section>
+                     <div id={css.threeimagesection}>
+                         <div><Image src="/TalentPoolImages/service8.webp" height={130} width={130} alt="" /></div>
+                         <div style={{ fontWeight: "600" }}>BUILT FOR BUSINESS</div>
+                         <div style={{ fontSize: "14px" }}>Rest easy with best-in-class information security, confidentiality, labor compliance, and contracting processes that adhere to the strict requirements of leading organizations.</div>
+                     </div>
+                 </div>
+             </section>
             <section id={css.insightsection}>
                 <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>WHAT WE DO</div>
                 <div id={css.insightOuter}>
