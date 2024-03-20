@@ -49,7 +49,7 @@ const SapTalentPool = () => {
                     <div id={css.threeimagesection}>
                         <div><Image src="/TalentPoolImages/service6.webp" height={130} width={130} alt="" /></div>
                         <div style={{ fontWeight: "600" }}>TOP TALENT</div>
-                        <div style={{ fontSize: "14px" }}>Access independent consultants trained by Big 3 and boutique firms, plus experts and executives with experience at the world's most successful companies.</div>
+                        <div style={{ fontSize: "14px" }}>Access independent consultants trained by Big 3 and boutique firms, plus experts and executives with experience at the world&apos;s most successful companies.</div>
                     </div>
                     <div id={css.threeimagesection}>
                         <div><Image src="/TalentPoolImages/service7.webp" height={130} width={130} alt="" /></div>
