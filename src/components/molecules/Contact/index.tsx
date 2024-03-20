@@ -11,31 +11,31 @@ const Letstalk = () => {
                     <div style={{ display: "flex", gap: "20px" }}>
                         <div>
                             <label htmlFor="fname">*First name</label><br />
-                            <input className={css.inputTag} type="text" id="fname" name="fname" value="" />
+                            <input className={css.inputTag} type="text" id="fname" name="fname"  />
                         </div>
                         <div>
                             <label htmlFor="fname">*Last name</label><br />
-                            <input className={css.inputTag} type="text" id="fname" name="fname" value="" />
+                            <input className={css.inputTag} type="text" id="fname" name="fname"  />
                         </div>
                     </div>
                     <div style={{ display: "flex", gap: "20px" }}>
                         <div>
                             <label htmlFor="fname">*Business Email</label><br />
-                            <input className={css.inputTag} type="text" id="fname" name="fname" value="" />
+                            <input className={css.inputTag} type="text" id="fname" name="fname"  />
                         </div>
                         <div>
                             <label htmlFor="fname">Phone</label><br />
-                            <input className={css.inputTag} type="text" id="fname" name="fname" value="" />
+                            <input className={css.inputTag} type="text" id="fname" name="fname"  />
                         </div>
                     </div>
                     <div style={{ display: "flex", gap: "20px" }}>
                         <div>
                             <label htmlFor="fname">*Company</label><br />
-                            <input className={css.inputTag} type="text" id="fname" name="fname" value="" />
+                            <input className={css.inputTag} type="text" id="fname" name="fname"  />
                         </div>
                         <div>
                             <label htmlFor="fname">*Country</label><br />
-                            <input className={css.inputTag} type="text" id="fname" name="fname" value="" />
+                            <input className={css.inputTag} type="text" id="fname" name="fname"  />
                         </div>
                     </div>
                     <div>
