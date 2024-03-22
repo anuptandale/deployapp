@@ -2,7 +2,7 @@
 
 .topSection {
     @media(320px<width<=1000px){
-        width:1200px;
+        width:990px;
     }
     padding: 10px 200px;
     margin: 30px 0px 80px 0px;
@@ -23,7 +23,7 @@
         width: 1090px;
     }
     @media(320px<width<=1000px){
-        width:1300px;
+        width:700px;
     }
     background-color: #FAFAFA;
     /* padding: 0px 10px  ; */
@@ -34,6 +34,9 @@
     /* width:1300px; */
 }
 .buttonflex{
+    @media(width<1000px){
+        width:1400px;
+    }
     background-color: #FAFAFA;
     /* padding: 0px 10px  ; */
     display: flex;
@@ -51,6 +54,9 @@
 .conus{
     /* background-color: #FAFAFA; */
     /* padding: 0px 10px  ; */
+    @media(width<1000px){
+        width:1400px;
+    }
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,9 +80,15 @@
     padding: 0px 10px  ;
     /* width:800px; */
 }
+#mainContainSection{
+    @media(width<1000px){
+        width:1300px;
+    }
+    display: flex;
+}
 .accor{
     @media(320px<width<=1000px){
-        width:1400px;
+        width:1200px;
         justify-content: center;
         
     }

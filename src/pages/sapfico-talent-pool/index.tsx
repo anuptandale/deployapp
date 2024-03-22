@@ -12,7 +12,7 @@ const SapFicoTalentPool = () => {
     return (
         <div>
             <Navbar />
-            <section style={{backgroundColor: "#f2f2f2",  padding: "50px 0px" }} >
+            <section id={css.outerSectionMost} >
                 <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                     <div id={css.topsection}>
                         <div style={{ fontSize: "48px", width: "300px", fontWeight: "600", lineHeight: "59px" }}>{SapficoPageText.mainheading}</div>
@@ -63,19 +63,19 @@ const SapFicoTalentPool = () => {
                 <div style={{ fontSize: "23px", fontWeight: "600", marginBottom: "50px" }}>{SapficoPageText.wedoHeading}</div>
                 <div id={css.insightOuter}>
                     <div id={css.insight2}>
-                        <div style={{ fontWeight: "600", fontSize: "24px" }}>{SapficoPageText.wedoHeading1}</div>
+                        <div style={{ fontWeight: "600", fontSize: "20px" }}>{SapficoPageText.wedoHeading1}</div>
                         <div>{SapficoPageText.wedoSubHeading1}</div>
                     </div>
                     <div id={css.insight2}>
-                        <div style={{ fontWeight: "600", fontSize: "24px" }}>The power of pace in technology</div>
+                        <div style={{ fontWeight: "600", fontSize: "20px" }}>The power of pace in technology</div>
                         <div >Hivemind Technologies explains what steps matter in speeding software development for transformations.</div>
                     </div>
                     <div id={css.insight2}>
-                        <div style={{ fontWeight: "600", fontSize: "24px" }}>The power of pace in technology</div>
+                        <div style={{ fontWeight: "600", fontSize: "20px" }}>The power of pace in technology</div>
                         <div >Hivemind Technologies explains what steps matter in speeding software development for transformations.</div>
                     </div>
                     <div id={css.insight2}>
-                        <div style={{ fontWeight: "600", fontSize: "24px" }}>The power of pace in technology</div>
+                        <div style={{ fontWeight: "600", fontSize: "20px" }}>The power of pace in technology</div>
                         <div >Hivemind Technologies explains what steps matter in speeding software development for transformations.</div>
                     </div>
                 </div>

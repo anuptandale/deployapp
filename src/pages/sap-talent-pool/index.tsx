@@ -14,7 +14,7 @@ const SapTalentPool = () => {
     return (
         <div>
             <Navbar />
-            <section style={{ padding: "50px 0px" }} >
+            <section id={css.outermostSection}  >
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                     <div id={css.topsection}>
                         <div style={{ fontSize: "48px", width: "300px", fontWeight: "600", lineHeight: "59px" }}>{SapPageText.mainheading}</div>

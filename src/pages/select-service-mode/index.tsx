@@ -18,7 +18,7 @@ const SelectServiceMode = () => {
                 <div style={{ textAlign: 'center', fontSize: "30px" }}>Select the Best Match</div>
                 <div style={{ textAlign: 'center', fontSize: "20px" }}>Select the service model that best aligns with your project needs and preferences. Whether you prefer the autonomy of our Self-Service model or the comprehensive support of our Assisted Service model, we&apos;re here to connect you with the right talent, efficiently and effectively.</div>
             </section>
-            <section style={{ display: "flex" }}>
+            <section id={style.mainContainSection} >
                 <section className={style.jobdesc}>
                     <div className={style.jobdescContent} >
                         <div className={style.jobdescHeading}>Self Service Model</div>
