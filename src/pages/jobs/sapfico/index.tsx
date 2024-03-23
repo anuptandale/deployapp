@@ -5,8 +5,9 @@ import css from "../../../styles/jobs.module.css";
 import JobProfileCarausel from '@/components/molecules/JobProfileCarausel';
 import { DEV_PUBLIC_APIURL } from '../../../../configs/auth';
 import axios from 'axios';
-const Skillsprofiles = (props:any) => {
-    const { page_data } = props;
+import { jobsText } from '@/constants/texts';
+const Skillsprofiles = () => {
+    // const { page_data } = props;
     return (
         <div>
             <div style={{ marginLeft: "150px" }}>
@@ -21,9 +22,9 @@ const Skillsprofiles = (props:any) => {
             </div>
             <section className={css.headingContainer} >
                 <div className={css.content}>
-                    <div className={css.heading}>Remote {page_data.Skill} jobs</div>
-                    <div className={css.headingDesc}>{page_data.Description}</div>
-                    <Button variant="contained" style={{ width: "300px", height: "50px" }}>Apply as {page_data.Skill}</Button>
+                    <div className={css.heading}>{jobsText.heading}</div>
+                    <div className={css.headingDesc}>{jobsText.desc}</div>
+                    <Button variant="contained" style={{ width: "300px", height: "50px" }}>Apply as SAP-FICO</Button>
                 </div>
                 <div>
                     <Image
@@ -76,37 +77,37 @@ const Skillsprofiles = (props:any) => {
                             <div className={css.jobrespon}>Job responsibilities</div>
                             <div className={css.jobresponContent} >
                             {/* <FiberManualRecordIcon sx={{ fontSize: "10px" }} */}
-                                <div>  {page_data.Preferred_Skills[0]}</div>
-                                <div>{page_data.Preferred_Skills[1]}</div>
-                                <div> {page_data.Preferred_Skills[2]}</div>
-                                <div> {page_data.Preferred_Skills[3]}</div>
-                                <div> {page_data.Preferred_Skills[4]}</div>
+                                <div>  {jobsText.jobresp[0]}</div>
+                                <div>{jobsText.jobresp[1]}</div>
+                                <div>{jobsText.jobresp[2]}</div>
+                                <div>{jobsText.jobresp[3]}</div>
+                                <div>{jobsText.jobresp[4]}</div>
                             </div>
                         </div>
                         <div className={css.flexgap1}>
                             <div className={css.jobrespon}>Minimum requirements</div>
                             <div className={css.jobresponContent} >
-                                <div>  {page_data.Requirements[0]}</div>
-                                <div> {page_data.Requirements[1]}</div>
-                                <div> {page_data.Requirements[2]}</div>
-                                <div> {page_data.Requirements[3]}</div>
-                                <div> {page_data.Requirements[4]}</div>
+                                <div>  {jobsText.minReq[0]}</div>
+                                <div> {jobsText.minReq[1]}</div>
+                                <div>{jobsText.minReq[2]}</div>
+                                <div> {jobsText.minReq[3]}</div>
+                                <div> {jobsText.minReq[4]}</div>
                             </div>
                         </div>
                         <div className={css.flexgap1}>
                             <div className={css.jobrespon}>Preferred skills</div>
                             <div className={css.jobresponContent} >
-                                <div> {page_data.Roles[0]}</div>
-                                <div> {page_data.Roles[1]}</div>
-                                <div> {page_data.Roles[2]}</div>
-                                <div> {page_data.Roles[3]}</div>
+                                <div> {jobsText.prefSkills[0]}</div>
+                                <div> {jobsText.prefSkills[1]}</div>
+                                <div> {jobsText.prefSkills[2]}</div>
+                                <div> {jobsText.prefSkills[3]}</div>
                             </div>
                         </div>
                     </div>
 
 
                 </div>
-                <div>
+                {/* <div>
                     <div>
                         <JobProfileCarausel />
                     </div>
@@ -129,7 +130,7 @@ const Skillsprofiles = (props:any) => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
             <section className={css.joinSkills} >
                 <div className={css.jobdescHeading}>Why join Skillscapital?</div>

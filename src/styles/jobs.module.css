@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 
 .headingContainer{
+  @media(1000px<width<=1500px){
+    width:97vw;
+  }
+    
   @media(width<=320px){
     width:900px;
     margin-left: 200px;
@@ -23,9 +27,8 @@
 }
 
 .heading{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 540;
-    width:800px;
 }
 
 .headingDesc{
@@ -51,6 +54,9 @@
     margin-left: -20px;
 }
 .jobdesc{
+  @media(1000px<width<=1500px){
+    width:97vw;
+  }
   @media(width<=320px){
     width:1090px;
   }
@@ -62,7 +68,9 @@
     width:1300px;
 }
 .joinSkills{
-  
+  @media(1000px<width<=1500px){
+    width:97vw;
+  }
   padding: 100px;
   width:1300px;
 }

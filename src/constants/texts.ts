@@ -31,9 +31,9 @@ export const HomePageText = {
   //  ---------------------------------------------------------------------------------------------------------------------------
 
   heading_1: "Transform Your Tech Capabilities",
-  heading_2:"with Vetted Talent in Specialized Skills,",
-  heading_3:"10X Faster and with 95% Accuracy",
-  heading_4:"Transform Your Tech Capabilities with Elite Talent in Specialized Skills, 10X Faster and 95% Precise Match",
+  heading_2: "with Vetted Talent in Specialized Skills,",
+  heading_3: "10X Faster and with 95% Accuracy",
+  heading_4: "Transform Your Tech Capabilities with Elite Talent in Specialized Skills, 10X Faster and 95% Precise Match",
   heading1Bold: "Skills Capital",
   heading2:
     "Your Gateway to Elite, Specialized Tech Expertise where Precision meets Speed to Accelerate Your Success",
@@ -81,7 +81,7 @@ export const HomePageText = {
   Legacy_heading: `Legacy Modernization Specialists`,
   Legacy_content: `Revitalize and transform your legacy systems with our deep vetted talent, ensuring seamless modernization and future-readiness.`,
 
-  varsatile_content:"With diverse expertise and a commitment to excellence, our vast network empowers us to address a myriad of needs and consistently provide high-quality solutions.",
+  varsatile_content: "With diverse expertise and a commitment to excellence, our vast network empowers us to address a myriad of needs and consistently provide high-quality solutions.",
 
   //-------------------------------------------------------------------------------------------------------------------------
   // 2nd Section Ends
@@ -269,7 +269,7 @@ export const HomePageText = {
   // 9th Section Ends
   //---------------------------------------------------------------------------------------------------------------------------
 
-  companiesCarauselContent:[
+  companiesCarauselContent: [
     "1 Turing books $87M at a $1.1B valuation to help source, hire and manage engineers remotely",
     "2 Turing books $87M at a $1.1B valuation to help source, hire and manage engineers remotely",
     "3 Turing books $87M at a $1.1B valuation to help source, hire and manage engineers remotely",
@@ -327,9 +327,9 @@ export const HireDeveloperPageText = {
   superchargeHiringPoint2: "Navigate skill scarcity effortlessly",
   superchargeHiringPoint3: "Forge business resilience seamlessly",
 
-  superChargeParaPoints: ["Hire deeply vetted developers for hard-to-find tech skills in just 4 hours with our AI-Powered Talent Cloud and our Global Network Expertise.", 
-  "Specializing in hard-to-find and niche skills, we make the rare seem routine in our expansive talent pool and ensure you connect with right talent.", 
-  `Embrace business continuity seamlessly with our On-Demand Talent Cloud, providing agility in talent acquisition and keeping your projects on track.`
+  superChargeParaPoints: ["Hire deeply vetted developers for hard-to-find tech skills in just 4 hours with our AI-Powered Talent Cloud and our Global Network Expertise.",
+    "Specializing in hard-to-find and niche skills, we make the rare seem routine in our expansive talent pool and ensure you connect with right talent.",
+    `Embrace business continuity seamlessly with our On-Demand Talent Cloud, providing agility in talent acquisition and keeping your projects on track.`
   ],
 
   superChargePointsIcons: [`https://cdn-icons-png.flaticon.com/512/4752/4752567.png`, 'https://cdn-icons-png.flaticon.com/512/2228/2228782.png',
@@ -536,14 +536,14 @@ export const TalentPoolText = {
   //---------------------------------------------------------------------------------------------------------------------------
   // 8th Section Starts
   //---------------------------------------------------------------------------------------------------------------------------
-  whyweFocus:"Why We Focus on Hard-to-Find Skills",
-  whyweFocusSubtitle:"Our meticulous assessments guarantee their top-quality talent, providing you with professionals of exceptional expertise and competence.",
-  whyweFocusPoint1:"Global Network Prowess",
-  whyweFocusPoint2:"Market Distinction & Differentiation",
-  whyweFocusPoint3:"Leadership Expertise",
-  whyweFocusPoint1Para:"With an extensive global network and profound industry insights, we effortlessly secure hard-to-find skilled resources, ensuring a seamless and precise deployment of exceptional talent for our clients worldwide.",
-  whyweFocusPoint2Para:"Our steadfast dedication to rare skills not only differentiates us but also affirms our possession of specialized expertise. We deliver solutions that others find challenging to execute, setting a benchmark for excellence.",
-  whyweFocusPoint3Para:"Anchored by decades of collective leadership experience, our team adeptly steers through talent acquisition complexities, aligning our strategic focus on rare skills with evolving industry trends and client needs to provide invaluable direction.",
+  whyweFocus: "Why We Focus on Hard-to-Find Skills",
+  whyweFocusSubtitle: "Our meticulous assessments guarantee their top-quality talent, providing you with professionals of exceptional expertise and competence.",
+  whyweFocusPoint1: "Global Network Prowess",
+  whyweFocusPoint2: "Market Distinction & Differentiation",
+  whyweFocusPoint3: "Leadership Expertise",
+  whyweFocusPoint1Para: "With an extensive global network and profound industry insights, we effortlessly secure hard-to-find skilled resources, ensuring a seamless and precise deployment of exceptional talent for our clients worldwide.",
+  whyweFocusPoint2Para: "Our steadfast dedication to rare skills not only differentiates us but also affirms our possession of specialized expertise. We deliver solutions that others find challenging to execute, setting a benchmark for excellence.",
+  whyweFocusPoint3Para: "Anchored by decades of collective leadership experience, our team adeptly steers through talent acquisition complexities, aligning our strategic focus on rare skills with evolving industry trends and client needs to provide invaluable direction.",
   //---------------------------------------------------------------------------------------------------------------------------
   // 8th Section Ends
   //---------------------------------------------------------------------------------------------------------------------------
@@ -559,7 +559,7 @@ export const TalentPoolText = {
   talentPoolFeaturesPoint2: "Aggregated Candidate Sourcing",
   talentPoolFeaturesPoint3: "Integrated Assessments & Vetting",
   talentPoolFeaturesPoint4: "NLP-Enabled Automated Sentiment Analysis",
-  talentPoolFeaturesPoint5:"AI-ML Powered Candidate Scoring",
+  talentPoolFeaturesPoint5: "AI-ML Powered Candidate Scoring",
 
   talentPoolFeaturesParaPoints: ["We leveraged advanced machine learning algorithms to precisely score candidates based on their profiles and deliver the best matches to the client.",
 
@@ -567,7 +567,7 @@ export const TalentPoolText = {
 
     "Applies NLP algorithms to analyze sentiment within candidate interactions, helping identify candidates who align with company culture and values."
   ],
-  talentPoolFeaturesParaPoints2:[
+  talentPoolFeaturesParaPoints2: [
     "Combines thorough assessments and vetting processes, offering a unified approach to evaluate candidates.",
     "This technology enables efficient and automated assessment of sentiments such as positive, negative, or neutral, providing valuable insights for businesses and organizations.",
   ],
@@ -645,7 +645,7 @@ export const TalentPoolText = {
   //---------------------------------------------------------------------------------------------------------------------------
   // 13th Section Starts
   //---------------------------------------------------------------------------------------------------------------------------
-    clientSayAbout:"What our clients say about us.",
+  clientSayAbout: "What our clients say about us.",
   //---------------------------------------------------------------------------------------------------------------------------
   // 13th Section Ends
   //---------------------------------------------------------------------------------------------------------------------------
@@ -687,11 +687,11 @@ export const AboutUsText = {
   // 2nd Section Starts
   //---------------------------------------------------------------------------------------------------------------------------
   aboutUsFounderpara: `Skills Capital understands the challenges that mid-market enterprises face when it comes to finding and retaining top technical talent. That's why we've developed a unique solution that provides on-demand access to elite tech talent for as long as you need them. You can access the expertise you need without having to worry about the cost and hassle of hiring and training full-time employees.`,
-  aboutUsFounderpara1:"Using our Al-powered Talent Cloud clients tap into a vast network of pre-vetted talent with specialized and hard-to­ find skills. We work with you to assemble a team that is the perfect fit for your project, whether you require programmers or CTO/advisors. And with our part-time architect/dev manager overseeing the team, you can be sure that your project will be completed with 100% success.",
-  aboutUsFounderpara2:"Led by Industry Veterans, the core leadership team has combined more than 100+ years of experience in Enterprise Software, having worked for top Fortune 500 Companies such as IBM, Accenture, PwC, Deloitte, Hewlett Packard etc. The team have worked with many of the top companies, including many Fortune 1000 as clients such as IBM, Trilogy, ESW Capital, J.P Morgan, British Telecom, Siemens, BNP Paribas, Nomura, Bank of America, Blackrock, British Telecom, BSkyB, Three etc. on technology transformation, digital transformation and legacy modernization projects.",
-  aboutUsFounderpara3:"We deliver elite teams to Mid-Market Enterprises in the lB size range, solving the talent shortfall they have, with resources they normally don't have access to at prices they can afford. We're not just a talent solutions company, we're a team of experts who are dedicated to helping you achieve your goals. If you're interested in learning more about how we can help, please don't hesitate to contact us. We look forward to working with you!",
-  aboutUsFounderpara4:"Skills Capital offers a unique solution to mid-market enterprises struggling with sourcing and retaining high-caliber technical professionals. We provide on-demand access to a pool of elite tech experts, eliminating the need for businesses to endure the expenses and challenges of hiring and training full-time staff. Clients leverage an AI-powered Talent Cloud to connect with pre-screened specialists possessing rare and specialized skills, ensuring the formation of tailor-made teams for specific projects. This approach is bolstered by experienced part-time architects or dev managers who oversee project success.",
-  aboutUsFounderpara5:"Our company's leadership, boasting over a century of combined experience in enterprise software at leading Fortune 500 companies, underscores our expertise in delivering top-tier talent solutions. Skills Capital caters to mid-sized businesses, offering access to premium resources that are typically beyond their reach, at affordable rates. Our extensive leadership client's roster includes prestigious firms across various industries, demonstrating their capability in facilitating technology and digital transformations. Skills Capital is committed to aiding companies in achieving their objectives and invites potential clients to explore how their services can address their unique talent needs.",
+  aboutUsFounderpara1: "Using our Al-powered Talent Cloud clients tap into a vast network of pre-vetted talent with specialized and hard-to­ find skills. We work with you to assemble a team that is the perfect fit for your project, whether you require programmers or CTO/advisors. And with our part-time architect/dev manager overseeing the team, you can be sure that your project will be completed with 100% success.",
+  aboutUsFounderpara2: "Led by Industry Veterans, the core leadership team has combined more than 100+ years of experience in Enterprise Software, having worked for top Fortune 500 Companies such as IBM, Accenture, PwC, Deloitte, Hewlett Packard etc. The team have worked with many of the top companies, including many Fortune 1000 as clients such as IBM, Trilogy, ESW Capital, J.P Morgan, British Telecom, Siemens, BNP Paribas, Nomura, Bank of America, Blackrock, British Telecom, BSkyB, Three etc. on technology transformation, digital transformation and legacy modernization projects.",
+  aboutUsFounderpara3: "We deliver elite teams to Mid-Market Enterprises in the lB size range, solving the talent shortfall they have, with resources they normally don't have access to at prices they can afford. We're not just a talent solutions company, we're a team of experts who are dedicated to helping you achieve your goals. If you're interested in learning more about how we can help, please don't hesitate to contact us. We look forward to working with you!",
+  aboutUsFounderpara4: "Skills Capital offers a unique solution to mid-market enterprises struggling with sourcing and retaining high-caliber technical professionals. We provide on-demand access to a pool of elite tech experts, eliminating the need for businesses to endure the expenses and challenges of hiring and training full-time staff. Clients leverage an AI-powered Talent Cloud to connect with pre-screened specialists possessing rare and specialized skills, ensuring the formation of tailor-made teams for specific projects. This approach is bolstered by experienced part-time architects or dev managers who oversee project success.",
+  aboutUsFounderpara5: "Our company's leadership, boasting over a century of combined experience in enterprise software at leading Fortune 500 companies, underscores our expertise in delivering top-tier talent solutions. Skills Capital caters to mid-sized businesses, offering access to premium resources that are typically beyond their reach, at affordable rates. Our extensive leadership client's roster includes prestigious firms across various industries, demonstrating their capability in facilitating technology and digital transformations. Skills Capital is committed to aiding companies in achieving their objectives and invites potential clients to explore how their services can address their unique talent needs.",
   aboutUsFounderDesignation: "Executive Vice President ",
   aboutUsFounderName: "Vince Ostrosky",
 
@@ -712,8 +712,8 @@ export const AboutUsText = {
   missionHiringPoint3: "Global Talent Accessibility",
 
   missionParaPoints: ["Skills Capital excels in on-demand tech talent, identifying crucial skills for effective technology navigation and growth.",
-  "Our seamless cross-functional teams address software industry challenges, providing world-class solutions for innovation and technology enablement.",
-  "Prioritizing quality, we offer specialized skills, empowering clients to work smarter and tackle critical business challenges for future-ready success."
+    "Our seamless cross-functional teams address software industry challenges, providing world-class solutions for innovation and technology enablement.",
+    "Prioritizing quality, we offer specialized skills, empowering clients to work smarter and tackle critical business challenges for future-ready success."
   ],
 
   missionPointsIcons: [`https://cdn-icons-png.flaticon.com/512/4752/4752567.png`, 'https://cdn-icons-png.flaticon.com/512/2228/2228782.png',
@@ -737,8 +737,8 @@ export const AboutUsText = {
   visionHiringPoint3: "Quality Over Quantity",
 
   visionParaPoints: ["We pinpoint unique skills in our global network of 4,000+ experts, addressing tech skills shortages precisely.",
-  "Our diverse teams blend technical expertise with strategic thinking, ensuring 100% customer success. Collaborating seamlessly during legacy transformations, our multidisciplinary squads bring comprehensive skills for faster digital futures.",
-  "Rigorously selecting seasoned experts prioritizes quality, delivering core team members with high integrity. Supported by enterprise-grade security, our commitment ensures reliable and secure collaboration for clients' success."
+    "Our diverse teams blend technical expertise with strategic thinking, ensuring 100% customer success. Collaborating seamlessly during legacy transformations, our multidisciplinary squads bring comprehensive skills for faster digital futures.",
+    "Rigorously selecting seasoned experts prioritizes quality, delivering core team members with high integrity. Supported by enterprise-grade security, our commitment ensures reliable and secure collaboration for clients' success."
   ],
 
   visionPointsIcons: [`https://cdn-icons-png.flaticon.com/512/4752/4752567.png`, 'https://cdn-icons-png.flaticon.com/512/2228/2228782.png',
@@ -762,9 +762,9 @@ export const AboutUsText = {
   ourTeamPoint3: "Bill Shin",
   ourTeamPoint4: "Pawan Gupta",
 
-  ourTeamPoint1Position:"Executive Vice President (Sales)",
-  ourTeamPoint2Position:"Executive Vice President (Transformation)",
-  ourTeamPoint3Position:"Chief Technology Officer",
+  ourTeamPoint1Position: "Executive Vice President (Sales)",
+  ourTeamPoint2Position: "Executive Vice President (Transformation)",
+  ourTeamPoint3Position: "Chief Technology Officer",
 
   ourTeamPara1: "Meet Skills Capital's accomplished leadership team, a blend of diverse talents united by a singular vision. Discover their insights on specialized projects, where you can tap into a range of skills and experiences without long-term commitments.",
   ourTeamPara2: "His Thoughts about Skills Capital ......consultants for specialized projects, tapping into diverse skills and experience without need for long-term commitments.",
@@ -802,9 +802,9 @@ export const VettingPageText = {
   //  ---------------------------------------------------------------------------------------------------------------------------
 
   heading_1: "Transform Your Tech Capabilities",
-  heading_2:"with Vetted Talent in Specialized Skills,",
-  heading_3:"10X Faster and with 95% Accuracy",
-  heading_4:"Unlock Precision Matches with AI, External Assessments, and Human Insights",
+  heading_2: "with Vetted Talent in Specialized Skills,",
+  heading_3: "10X Faster and with 95% Accuracy",
+  heading_4: "Unlock Precision Matches with AI, External Assessments, and Human Insights",
   heading1Bold: "Skills Capital",
   heading2:
     "Our Unique Combination of AI, EI and HI Ensures Ideal Candidate Matches Every Time",
@@ -813,7 +813,7 @@ export const VettingPageText = {
     "Experience unparalleled accuracy in candidate selection through our unique blend of cutting-edge AI technology, rigorous external assessments, and invaluable human insights. Our meticulous vetting process guarantees that you're presented with candidates perfectly tailored to your project requirements.",
   heading3b: " ",
   heading3c: "",
-  headingCard:"AI + EI + HI = Most Precise Match",
+  headingCard: "AI + EI + HI = Most Precise Match",
   button1_heading: "Hire Elite Talent",
   button2_heading: "Explore Talent Pool",
 
@@ -852,7 +852,7 @@ export const VettingPageText = {
   Legacy_heading: `Legacy Modernization Specialists`,
   Legacy_content: `Leveraging human expertise to provide subjective evaluations and ensure cultural fit and soft skills alignment.`,
 
-  varsatile_content:"With diverse expertise and a commitment to excellence, our vast network empowers us to address a myriad of needs and consistently provide high-quality solutions.",
+  varsatile_content: "With diverse expertise and a commitment to excellence, our vast network empowers us to address a myriad of needs and consistently provide high-quality solutions.",
 
   //-------------------------------------------------------------------------------------------------------------------------
   // 2nd Section Ends
@@ -967,12 +967,12 @@ export const VettingPageText = {
   //---------------------------------------------------------------------------------------------------------------------------
   // 6th Section Ends
   //---------------------------------------------------------------------------------------------------------------------------
-  howitworkheading1:"Pre-Vetting",
-  howitworkpara1:"Thoroughly assess candidate qualifications and compatibility with project prerequisites prior to formal selection.",
-  howitworkheading2:"Real-Time Match",
-  howitworkpara2:"Continuously align candidates with evolving project criteria in an adaptive, dynamic matching process.",
-  howitworkheading3:"Post-Vetting",
-  howitworkpara3:"Conduct additional evaluations post-match to ensure ongoing suitability and alignment with project needs.",
+  howitworkheading1: "Pre-Vetting",
+  howitworkpara1: "Thoroughly assess candidate qualifications and compatibility with project prerequisites prior to formal selection.",
+  howitworkheading2: "Real-Time Match",
+  howitworkpara2: "Continuously align candidates with evolving project criteria in an adaptive, dynamic matching process.",
+  howitworkheading3: "Post-Vetting",
+  howitworkpara3: "Conduct additional evaluations post-match to ensure ongoing suitability and alignment with project needs.",
   //---------------------------------------------------------------------------------------------------------------------------
   // 7th Section Starts
   // SectionTitle - World Map Section
@@ -1057,7 +1057,7 @@ export const VettingPageText = {
   // 9th Section Ends
   //---------------------------------------------------------------------------------------------------------------------------
 
-  companiesCarauselContent:[
+  companiesCarauselContent: [
     "1 Turing books $87M at a $1.1B valuation to help source, hire and manage engineers remotely",
     "2 Turing books $87M at a $1.1B valuation to help source, hire and manage engineers remotely",
     "3 Turing books $87M at a $1.1B valuation to help source, hire and manage engineers remotely",
@@ -1068,164 +1068,180 @@ export const VettingPageText = {
 export const SubreqPageText = {
   // step1 
 
-  oneSkill:"Select at least one skill",
-  otherSkills:"Enter other skills",
-  workEmail:"Your work email",
-  phoneNumber:"Phone number",
+  oneSkill: "Select at least one skill",
+  otherSkills: "Enter other skills",
+  workEmail: "Your work email",
+  phoneNumber: "Phone number",
 
   //step 1 end
   //-----------------------------------------------------------------------------------------------------------
 
   //step 2
 
-  companyName:"SkillsCapital",
-  hiringCall:"Hiring call",
-  bookinfo:"Book call with us so we better understand your job details. After the call:",
-  bookinfoPoint1:"We send you engineer resumes.",
-  bookinfoPoint2:"You Interview engineers.",
+  companyName: "SkillsCapital",
+  hiringCall: "Hiring call",
+  bookinfo: "Book call with us so we better understand your job details. After the call:",
+  bookinfoPoint1: "We send you engineer resumes.",
+  bookinfoPoint2: "You Interview engineers.",
 
   //step 2 end
   //-----------------------------------------------------------------------------------------------------------
 
   //step 4
-  helpUs:"Help us find the perfect developer for you!",
-  helpUs2:"Preferred years of experience for the developer?",
-  helpUs3:"All Turing developers go through the rigorous vetting process, regardless of years of experience",
+  helpUs: "Help us find the perfect developer for you!",
+  helpUs2: "Preferred years of experience for the developer?",
+  helpUs3: "All Turing developers go through the rigorous vetting process, regardless of years of experience",
   //step 2 end
   //-----------------------------------------------------------------------------------------------------------
 
   //thankyou
-  thankyou:"Thank you",
-  thankyou1:"We will work together to understand your hiring needs and find the best matching software engineer for you.",
-  thankyou2:"I look forward to meeting you!",
-  thankyou3:"See how other companies are building with Turing engineers today.",
-  thankyou4:"Learn more",
+  thankyou: "Thank you",
+  thankyou1: "We will work together to understand your hiring needs and find the best matching software engineer for you.",
+  thankyou2: "I look forward to meeting you!",
+  thankyou3: "See how other companies are building with Turing engineers today.",
+  thankyou4: "Learn more",
 
 
 }
 
-export const AskclientPageText={
+export const AskclientPageText = {
 
-  point1:"Initiate Candidate Selection!",
-  point2:"Automate Selection Process!"
+  point1: "Initiate Candidate Selection!",
+  point2: "Automate Selection Process!"
 
 }
-export const FooterPageText={
+export const FooterPageText = {
 
-  servicesPoint1:"FAQs",
-  servicesPoint2:"Easy Procedure",
-  servicesPoint3:"Interaction Demo",
+  servicesPoint1: "FAQs",
+  servicesPoint2: "Easy Procedure",
+  servicesPoint3: "Interaction Demo",
 
 
-  phone:"Phone: +123456789",
-  email:"Email: contact@skillscapital.io",
-  address1:"B1/H3, NH-19, Block B,",
-  address2:"Mohan Cooperative Industrial Estate, New Delhi, 110044,",
-  address3:"India"
+  phone: "Phone: +123456789",
+  email: "Email: contact@skillscapital.io",
+  address1: "B1/H3, NH-19, Block B,",
+  address2: "Mohan Cooperative Industrial Estate, New Delhi, 110044,",
+  address3: "India"
 }
-export const SapficoPageText={
-  mainheading:"SAP-FICO Consulting",
-  mainSubHeading:"Find a transformation consultant to achieve meaningful change.",
-  tranHeading:"SAP-FICO TRANSFORMATION CONSULTING CAPABILITIES",
-  tranHeading1:"EXPERTISE TO ACCELERATE YOUR TRANSFORMATION",
-  tranSubHeading1:"Engage thought leaders on everything from Six Sigma implementation to risk management, employee empowerment to CRM adoption.",
-  tranHeading2:"SKILLS TO SUPPLEMENT YOUR TEAM",
-  tranSubHeading2:"Add expertise whenever you need to fulfill important initiatives or meet critical deadlines.",
-  tranHeading3:"FROM INSIGHT TO ACTION",
-  tranSubHeading3:"BTG's modular approach makes it easy to get the help you need, whether it&apos;s individuals or teams, on-site or remote, U.S. based or global.",
+export const SapficoPageText = {
+  mainheading: "SAP-FICO Consulting",
+  mainSubHeading: "Find a transformation consultant to achieve meaningful change.",
+  tranHeading: "SAP-FICO TRANSFORMATION CONSULTING CAPABILITIES",
+  tranHeading1: "EXPERTISE TO ACCELERATE YOUR TRANSFORMATION",
+  tranSubHeading1: "Engage thought leaders on everything from Six Sigma implementation to risk management, employee empowerment to CRM adoption.",
+  tranHeading2: "SKILLS TO SUPPLEMENT YOUR TEAM",
+  tranSubHeading2: "Add expertise whenever you need to fulfill important initiatives or meet critical deadlines.",
+  tranHeading3: "FROM INSIGHT TO ACTION",
+  tranSubHeading3: "BTG's modular approach makes it easy to get the help you need, whether it&apos;s individuals or teams, on-site or remote, U.S. based or global.",
 
-  wedoHeading:"WHAT WE DO",
-  wedoHeading1:"The power of pace in technology",
-  wedoSubHeading1:"Hivemind Technologies explains what steps matter in speeding software development for transformations.",
-  wedoHeading2:"",
-  wedoSubHeadin2:"",
-  wedoHeading3:"",
-  wedoSubHeadin3:"",
+  wedoHeading: "WHAT WE DO",
+  wedoHeading1: "The power of pace in technology",
+  wedoSubHeading1: "Hivemind Technologies explains what steps matter in speeding software development for transformations.",
+  wedoHeading2: "",
+  wedoSubHeadin2: "",
+  wedoHeading3: "",
+  wedoSubHeadin3: "",
 
-  indemandHeading:"IN-DEMAND PROBLEM SOLVERS FOR ALL OF YOUR TRANSFORMATION CONSULTING NEEDS",
-  type:["Financial Accounting (FI)","Controlling (CO)","General Ledger (FI-GL)","Accounts Payable (FI-AP)","Accounts Receivable (FI-AR)","Asset Accounting (FI-AA)","Profitability Analysis (CO-PA)","Bank Accounting (FI-BL)","Cost Element Accounting (CO-OM-CEL)","Cost Center Accounting (CO-OM-CCA)"],
+  indemandHeading: "IN-DEMAND PROBLEM SOLVERS FOR ALL OF YOUR TRANSFORMATION CONSULTING NEEDS",
+  type: ["Financial Accounting (FI)", "Controlling (CO)", "General Ledger (FI-GL)", "Accounts Payable (FI-AP)", "Accounts Receivable (FI-AR)", "Asset Accounting (FI-AA)", "Profitability Analysis (CO-PA)", "Bank Accounting (FI-BL)", "Cost Element Accounting (CO-OM-CEL)", "Cost Center Accounting (CO-OM-CCA)"],
 
-  limitlessHeading:"LIMITLESS ACCESS TO TOP TRANSFORMATION CONSULTANTS",
-  profname:"ALEX PASHKOWSKY",
-  profwork:"Program Manager",
+  limitlessHeading: "LIMITLESS ACCESS TO TOP TRANSFORMATION CONSULTANTS",
+  profname: "ALEX PASHKOWSKY",
+  profwork: "Program Manager",
 
-  margketHeading:"MARKETPLACE TALENT FACTS",
-  margketHeading1:"CLASSICALLY TRAINED",
-  marketNumber1:"8,100+",
-  margketSubHeading1:"have worked at top consulting firms",
-  
-  margketHeading2:"PROVEN & HANDS-ON",
-  marketNumber2:"64%",
-  margketSubHeading2:"have both consulting and operational experience",
+  margketHeading: "MARKETPLACE TALENT FACTS",
+  margketHeading1: "CLASSICALLY TRAINED",
+  marketNumber1: "8,100+",
+  margketSubHeading1: "have worked at top consulting firms",
 
-  margketHeading3:"EXECUTION-ORIENTED",
-  marketNumber3:"5,600",
-  margketSubHeading3:"experienced project and program managers",
+  margketHeading2: "PROVEN & HANDS-ON",
+  marketNumber2: "64%",
+  margketSubHeading2: "have both consulting and operational experience",
 
-  techHeading:"TRANSFORMATION CONSULTING CASE STUDIES AND FEATURED INSIGHTS",
-  techSubHeading:"Our high-end, on-demand talent marketplace powers greater agility, innovation, outcomes, and competitive advantage. Through proprietary technology, vast talent knowledge, and skilled in-house consultants, we deliver a handpicked selection of freelance consultants and experts vetted for the project at hand.",
+  margketHeading3: "EXECUTION-ORIENTED",
+  marketNumber3: "5,600",
+  margketSubHeading3: "experienced project and program managers",
 
-  techHeading1:"The power of pace in technology",
-  techSubHeading1:"The power of pace in technology",
+  techHeading: "TRANSFORMATION CONSULTING CASE STUDIES AND FEATURED INSIGHTS",
+  techSubHeading: "Our high-end, on-demand talent marketplace powers greater agility, innovation, outcomes, and competitive advantage. Through proprietary technology, vast talent knowledge, and skilled in-house consultants, we deliver a handpicked selection of freelance consultants and experts vetted for the project at hand.",
+
+  techHeading1: "The power of pace in technology",
+  techSubHeading1: "The power of pace in technology",
   // techHeading2:"SELECT YOUR TALENT",
   // techSubHeading2:"Choose your consultant or team of experts from a curated slate of talent.",
   // techHeading3:"GET THE WORK DONE",
   // techSubHeading3:"Rest easy as your consultant is rapidly deployed onsite or remote. Let us take care of the rest.",
 
 }
-export const SapPageText={
-  mainheading:"SAP Talent on Demand",
-  mainSubHeading:"Find a transformation consultant to achieve meaningful change.",
-  meetyouHeading:"MEET YOUR NEW COMPETITIVE ADVANTAGE",
-  meetyouSubHeading:"Why limit yourself to traditional sources of talent—existing staff, big consulting firms, or your personal network? Resource better, faster, more flexibly, and at the best market prices by accessing Business Talent Group’s marketplace of high-end management consultants, subject matter experts, boutiques, and executives. Overcome resource limitations, complete critical projects, and enhance business performance with on-demand talent.",
-  topTalentHeading:"TOP TALENT",
-  topTalentSubHeading:"Access independent consultants trained by Big 3 and boutique firms, plus experts and executives with experience at the world&apos;s most successful companies.",
-  worldclassHeading:"WORLD-CLASS SERVICE",
-  worldclassSubHeading:"Get the service level you need—from hands-on support to automated and instant—to scope the work, present a curated slate of candidates, and manage all contracting and compliance.",
-  buildforHeading:"BUILT FOR BUSINESS",
-  buildforSubHeading:"Rest easy with best-in-class information security, confidentiality, labor compliance, and contracting processes that adhere to the strict requirements of leading organizations.",
+export const SapPageText = {
+  mainheading: "SAP Talent on Demand",
+  mainSubHeading: "Find a transformation consultant to achieve meaningful change.",
+  meetyouHeading: "MEET YOUR NEW COMPETITIVE ADVANTAGE",
+  meetyouSubHeading: "Why limit yourself to traditional sources of talent—existing staff, big consulting firms, or your personal network? Resource better, faster, more flexibly, and at the best market prices by accessing Business Talent Group’s marketplace of high-end management consultants, subject matter experts, boutiques, and executives. Overcome resource limitations, complete critical projects, and enhance business performance with on-demand talent.",
+  topTalentHeading: "TOP TALENT",
+  topTalentSubHeading: "Access independent consultants trained by Big 3 and boutique firms, plus experts and executives with experience at the world&apos;s most successful companies.",
+  worldclassHeading: "WORLD-CLASS SERVICE",
+  worldclassSubHeading: "Get the service level you need—from hands-on support to automated and instant—to scope the work, present a curated slate of candidates, and manage all contracting and compliance.",
+  buildforHeading: "BUILT FOR BUSINESS",
+  buildforSubHeading: "Rest easy with best-in-class information security, confidentiality, labor compliance, and contracting processes that adhere to the strict requirements of leading organizations.",
 
-  buttonHeading:"LIMITLESS ACCESS TO TOP TALENT AND SKILLS",
-  buttonSubHeading:"Whether you want to flex your team, reduce consulting spend, place an interim C-suite executive, or access in-demand skills or expertise, get top business minds with experience in the industries, functions, and capabilities you need.",
+  buttonHeading: "LIMITLESS ACCESS TO TOP TALENT AND SKILLS",
+  buttonSubHeading: "Whether you want to flex your team, reduce consulting spend, place an interim C-suite executive, or access in-demand skills or expertise, get top business minds with experience in the industries, functions, and capabilities you need.",
 
-  cap_1:"STRATEGY & PLANNING",
-  cap_2:"OPERATIONS & PERFORMANCE",
-  cap_3:"TRANSFORMATIONS",
-  cap_4:"HIGHLY SKILLED CONTINGENT LABOR",
-  cap_5:"INTERIM EXECUTIVES",
-  cap_6:"ORGANIZATIONAL DESIGN & EFFECTIVENESS",
-  cap_7:"PROJECT MANAGEMENT",
-  cap_8:"MANAGEMENT CONSULTING RESOURCES",
+  cap_1: "STRATEGY & PLANNING",
+  cap_2: "OPERATIONS & PERFORMANCE",
+  cap_3: "TRANSFORMATIONS",
+  cap_4: "HIGHLY SKILLED CONTINGENT LABOR",
+  cap_5: "INTERIM EXECUTIVES",
+  cap_6: "ORGANIZATIONAL DESIGN & EFFECTIVENESS",
+  cap_7: "PROJECT MANAGEMENT",
+  cap_8: "MANAGEMENT CONSULTING RESOURCES",
 
-  indtext:["CONSUMER GOODS","FINANCIAL SERVICES","ENERGY, SUSTAINABILITY & CLEAN TECH","HEALTHCARE"],
-  funtext:["CORPORATE & BUSINESS DEVELOPMENT","HUMAN RESOURCES","FINANCE","INTERNAL CONSULTING GROUPS"],
+  indtext: ["CONSUMER GOODS", "FINANCIAL SERVICES", "ENERGY, SUSTAINABILITY & CLEAN TECH", "HEALTHCARE"],
+  funtext: ["CORPORATE & BUSINESS DEVELOPMENT", "HUMAN RESOURCES", "FINANCE", "INTERNAL CONSULTING GROUPS"],
 
-  techHeading:"TECHNOLOGY + TALENT + KNOW-HOW",
-  techSubHeading:"Our high-end, on-demand talent marketplace powers greater agility, innovation, outcomes, and competitive advantage. Through proprietary technology, vast talent knowledge, and skilled in-house consultants, we deliver a handpicked selection of freelance consultants and experts vetted for the project at hand.",
+  techHeading: "TECHNOLOGY + TALENT + KNOW-HOW",
+  techSubHeading: "Our high-end, on-demand talent marketplace powers greater agility, innovation, outcomes, and competitive advantage. Through proprietary technology, vast talent knowledge, and skilled in-house consultants, we deliver a handpicked selection of freelance consultants and experts vetted for the project at hand.",
 
-  techHeading1:"SHARE YOUR NEED",
-  techSubHeading1:"Call, post, or chat details of your project, ideal consultant, budget, and timeline.",
-  techHeading2:"SELECT YOUR TALENT",
-  techSubHeading2:"Choose your consultant or team of experts from a curated slate of talent.",
-  techHeading3:"GET THE WORK DONE",
-  techSubHeading3:"Rest easy as your consultant is rapidly deployed onsite or remote. Let us take care of the rest.",
+  techHeading1: "SHARE YOUR NEED",
+  techSubHeading1: "Call, post, or chat details of your project, ideal consultant, budget, and timeline.",
+  techHeading2: "SELECT YOUR TALENT",
+  techSubHeading2: "Choose your consultant or team of experts from a curated slate of talent.",
+  techHeading3: "GET THE WORK DONE",
+  techSubHeading3: "Rest easy as your consultant is rapidly deployed onsite or remote. Let us take care of the rest.",
 
-  margketHeading:"MARKETPLACE TALENT FACTS",
-  marketNumber1:"53%",
-  margketSubHeading1:"of the Fortune 100 served",
-  
-  marketNumber2:"99%",
-  margketSubHeading2:"fill rate on all talent requests",
-  marketNumber3:"91%",
-  margketSubHeading3:"of clients explore a new project within 12 months",
+  margketHeading: "MARKETPLACE TALENT FACTS",
+  marketNumber1: "53%",
+  margketSubHeading1: "of the Fortune 100 served",
 
-
+  marketNumber2: "99%",
+  margketSubHeading2: "fill rate on all talent requests",
+  marketNumber3: "91%",
+  margketSubHeading3: "of clients explore a new project within 12 months",
 
 
 
+}
 
+export const jobsText = {
+  heading: "Remote SAP FICO Developer jobs",
+  desc: "SkillCapital is seeking a highly skilled and experienced SAP FICO Developer to join our dynamic team. The ideal candidate will have a strong understanding of SAP FICO modules and a proven track record of successful implementations.",
+  clients: "Find remote software jobs with hundreds of skillscapital clients",
+  jobresp: ["1. Experience in working with SAP S/4HANA.",
+    "2. Knowledge of SAP Business Warehouse (BW) and SAP BusinessObjects.",
+    "3. Experience in data migration and conversion.",
+    "4. Familiarity with Agile development methodologies.",
+    "5. Strong SQL and ABAP skills."],
+  minReq: ["1. Minimum experience of 3 years or a highly skilled fresher in SAP FICO development.",
+    "2. Strong technical skills in SAP FICO modules, including FI, CO, MM, SD, and PP.",
+    "3. Excellent knowledge of financial accounting principles and processes.",
+    "4. Experience in working with SAP ERP Central Component (ECC).",
+    "5. Strong analytical and problem-solving skills."],
 
-
+  prefSkills: ["1. Design, develop, and implement SAP FICO solutions for clients.",
+    "2. Analyze and optimize business processes to improve financial efficiency.",
+    "3. Configure and maintain SAP FICO modules, including accounts payable, accounts receivable, asset management, and cost controlling.",
+    "4. Conduct user training and provide ongoing support to ensure effective utilization of SAP FICO."]
 }
 export default TEXTS;
 
