@@ -18,7 +18,7 @@ type CardComponentProps = {
   paragraphText: string;
   buttonText: string;
   buttonEnabled: boolean;
-  onButtonClick: () => void;
+  onButtonClick: (() => void) | null ;
 };
 
 const CardComponent: React.FC<CardComponentProps> = ({
@@ -60,7 +60,7 @@ const CardComponent: React.FC<CardComponentProps> = ({
         {buttonEnabled === true ? (
           <>
             <div style={{ display: "flex", justifyContent: "center" }}>
-              <CustomButton2
+              {onButtonClick && <CustomButton2
                 onClick={onButtonClick}
                 label={buttonText}
                 buttonStyle={{
@@ -88,7 +88,7 @@ const CardComponent: React.FC<CardComponentProps> = ({
                   margin: "0px 15px 0px 0px",
                   boxShadow: " 0px 5px 5px grey",
                 }}
-              />
+              />}
               
             </div>
           </>
