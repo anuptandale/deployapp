@@ -156,13 +156,13 @@ const Skillsprofiles = () => {
     )
 }
 
-export async function getServerSideProps(context:any){
-      const responseData = await axios.get(`${DEV_PUBLIC_APIURL}${context.query.skills}`)
+// export async function getServerSideProps(context:any){
+//       const responseData = await axios.get(`${DEV_PUBLIC_APIURL}${context.query.skills}`)
       
-      const page_data = responseData.data.data
-    return {
-        props:{page_data},
-    }
-}
+//       const page_data = responseData.data.data
+//     return {
+//         props:{page_data},
+//     }
+// }
 
 export default Skillsprofiles;
