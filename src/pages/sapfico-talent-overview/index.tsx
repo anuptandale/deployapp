@@ -47,8 +47,58 @@ const SapficoOverviewPage = () => {
                     <div style={{ opacity: "0.8" }}>SAP FICO talent is highly sought after across industries due to the increasing demand for efficient financial management and compliance. With the appropriate skills and certifications, individuals can embark on fulfilling careers as SAP FICO consultants, analysts, managers, and architects. Explore our platform for SAP FICO job opportunities, training resources, and career guidance, accelerating your journey within the SAP ecosystem. This detailed page offers comprehensive insights for individuals keen on pursuing SAP FICO careers and organizations seeking skilled professionals in this domain.</div>
                 </div>
             </section>
+            <section id={sapStyle.secondsection}>
+                <div style={{ fontSize: "32px", fontWeight: "600", marginBottom: "50px" }}>SAP FICO Projects Types</div>
+                <div id={sapStyle.threeimage}>
+                    <div id={sapStyle.threeimagesection}>
+                        <div><Image src="/TalentPoolImages/imple.png" height={130} width={130} alt="" /></div>
+                        <div style={{ fontWeight: "600" }}>Implementation</div>
+                        <div style={{ fontSize: "14px" }}>Involves setting up SAP FICO modules from scratch to meet organizational requirements.</div>
+                    </div>
+                    <div id={sapStyle.threeimagesection}>
+                        <div><Image src="/TalentPoolImages/migration.jpg" height={130} width={130} alt="" /></div>
+                        <div style={{ fontWeight: "600" }}>Migration</div>
+                        <div style={{ fontSize: "14px" }}>Transferring data and processes from legacy systems to SAP FICO.</div>
+                    </div>
+                    <div id={sapStyle.threeimagesection}>
+                        <div><Image src="/TalentPoolImages/upfrade.jpg" height={130} width={130} alt="" /></div>
+                        <div style={{ fontWeight: "600" }}>Upgrade</div>
+                        <div style={{ fontSize: "14px" }}>Updating existing SAP FICO systems to newer versions for enhanced features and performance.</div>
+                    </div>
+                    <div id={sapStyle.threeimagesection}>
+                        <div><Image src="/TalentPoolImages/support.jpg" height={130} width={130} alt="" /></div>
+                        <div style={{ fontWeight: "600" }}>Support</div>
+                        <div style={{ fontSize: "14px" }}>Providing ongoing maintenance, troubleshooting, and user support for SAP FICO implementations.</div>
+                    </div>
+                </div>
+            </section>
+            <section id={sapStyle.secondsection}>
+                <div style={{ fontSize: "32px", fontWeight: "600", marginBottom: "50px" }}>SAP FICO Best Practices</div>
+                <div id={sapStyle.threeimage}>
+                    <div id={sapStyle.threeimagesection}>
+                        <div><Image src="/TalentPoolImages/analysys.png" height={130} width={130} alt="" /></div>
+                        <div style={{ fontWeight: "600" }}>Thorough Requirement Analysis</div>
+                        <div style={{ fontSize: "14px" }}>Understanding business needs and aligning SAP FICO solutions accordingly.</div>
+                    </div>
+                    <div id={sapStyle.threeimagesection}>
+                        <div><Image src="/TalentPoolImages/planning.png" height={130} width={130} alt="" /></div>
+                        <div style={{ fontWeight: "600" }}>Clear Project Planning</div>
+                        <div style={{ fontSize: "14px" }}>Establishing timelines, milestones, and resource allocation for smooth project execution.</div>
+                    </div>
+                    <div id={sapStyle.threeimagesection}>
+                        <div><Image src="/TalentPoolImages/testing.png" height={130} width={130} alt="" /></div>
+                        <div style={{ fontWeight: "600" }}>Comprehensive Testing</div>
+                        <div style={{ fontSize: "14px" }}>Conducting rigorous testing to ensure the accuracy and reliability of SAP FICO implementations.</div>
+                    </div>
+                    <div id={sapStyle.threeimagesection}>
+                        <div><Image src="/TalentPoolImages/traning2.png" height={130} width={130} alt="" /></div>
+                        <div style={{ fontWeight: "600" }}>User Training and Support</div>
+                        <div style={{ fontSize: "14px" }}>Providing adequate training and support to end-users for efficient utilization of SAP FICO systems.</div>
+                    </div>
+                </div>
+            </section>
             <section className={style.joinSkills} >
-                <div style={{ fontSize: "32px", fontWeight: "600", marginBottom: "50px" }}>Skills Required in SAP FICO</div>
+                <div style={{ fontSize: "32px", fontWeight: "600", marginBottom: "50px" }}>Skills and Qualifications for SAP FICO Professionals</div>
                 <div style={{ display: "flex", gap: "50px" }}>
                     <div className={style.flexgap}>
                         <div className={style.whyjoinImages}><Image src="/JobsPageImages/elite.jpg" alt="css" height={200} width={200} /></div>
@@ -120,7 +170,7 @@ const SapficoOverviewPage = () => {
             </section>
             <section className={hireDevStyles.outerhowitwork}>
 
-                <div style={{ fontSize: "32px", fontWeight: "600", marginBottom: "50px" }}>Roles in SAP FICO</div>
+                <div style={{ fontSize: "32px", fontWeight: "600", marginBottom: "50px" }}>Market Demand for SAP FICO Talent</div>
                 <div className={hireDevStyles.howitwork}>
                     <div>
                         <div className={style.steps}>Current Trends</div>
@@ -144,20 +194,20 @@ const SapficoOverviewPage = () => {
 
             </section>
             <section id={sapStyle.secondsection}>
-                <div style={{ fontSize: "32px", fontWeight: "600", marginBottom: "50px" }}>{SapficoPageText.tranHeading}</div>
+                <div style={{ fontSize: "32px", fontWeight: "600", marginBottom: "50px" }}>Career Opportunities in SAP FICO</div>
                 <div id={sapStyle.threeimage}>
                     <div id={sapStyle.threeimagesection}>
-                        <div><Image src="/TalentPoolImages/service2.webp" height={130} width={130} alt="" /></div>
+                        <div><Image src="/TalentPoolImages/entryLevel.jpg" height={130} width={130} alt="" style={{borderRadius:"70px"}} /></div>
                         <div style={{ fontWeight: "600" }}>Entry-level Positions</div>
                         <div style={{ fontSize: "14px" }}>Junior SAP FICO Consultant</div>
                     </div>
                     <div id={sapStyle.threeimagesection}>
-                        <div><Image src="/TalentPoolImages/service3.webp" height={130} width={130} alt="" /></div>
+                        <div><Image src="/TalentPoolImages/midLevel.jpg" height={130} width={130} alt="" style={{borderRadius:"70px"}}/></div>
                         <div style={{ fontWeight: "600" }}>Mid-level Positions</div>
                         <div style={{ fontSize: "14px" }}>Senior SAP FICO Consultant</div>
                     </div>
                     <div id={sapStyle.threeimagesection}>
-                        <div><Image src="/TalentPoolImages/service4.webp" height={130} width={130} alt="" /></div>
+                        <div><Image src="/TalentPoolImages/advanceLevel.jpg" height={130} width={130} alt="" style={{borderRadius:"70px"}} /></div>
                         <div style={{ fontWeight: "600" }}>Advanced Positions</div>
                         <div style={{ fontSize: "14px" }}>SAP FICO Solution Architect</div>
                     </div>
